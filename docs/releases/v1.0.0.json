@@ -1,0 +1,2262 @@
+{
+ "version": "v1.0.0",
+ "date": "2026-11-22",
+ "code_commit": "37a08c3c4113d1efa68af005ee074f363aa616f7",
+ "tasks": [
+  {
+   "name": "aud.basic/acoustic_scene/tau2019",
+   "leaf": "aud.basic/acoustic_scene",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/aud/basic/acoustic_scene/tau2019.jsonl",
+   "sha256": "02381b50d1bef8e17e19eef3af03696fb531e9859c7b55fb5c4f9a18277ca0ad",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.basic/emotion/cremad",
+   "leaf": "aud.basic/emotion",
+   "status": "released",
+   "version": 1,
+   "items": 1470,
+   "path": "data/aud/basic/emotion/cremad.jsonl",
+   "sha256": "d5a5cc3448ecd526f484266343d73a6d601b5d9061e4ca9e21e077ede09a5181",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.basic/intent/slurp",
+   "leaf": "aud.basic/intent",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/aud/basic/intent/slurp.jsonl",
+   "sha256": "093d0ad1bfe210894761dfcfca12ca976e1603a701ec16dbd9862cbcd88b100c",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.basic/language_id/voxlingua107_dev",
+   "leaf": "aud.basic/language_id",
+   "status": "released",
+   "version": 1,
+   "items": 1609,
+   "path": "data/aud/basic/language_id/voxlingua107_dev.jsonl",
+   "sha256": "ee4f8fec88bafde10d2f91c5e9baa2625f663a0e529494c8f90ac0f9bac61305",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.basic/sound_event/sonyc_ust",
+   "leaf": "aud.basic/sound_event",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/aud/basic/sound_event/sonyc_ust.jsonl",
+   "sha256": "3dd083757b538f7f41df683b7e333702fb328f2d41c1745ac3df265727877670",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.basic/speaker_change/ami",
+   "leaf": "aud.basic/speaker_change",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/aud/basic/speaker_change/ami.jsonl",
+   "sha256": "b612d56dc6dae02459bde5149b237734d668839a8c06bfa18e755dc22ac13588",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.dialog/dialogue_state/spokenwoz",
+   "leaf": "aud.dialog/dialogue_state",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/aud/dialog/dialogue_state/spokenwoz.jsonl",
+   "sha256": "cabc81d133662da270c38ae3e1569e7813c30793cd1e402b9cf5974c36d0e58c",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.dialog/interrupt_backchannel/full_duplex_bench_v15",
+   "leaf": "aud.dialog/interrupt_backchannel",
+   "status": "released",
+   "version": 1,
+   "items": 298,
+   "path": "data/aud/dialog/interrupt_backchannel/full_duplex_bench_v15.jsonl",
+   "sha256": "2dac2a2248d2f6921d9c08455b36e51bd69605678cf16b4972b82184f60f866e",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.dialog/turn_timing/full_duplex_bench_v1",
+   "leaf": "aud.dialog/turn_timing",
+   "status": "released",
+   "version": 1,
+   "items": 335,
+   "path": "data/aud/dialog/turn_timing/full_duplex_bench_v1.jsonl",
+   "sha256": "151316f22b64c4bfdefcde5fcf13424f661ebc2393d9c7529c1e4a4f8b29ee81",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.judge/data_cleaning/nisqa_livetalk",
+   "leaf": "aud.judge/data_cleaning",
+   "status": "released",
+   "version": 1,
+   "items": 232,
+   "path": "data/aud/judge/data_cleaning/nisqa_livetalk.jsonl",
+   "sha256": "bb2d6754a00bcb1533d4361768838f2f1f4b45555e4d8f5ea33746b9a14c4e60",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.judge/data_cleaning/signal_defects_synthetic",
+   "leaf": "aud.judge/data_cleaning",
+   "status": "released",
+   "version": 1,
+   "items": 436,
+   "path": "data/aud/judge/data_cleaning/signal_defects_synthetic.jsonl",
+   "sha256": "3bd0d28bf2806e091cad39cf0ad57e632f63f6f42417a1a2dba0e058765e38b0",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.judge/naturalness/bvcc",
+   "leaf": "aud.judge/naturalness",
+   "status": "released",
+   "version": 1,
+   "items": 741,
+   "path": "data/aud/judge/naturalness/bvcc.jsonl",
+   "sha256": "8737d55365f910bb90c9a8e1dcf842498fe743907d1b7892503baa1b2414a720",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.know/music_understanding/mmau_mini",
+   "leaf": "aud.know/music_understanding",
+   "status": "released",
+   "version": 1,
+   "items": 105,
+   "path": "data/aud/know/music_understanding/mmau_mini.jsonl",
+   "sha256": "4da0631349f16e47ec9cec85e087ca3d4b1be48290071e318f067df7eb5ed005",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.know/reasoning/mmau_mini",
+   "leaf": "aud.know/reasoning",
+   "status": "released",
+   "version": 1,
+   "items": 330,
+   "path": "data/aud/know/reasoning/mmau_mini.jsonl",
+   "sha256": "bd3cd961e0160fa57d3771e1ace8f7d6a149cd19f4a914e1b97e6f39c5ace64c",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.know/sound_qa/mmau_mini",
+   "leaf": "aud.know/sound_qa",
+   "status": "released",
+   "version": 1,
+   "items": 36,
+   "path": "data/aud/know/sound_qa/mmau_mini.jsonl",
+   "sha256": "b00405522a698d73433287e1cb8d0bcf7776dd4c99210828c5f667cbb4aa14dc",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.pro/heart_sound/physionet2016",
+   "leaf": "aud.pro/heart_sound",
+   "status": "released",
+   "version": 1,
+   "items": 301,
+   "path": "data/aud/pro/heart_sound/physionet2016.jsonl",
+   "sha256": "19a01067805acd62308d589004907e775e2428549bc1b77e37b9713a0deb5dad",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.pro/heart_sound/respiratory_icbhi2017",
+   "leaf": "aud.pro/heart_sound",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/aud/pro/heart_sound/respiratory_icbhi2017.jsonl",
+   "sha256": "001469e380c00d68f5837fa0af40015f5b94f46cb8d5b3f9184c739b89975aef",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.pro/machine_anomaly/mimii_pump_dcase2020",
+   "leaf": "aud.pro/machine_anomaly",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/aud/pro/machine_anomaly/mimii_pump_dcase2020.jsonl",
+   "sha256": "ebf4946b6b486807ce06cffee28467f596752495add15c4027a1c81e04f4690a",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.ret/audio_text_matching/sonyc_tag_descriptions",
+   "leaf": "aud.ret/audio_text_matching",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/aud/ret/audio_text_matching/sonyc_tag_descriptions.jsonl",
+   "sha256": "7ada0f8c8f93bcead35feeffa27cfae96d50f91a8c6ceea08e5286bbe7ffd079",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.safety/spoof_detection/asvspoof2019_la",
+   "leaf": "aud.safety/spoof_detection",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/aud/safety/spoof_detection/asvspoof2019_la.jsonl",
+   "sha256": "961eded4f6b9f9f0db29037ea7bb7e59ae0534997b83f93e0b69673dac812852",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "aud.safety/toxicity/mutox",
+   "leaf": "aud.safety/toxicity",
+   "status": "released",
+   "version": 1,
+   "items": 167,
+   "path": "data/aud/safety/toxicity/mutox.jsonl",
+   "sha256": "fdaf577c310b3f4d1bd8cddd37f589baba95e2c6d3bc1d23336adaee5031f72a",
+   "redistributable": true,
+   "modalities": [
+    "audio"
+   ]
+  },
+  {
+   "name": "img.basic/custom_categories/cub",
+   "leaf": "img.basic/custom_categories",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/basic/custom_categories/cub.jsonl",
+   "sha256": "30550318a9f313aac26a05b3564498ffb0ca3ea06b774b9e250bac549d021169",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.basic/fine_grained/cub",
+   "leaf": "img.basic/fine_grained",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/basic/fine_grained/cub.jsonl",
+   "sha256": "3926672f8f3fe53db35a33310dd1958f2db50948bc8bbc519de67dad0d7e611d",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.basic/visual_entailment/esnlive",
+   "leaf": "img.basic/visual_entailment",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/basic/visual_entailment/esnlive.jsonl",
+   "sha256": "a89131d59bf0e7094730e450d65017a72e9e9471140d945127c4a5810a03e3dc",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.basic/visual_entailment/nlvr2",
+   "leaf": "img.basic/visual_entailment",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/basic/visual_entailment/nlvr2.jsonl",
+   "sha256": "efe2408dbf34fd49f30ecc3bfa9e40ed8458877eedb17ef233c642c8bb2190e1",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.batch/curation/koniq10k",
+   "leaf": "img.batch/curation",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/batch/curation/koniq10k.jsonl",
+   "sha256": "aebb69bba2f7dd7406584f71f542fccc02f255d8379232fd411c1a2003fea9f6",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.batch/curation/seetrue",
+   "leaf": "img.batch/curation",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/batch/curation/seetrue.jsonl",
+   "sha256": "a02150e70ddeaf532e28e6c39567dcfa61dbf233b6c15bae9dee7cc70caf314f",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.code/render_match/matplotlib_render",
+   "leaf": "img.code/render_match",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/code/render_match/matplotlib_render.jsonl",
+   "sha256": "6d51127db92b5f3144eee5076c63080bb4ca31eb59d6c3f632daffdc0695d0ef",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.embodied/eb_alfred_visual/eb_alfred",
+   "leaf": "img.embodied/eb_alfred_visual",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/embodied/eb_alfred_visual/eb_alfred.jsonl",
+   "sha256": "e442c40d4eb6bbb0f36f91384d5013dc3e5be51fe94927cd27942161a2c4abab",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.game/atari_head/atari_head",
+   "leaf": "img.game/atari_head",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/game/atari_head/atari_head.jsonl",
+   "sha256": "e41352b9cb33133ca1fe3f2f3863f759486aefdd91709f5545c091c0d6828ec5",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.game/board_twin/lichess_puzzles",
+   "leaf": "img.game/board_twin",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/game/board_twin/lichess_puzzles.jsonl",
+   "sha256": "8cf0808044c225c677647ab728ad104cc54f09f2528b2bb29d5da2a8d129a463",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.game/glitch/glitchbench",
+   "leaf": "img.game/glitch",
+   "status": "released",
+   "version": 1,
+   "items": 249,
+   "path": "data/img/game/glitch/glitchbench.jsonl",
+   "sha256": "b542983de69beaba5971389115545f427253c1c5cd683baa00c0dfb094e1b5a9",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.game/glitch/videogameqa_bench",
+   "leaf": "img.game/glitch",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/game/glitch/videogameqa_bench.jsonl",
+   "sha256": "dcd2f9057af560e1228bc9b32ee650c1f9478e7ab9c8d6dbbb64967f80cc5c65",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.judge/agent_success/agentrewardbench",
+   "leaf": "img.judge/agent_success",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/judge/agent_success/agentrewardbench.jsonl",
+   "sha256": "714879ce4937fa5327096018082058d67684e8c06362ee158e7dc373e3a413a0",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.judge/hallucination/hallusionbench",
+   "leaf": "img.judge/hallucination",
+   "status": "released",
+   "version": 1,
+   "items": 499,
+   "path": "data/img/judge/hallucination/hallusionbench.jsonl",
+   "sha256": "63f70157e5c49a74d77eb96d087fb1b68c2a94cb971800107fb7f2673633f966",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.judge/preference/vl_rewardbench",
+   "leaf": "img.judge/preference",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/judge/preference/vl_rewardbench.jsonl",
+   "sha256": "b4113824866fd772ce7e95dfd90b7b2983d8050aac9099d3facffe8aadf510fa",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.judge/t2i_alignment/genai_bench",
+   "leaf": "img.judge/t2i_alignment",
+   "status": "released",
+   "version": 1,
+   "items": 387,
+   "path": "data/img/judge/t2i_alignment/genai_bench.jsonl",
+   "sha256": "ebb83bcf86cdb4f1daa38f482784bd0a6b333d181fff103b074cb5fbfe9a127a",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.know/clock_calendar/rendered",
+   "leaf": "img.know/clock_calendar",
+   "status": "released",
+   "version": 1,
+   "items": 1000,
+   "path": "data/img/know/clock_calendar/rendered.jsonl",
+   "sha256": "67d5c6c205d54ccbaf0fbfad9ac0e39bfbfa40395c1d511b281575f0136c8fd5",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.know/math_visual/mathvista",
+   "leaf": "img.know/math_visual",
+   "status": "released",
+   "version": 1,
+   "items": 495,
+   "path": "data/img/know/math_visual/mathvista.jsonl",
+   "sha256": "b860d976dfb3cf413576f4cb4ae2ff6b6a647e83f44adf4f5d913a4db7b70fb9",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.know/perception/blink",
+   "leaf": "img.know/perception",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/know/perception/blink.jsonl",
+   "sha256": "817ab99e5fadfa469f8c92ad3ca7fd58b887366f8a10b9dc2cb4144f5b024bde",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.know/perception/countbench",
+   "leaf": "img.know/perception",
+   "status": "released",
+   "version": 1,
+   "items": 479,
+   "path": "data/img/know/perception/countbench.jsonl",
+   "sha256": "5528b5dc212d7bd4be1d479aeb5276bf62dfe3abfc20310ae5c01046c4db5ea7",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.know/subject_mcq/mmmu_pro",
+   "leaf": "img.know/subject_mcq",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/know/subject_mcq/mmmu_pro.jsonl",
+   "sha256": "1e06853e749d461bf64243a2fb026652ac19408e01ce902e9afef670c73b3e1a",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.know/visual_rules/bongard_openworld",
+   "leaf": "img.know/visual_rules",
+   "status": "released",
+   "version": 1,
+   "items": 400,
+   "path": "data/img/know/visual_rules/bongard_openworld.jsonl",
+   "sha256": "a783f1f3743ebea2e9da6a77805eccf5530c05103c66f0075a87617cecfa7401",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.pro/damage/resisc45",
+   "leaf": "img.pro/damage",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/pro/damage/resisc45.jsonl",
+   "sha256": "72377995534ad32348634d09e300a9c5aea6eba501bfa614b93776eea63d658c",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.pro/damage/xbd",
+   "leaf": "img.pro/damage",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/pro/damage/xbd.jsonl",
+   "sha256": "148facf1b5c11f05dd0a723cf83cfe5a329ecda400f0a09b75452c642fa442fe",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.pro/defect/mvtec_ad",
+   "leaf": "img.pro/defect",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/pro/defect/mvtec_ad.jsonl",
+   "sha256": "143c7d922e79490fd0a6ffca3f7998e101474922258256d1c7ba30403e6c322d",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.pro/medical/slake",
+   "leaf": "img.pro/medical",
+   "status": "released",
+   "version": 1,
+   "items": 850,
+   "path": "data/img/pro/medical/slake.jsonl",
+   "sha256": "b0f323e2c69dd5904a22f15441919bf432dfde822d9676f98653353d367b8587",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.pro/phishing_page/phishpedia",
+   "leaf": "img.pro/phishing_page",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/pro/phishing_page/phishpedia.jsonl",
+   "sha256": "1b1109d1313b35aeafee8a6157fec6d1ea5f040fcd39f56d62f1b9ddbfa61728",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.ret/compositional/winoground",
+   "leaf": "img.ret/compositional",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data_local/img/ret/compositional/winoground.jsonl",
+   "sha256": "00b1258b167a6c1923b130d55a1fb166eabbeffbe5e75c8a46b0f5eace6e4f67",
+   "redistributable": false,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.ret/same_item/stanford_online_products",
+   "leaf": "img.ret/same_item",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/ret/same_item/stanford_online_products.jsonl",
+   "sha256": "a66929ca709e064731c0365ffa276c5211cf29431d7d0ce8f9be339371b54a80",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.route/abstain/mmmu_pro_masked",
+   "leaf": "img.route/abstain",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/route/abstain/mmmu_pro_masked.jsonl",
+   "sha256": "e127f498a756efb2a8e3660a1482bf0bc80c0960f528edeb892bcd1db478965a",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.route/document_routing/rvl_cdip",
+   "leaf": "img.route/document_routing",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/route/document_routing/rvl_cdip.jsonl",
+   "sha256": "22a15facc3ec08e836806c355c2ca548d95f31919db0ad0266af38163654abea",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.route/model_correctness/mmmu_pro_small_vlm",
+   "leaf": "img.route/model_correctness",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/route/model_correctness/mmmu_pro_small_vlm.jsonl",
+   "sha256": "3b3f60614b0c61b5f0a62a2ab1eab6ef1b822b196fe59d10e55c3ec9a76f44ad",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.route/quality_gate/vizwiz_quality",
+   "leaf": "img.route/quality_gate",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/route/quality_gate/vizwiz_quality.jsonl",
+   "sha256": "46b4d692a9637c3ba2a2c079c99bb4b555740d7a76dc38a55c2656932ba9d15b",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.route/quality_gate/vizwiz_vqa",
+   "leaf": "img.route/quality_gate",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/route/quality_gate/vizwiz_vqa.jsonl",
+   "sha256": "0c9504bb4b42a88aa6f56db3e0e30b84a92f123af57c82ef53ba2b6f7ed51c05",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.safety/hateful_meme/hateful_memes",
+   "leaf": "img.safety/hateful_meme",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data_local/img/safety/hateful_meme/hateful_memes.jsonl",
+   "sha256": "e88a4b442da8d2b6907d011412ead8a266397173b42ae0d4a380d1b705e89146",
+   "redistributable": false,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.safety/injection/figstep",
+   "leaf": "img.safety/injection",
+   "status": "released",
+   "version": 1,
+   "items": 295,
+   "path": "data/img/safety/injection/figstep.jsonl",
+   "sha256": "cc14e19f5df50cfa187f676bb75289088c5f19021610ab08d88fcee4441a65b4",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.safety/policy/unsafebench",
+   "leaf": "img.safety/policy",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/safety/policy/unsafebench.jsonl",
+   "sha256": "6fc6b2027e728b86ec6e670aedaa1e58e98447b410d026b9a46007c70bfe9a3f",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.safety/privacy/vispr",
+   "leaf": "img.safety/privacy",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/safety/privacy/vispr.jsonl",
+   "sha256": "8642d5cd261603ebcd75e7769f1ae49a9ef009f85a52ee554a6e2bfd4f6b778b",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.safety/synthetic/genimage_midjourney",
+   "leaf": "img.safety/synthetic",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/safety/synthetic/genimage_midjourney.jsonl",
+   "sha256": "18a2f541904de978cf97ebebe61a7c53e80e066d7dba26f2ec5338798ecf00ed",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.social/art_emotion/artemis",
+   "leaf": "img.social/art_emotion",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data_local/img/social/art_emotion/artemis.jsonl",
+   "sha256": "6f51bbec602a8daeafe32a3a0c0a8fbc3ce1d73be2bcd279db713d22f98f9a34",
+   "redistributable": false,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.social/humor/newyorker",
+   "leaf": "img.social/humor",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/social/humor/newyorker.jsonl",
+   "sha256": "290e7cbd5773e9d3f661d7d52a78894ae052323f6d20f6aaf701cc9f06fe7db2",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.std/aokvqa/aokvqa",
+   "leaf": "img.std/aokvqa",
+   "status": "released",
+   "version": 1,
+   "items": 498,
+   "path": "data/img/std/aokvqa/aokvqa.jsonl",
+   "sha256": "26ad73b887590f038b859a5d9557e3cbf98bf7cd180fca422bd413b5b15ec579",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.std/gqa/gqa",
+   "leaf": "img.std/gqa",
+   "status": "released",
+   "version": 1,
+   "items": 461,
+   "path": "data/img/std/gqa/gqa.jsonl",
+   "sha256": "00c5caab0e5e7ee76b3e61ffb66d2a21c6887d7265eeddb5d8e13ff9ab1e1d08",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.std/mmmu/mmmu",
+   "leaf": "img.std/mmmu",
+   "status": "released",
+   "version": 1,
+   "items": 497,
+   "path": "data/img/std/mmmu/mmmu.jsonl",
+   "sha256": "5ff1f98d56bb83bd657c838389a51a96b56e96bd7670126cfba327d41de92a85",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.std/naturalbench/naturalbench",
+   "leaf": "img.std/naturalbench",
+   "status": "released",
+   "version": 1,
+   "items": 498,
+   "path": "data/img/std/naturalbench/naturalbench.jsonl",
+   "sha256": "5fdf8f9c9ac573bbc686f24df4094a0667391b9ef7b906434216e5318a816115",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.std/okvqa/okvqa",
+   "leaf": "img.std/okvqa",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/std/okvqa/okvqa.jsonl",
+   "sha256": "5c9a5439286b8919bfb2e294dc9e8773c7564087adb885ccc728e5a73d1c085e",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.std/scienceqa/scienceqa",
+   "leaf": "img.std/scienceqa",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/std/scienceqa/scienceqa.jsonl",
+   "sha256": "3f8e474483bd4b3a4b3b8556d812490427c567d9a5f93fa0edc807bce7213bad",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.std/vizwiz_qa/vizwiz_vqa",
+   "leaf": "img.std/vizwiz_qa",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/std/vizwiz_qa/vizwiz_vqa.jsonl",
+   "sha256": "29e4c1f81f18b6bf7c41e772fe65003103b7baaccef5c11a2ab11f37c70455da",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.step/grounding/androidcontrol",
+   "leaf": "img.step/grounding",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/step/grounding/androidcontrol.jsonl",
+   "sha256": "f8ec7c0a2f44ffc7414d108fc67c42b44790df777974682fb19247d4d4d8f9d1",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.step/gui_action/mind2web",
+   "leaf": "img.step/gui_action",
+   "status": "released",
+   "version": 1,
+   "items": 249,
+   "path": "data/img/step/gui_action/mind2web.jsonl",
+   "sha256": "c39f061002311f7dd230a9f8195591318f7d072b20b4ff2ed8bfaa416156cb93",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.struct/chart_table/charxiv",
+   "leaf": "img.struct/chart_table",
+   "status": "released",
+   "version": 1,
+   "items": 97,
+   "path": "data/img/struct/chart_table/charxiv.jsonl",
+   "sha256": "41e1eb32d9d810ecf5ce2a2d331f26a8fe6300b5009fb8703ef62bf6d8d316b1",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.struct/chart_table/tabmwp",
+   "leaf": "img.struct/chart_table",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/struct/chart_table/tabmwp.jsonl",
+   "sha256": "74313fed8ede4fd72cde15df9c38701ec66e3a2383c2e4bdfaa5fd36901d682c",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.struct/document_qa/infographicvqa",
+   "leaf": "img.struct/document_qa",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/struct/document_qa/infographicvqa.jsonl",
+   "sha256": "b9f7a5a6cfbd2707c3de7861c8d1a0a109301113dc629eea3153aa1a85f309ef",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "img.struct/form_fields/cord_v2",
+   "leaf": "img.struct/form_fields",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/img/struct/form_fields/cord_v2.jsonl",
+   "sha256": "18054766548fc3e357d3b46620977629a4e043142f26d9b0ccbc019d77f9f3b9",
+   "redistributable": true,
+   "modalities": [
+    "image"
+   ]
+  },
+  {
+   "name": "lvid.bench/egoschema/public_500",
+   "leaf": "lvid.bench/egoschema",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/lvid/bench/egoschema/public_500.jsonl",
+   "sha256": "f00912d4392bc24cda267ba46a56c841f5ebf2a7d729be1417584b4fd9f681d9",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "lvid.bench/vsi_bench/test",
+   "leaf": "lvid.bench/vsi_bench",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/lvid/bench/vsi_bench/test.jsonl",
+   "sha256": "92feac7289ee4d06ccc6108d5dda022876dde90de7d668a0c4d82c8589bc45d6",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "lvid.dialog/meeting_decision/ami",
+   "leaf": "lvid.dialog/meeting_decision",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/lvid/dialog/meeting_decision/ami.jsonl",
+   "sha256": "2a8a1fd9079d2716b9facb6577800d02cb409c4fe65d79b639fc25f8dda3066c",
+   "redistributable": true,
+   "modalities": [
+    "audio",
+    "video"
+   ]
+  },
+  {
+   "name": "lvid.embodied/ego_plan/egoplan_bench2",
+   "leaf": "lvid.embodied/ego_plan",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/lvid/embodied/ego_plan/egoplan_bench2.jsonl",
+   "sha256": "945fe6d1e7d0a537001ac6c7e0b0f05619026cbd90dc03671b1f6df338a166ab",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "leaf": "lvid.judge/meeting_summary",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/lvid/judge/meeting_summary/tofueval_meetingbank.jsonl",
+   "sha256": "9d35d85f026812666ebe28f610dc3935926b75d1cc78dc578552a1922bf5b90f",
+   "redistributable": true,
+   "modalities": [
+    "audio",
+    "video"
+   ]
+  },
+  {
+   "name": "lvid.know/lecture/videommmu",
+   "leaf": "lvid.know/lecture",
+   "status": "released",
+   "version": 2,
+   "items": 500,
+   "path": "data/lvid/know/lecture/videommmu.jsonl",
+   "sha256": "2a3538ff731a1d633861490a9945dbd22ee65a17493de7754d0435260f034c2f",
+   "redistributable": true,
+   "modalities": [
+    "audio",
+    "video"
+   ]
+  },
+  {
+   "name": "lvid.know/long_qa/video_mme",
+   "leaf": "lvid.know/long_qa",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data_local/lvid/know/long_qa/video_mme.jsonl",
+   "sha256": "b51a1aeefa12e29fdedaf89616a8d8d655cee56cb667c619cfa69deab0cfec8b",
+   "redistributable": false,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "lvid.know/needle/generated",
+   "leaf": "lvid.know/needle",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/lvid/know/needle/generated.jsonl",
+   "sha256": "d459b9613a693cef0e7202a71257ddb265fa2441f08591037027547ac6cbe873",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "lvid.pro/surveillance/ucf_crime",
+   "leaf": "lvid.pro/surveillance",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/lvid/pro/surveillance/ucf_crime.jsonl",
+   "sha256": "c6c31d7de98ca83935158cbebd126b6506a48e43a65943a66a74d08d963ad692",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "lvid.ret/moment/charades_sta",
+   "leaf": "lvid.ret/moment",
+   "status": "released",
+   "version": 2,
+   "items": 114,
+   "path": "data_local/lvid/ret/moment/charades_sta.jsonl",
+   "sha256": "7f59016dc4eaf3280f5d75552a7bc5c86d897723cc18140217e0ba50c12c1f06",
+   "redistributable": false,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "lvid.ret/moment/ego4d_nlq",
+   "leaf": "lvid.ret/moment",
+   "status": "released",
+   "version": 2,
+   "items": 247,
+   "path": "data_local/lvid/ret/moment/ego4d_nlq.jsonl",
+   "sha256": "bc4afbe12a07e2cf32a5324b7c55613aa0e3f4c6c54bdc124434e0e3ce1abf79",
+   "redistributable": false,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "lvid.ret/moment/qvhighlights",
+   "leaf": "lvid.ret/moment",
+   "status": "released",
+   "version": 1,
+   "items": 139,
+   "path": "data/lvid/ret/moment/qvhighlights.jsonl",
+   "sha256": "5753f196d8d12c93b4c453273cc93706029d860293f71b9d81213af4b0b54ff4",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "lvid.route/escalation/jev_pair",
+   "leaf": "lvid.route/escalation",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data_local/lvid/route/escalation/jev_pair.jsonl",
+   "sha256": "3d5baabc26e839d31d2423192956333af094bf64ebc1ea58ffa1f11dbcc8d259",
+   "redistributable": false,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "lvid.route/segment/qvhighlights",
+   "leaf": "lvid.route/segment",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/lvid/route/segment/qvhighlights.jsonl",
+   "sha256": "e9091017d9e692e3d6aa2ce603c9af99c8ca8eccbd4dfecaac16dc69928c37f3",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.basic/action_candidates/kinetics700",
+   "leaf": "vid.basic/action_candidates",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/basic/action_candidates/kinetics700.jsonl",
+   "sha256": "9c1245b15f0842e769004a5ad94f33a0565659f4bc6a12e0bb6e6b5d7f92daac",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.basic/action_category/ucf101",
+   "leaf": "vid.basic/action_category",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/basic/action_category/ucf101.jsonl",
+   "sha256": "a78ece2257f76e57e32535a243d67c626c001679598c4a539e3a637e9f6b6eea",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.basic/repetition/countix",
+   "leaf": "vid.basic/repetition",
+   "status": "released",
+   "version": 1,
+   "items": 250,
+   "path": "data/vid/basic/repetition/countix.jsonl",
+   "sha256": "1cc7222acbf9bbe8731bfc02829142beb845e76ce5e79d52ceb12294312a1514",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.basic/repetition/repcount_a",
+   "leaf": "vid.basic/repetition",
+   "status": "released",
+   "version": 1,
+   "items": 250,
+   "path": "data/vid/basic/repetition/repcount_a.jsonl",
+   "sha256": "561e137ffd822d95e1e7b4e1714eb2abfe292367e703936cde82d9105127cabf",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.basic/state_change/changeit",
+   "leaf": "vid.basic/state_change",
+   "status": "released",
+   "version": 1,
+   "items": 81,
+   "path": "data/vid/basic/state_change/changeit.jsonl",
+   "sha256": "e61d617e44445f094954f4dfa5ef67d5cb220dec4d9516209288d5c043e0cdc1",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.basic/state_change/ego4d_oscc",
+   "leaf": "vid.basic/state_change",
+   "status": "released",
+   "version": 1,
+   "items": 419,
+   "path": "data_local/vid/basic/state_change/ego4d_oscc.jsonl",
+   "sha256": "30dd90f0f3a40f83cd2c634c4e91c83a56dbcc524f8a146ab115ad4236f74be0",
+   "redistributable": false,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.basic/temporal/ssv2",
+   "leaf": "vid.basic/temporal",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data_local/vid/basic/temporal/ssv2.jsonl",
+   "sha256": "ddc83d93233860919f1b40ea0ee99cc96104059072f45d152986fb41be4c3b88",
+   "redistributable": false,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.batch/quality/konvid_1k",
+   "leaf": "vid.batch/quality",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/batch/quality/konvid_1k.jsonl",
+   "sha256": "d3cf041ac6413307dae1f0a6b851f4ffd3ed178eecf2d497552329011dbeaae9",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.bench/mvbench/test",
+   "leaf": "vid.bench/mvbench",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/bench/mvbench/test.jsonl",
+   "sha256": "3dd95dc64b02b1f38656a0bd39df2797a383a0c24b3eee8d6eba79b16077eadd",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.bench/nextqa/val",
+   "leaf": "vid.bench/nextqa",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/bench/nextqa/val.jsonl",
+   "sha256": "13d723f9d4a43829418a0f5a8d68a22c196660afbfaa63c9ced1d2f82bcd6fe6",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.bench/tempcompass/mc",
+   "leaf": "vid.bench/tempcompass",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/bench/tempcompass/mc.jsonl",
+   "sha256": "480ebfbcaf37922f8c4c0f6966347827b4f834da85224c9d458b02812a2776fa",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.embodied/feasibility/star",
+   "leaf": "vid.embodied/feasibility",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/embodied/feasibility/star.jsonl",
+   "sha256": "8eb805d545916542db0cee937bbb298da51f78a6174bcfab8d044047dbf898f4",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.embodied/procedure/captaincook4d",
+   "leaf": "vid.embodied/procedure",
+   "status": "released",
+   "version": 2,
+   "items": 500,
+   "path": "data/vid/embodied/procedure/captaincook4d.jsonl",
+   "sha256": "73711dc6213d618400585111acc3e620b84c31db42391d5d2744de39fa82d83d",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.embodied/robot_success/robofac",
+   "leaf": "vid.embodied/robot_success",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/embodied/robot_success/robofac.jsonl",
+   "sha256": "5bea393183d21308d5e38cb074044592fdd8154b540048a334426f81f79c788d",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.fore/next_action/epic_kitchens_100",
+   "leaf": "vid.fore/next_action",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/fore/next_action/epic_kitchens_100.jsonl",
+   "sha256": "d384906092c71f5d0f6d04612120fe713dad7bc78bc28d2315260078541acf57",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.fore/pedestrian/jaad",
+   "leaf": "vid.fore/pedestrian",
+   "status": "released",
+   "version": 1,
+   "items": 175,
+   "path": "data/vid/fore/pedestrian/jaad.jsonl",
+   "sha256": "43da776ab2ed47e5190d6730f1f112aaa78cf8b3ce9a93aa0e2324a4f56a5d09",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.fore/pedestrian/pie",
+   "leaf": "vid.fore/pedestrian",
+   "status": "released",
+   "version": 1,
+   "items": 325,
+   "path": "data/vid/fore/pedestrian/pie.jsonl",
+   "sha256": "1719f4f0126901193e1b05f0f61ac72f2c386241a3a22fd96eef391facbbba4d",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.game/physics_bug/physgame",
+   "leaf": "vid.game/physics_bug",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/game/physics_bug/physgame.jsonl",
+   "sha256": "194c70b9deede35273b59358beff08a2b6c4c96017d374898a77aa8379af5ac9",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.judge/hallucination/videohallucer",
+   "leaf": "vid.judge/hallucination",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/judge/hallucination/videohallucer.jsonl",
+   "sha256": "1520bf193a1d038b8722207bc08c199837dd22139bb4bf968d23d6d6585c1128",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.judge/t2v/videofeedback",
+   "leaf": "vid.judge/t2v",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/judge/t2v/videofeedback.jsonl",
+   "sha256": "61d4dbe036d60c881c23b012116eeba98d6158abf708639fe3be8864d3fc947d",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.know/causal_qa/perception_test",
+   "leaf": "vid.know/causal_qa",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/know/causal_qa/perception_test.jsonl",
+   "sha256": "3176417a221b266446f288764e9d59242aa94c29365f822fb46ce731dabe8440",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.know/physics/physion",
+   "leaf": "vid.know/physics",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/know/physics/physion.jsonl",
+   "sha256": "c044b036b3124841893ff3a4a56b6cc10b6e688a702905a23a959cf4b75aed2f",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.pro/driving_risk/nexar",
+   "leaf": "vid.pro/driving_risk",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/pro/driving_risk/nexar.jsonl",
+   "sha256": "0e56d633b1830b407349ac8c7a9f5df9d8e5d724ea4b1eddadab75328c5bb6d0",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.pro/foul/soccernet_mvfoul",
+   "leaf": "vid.pro/foul",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data_local/vid/pro/foul/soccernet_mvfoul.jsonl",
+   "sha256": "360d11f2412aace8d4d7989391ef9e1cfba84bdbfdf57a4b75cc14a8eee3b29c",
+   "redistributable": false,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.ret/text_match/msrvtt_mc",
+   "leaf": "vid.ret/text_match",
+   "status": "released",
+   "version": 1,
+   "items": 500,
+   "path": "data/vid/ret/text_match/msrvtt_mc.jsonl",
+   "sha256": "2740cba941d66abd09acb9356a9eaf4eb528a21a0a2c5cd27fe2a0826a0a0c36",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.safety/violence/ucf_crime",
+   "leaf": "vid.safety/violence",
+   "status": "released",
+   "version": 1,
+   "items": 162,
+   "path": "data/vid/safety/violence/ucf_crime.jsonl",
+   "sha256": "4194a221c3dea7e43f2bfee994bb1a04a2c76a23f9844fbe92964b8f6492ecd3",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  },
+  {
+   "name": "vid.safety/violence/xd_violence",
+   "leaf": "vid.safety/violence",
+   "status": "released",
+   "version": 1,
+   "items": 338,
+   "path": "data/vid/safety/violence/xd_violence.jsonl",
+   "sha256": "8e39593a633cb8298364ab0a293bd28ab70691d647ec158c82421df48d926ca9",
+   "redistributable": true,
+   "modalities": [
+    "video"
+   ]
+  }
+ ],
+ "envs": [
+  {
+   "name": "loop.game/balrog_pixels/babaisai-goto-win",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-goto-win-distr-obj",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-goto-win-distr-obj-irrelevant-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-goto-win-distr-obj-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-goto-win-distr-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-make-win",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-make-win-distr-obj",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-make-win-distr-obj-irrelevant-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-make-win-distr-obj-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-make-win-distr-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-break-stop-goto-win",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-break-stop-goto-win-distr-obj",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-break-stop-goto-win-distr-obj-irrelevant-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-break-stop-goto-win-distr-obj-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-break-stop-goto-win-distr-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-break-stop-make-win",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-break-stop-make-win-distr-obj",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-break-stop-make-win-distr-obj-irrelevant-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-break-stop-make-win-distr-obj-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-break-stop-make-win-distr-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-goto-win",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-goto-win-distr-obj",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-goto-win-distr-obj-irrelevant-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-goto-win-distr-obj-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-goto-win-distr-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-goto-win-distr-win-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-make-wall-win",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-make-win",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-make-win-distr-obj",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-make-win-distr-obj-irrelevant-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-make-win-distr-obj-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-make-win-distr-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-make-win-distr-win-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-make-you",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-make-you-make-win",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-maybe-break-stop-goto-win",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-maybe-break-stop-goto-win-distr-obj",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-maybe-break-stop-goto-win-distr-obj-irrelevant-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-maybe-break-stop-goto-win-distr-obj-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babaisai-two-room-maybe-break-stop-goto-win-distr-rule",
+   "version": 1,
+   "episodes": 3,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babyai-goto",
+   "version": 1,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babyai-open",
+   "version": 1,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babyai-pick-up-seq-go-to",
+   "version": 1,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babyai-pickup",
+   "version": 1,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/babyai-putnext",
+   "version": 1,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/crafter-default",
+   "version": 1,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/minihack-minihack-boxoban-hard-v0",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/minihack-minihack-boxoban-medium-v0",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/minihack-minihack-corridor-r3-v0",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/minihack-minihack-corridorbattle-dark-v0",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/minihack-minihack-mazewalk-15x15-v0",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/minihack-minihack-mazewalk-9x9-v0",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/minihack-minihack-quest-easy-v0",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/minihack-minihack-quest-medium-v0",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/nle-nethackchallenge-v0",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": "Frozen official BALROG declares 248 actions, but balrog-nle 0.9.0 pre_step cannot execute 100 advertised two-digit actions (00–99). No action filtering, default fallback or custom multi-key executor is authorized; upstream action contract is blocked."
+  },
+  {
+   "name": "loop.game/balrog_pixels/textworld-coin-collector",
+   "version": 1,
+   "episodes": 10,
+   "unsupported": "Official TextWorldWrapper.language_action_space is AlwaysTrue: unrestricted natural-language commands, no complete finite candidate list. Classification adapters do not support free-text actions. No hidden admissible-action filtering used.",
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/textworld-the-cooking-game",
+   "version": 1,
+   "episodes": 10,
+   "unsupported": "Official TextWorldWrapper.language_action_space is AlwaysTrue: unrestricted natural-language commands, no complete finite candidate list. Classification adapters do not support free-text actions. No hidden admissible-action filtering used.",
+   "blocked": null
+  },
+  {
+   "name": "loop.game/balrog_pixels/textworld-treasure-hunter",
+   "version": 1,
+   "episodes": 10,
+   "unsupported": "Official TextWorldWrapper.language_action_space is AlwaysTrue: unrestricted natural-language commands, no complete finite candidate list. Classification adapters do not support free-text actions. No hidden admissible-action filtering used.",
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/01_2048",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/02_another-gentlemans-adventure",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/03_astray",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/04_boxel-rebound",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/05_breakout",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/06_captaincallisto",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/07_chrome-dino",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/08_core-ball",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/09_cubefield",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/10_doodle-jump",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/11_edge-surf",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/12_fireboy-and-watergirl",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/13_flappy-bird",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/14_geodash",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/15_google-snake",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/16_hextris",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/17_mario-game",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/18_minecraft-clone-glm",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/19_minesweeper",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/20_monkey-mart",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/21_ns-shaft",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/22_ovo",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/23_pacman",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/24_restless-wing-syndrome",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/25_rocket-league-2d",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/26_run-3",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/27_stack",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/28_temple-run-2",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/29_tetris",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/30_vex-3",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/31_wolf3d",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/32_wordle",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": "type_text.text: non-enumerable action parameter",
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/33_worlds-hardest-game",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/gameworld/34_worlds-hardest-game-2",
+   "version": 1,
+   "episodes": 5,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/vsbench/atari_pong",
+   "version": 2,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/vsbench/battle_of_the_colors",
+   "version": 2,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/vsbench/breakthrough",
+   "version": 2,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/vsbench/coin_dilemma",
+   "version": 2,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/vsbench/hanabi",
+   "version": 2,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/vsbench/knights_archers_zombies",
+   "version": 2,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/vsbench/kuhn_poker",
+   "version": 2,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/vsbench/monster_hunt",
+   "version": 2,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/vsbench/overcooked",
+   "version": 2,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "loop.game/vsbench/simple_push",
+   "version": 2,
+   "episodes": 10,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "st.audio/backchannel/full_duplex_bench_v15",
+   "version": 1,
+   "episodes": 20,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "st.audio/pause_handling/candor",
+   "version": 1,
+   "episodes": 20,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "st.audio/turn_taking/candor",
+   "version": 1,
+   "episodes": 20,
+   "unsupported": null,
+   "blocked": null
+  },
+  {
+   "name": "st.audio/user_interruption/full_duplex_bench_v15",
+   "version": 1,
+   "episodes": 20,
+   "unsupported": null,
+   "blocked": null
+  }
+ ]
+}
