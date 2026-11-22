@@ -389,7 +389,8 @@ viewer: false
 S1Arena-MM measures how well models make discrete decisions about images, videos and sounds, and how good their
 probabilities are. Every item holds an input and one or more typed questions, and every model answers each question
 with a probability distribution over its options. This dataset holds the media the items reference: {files:,} files,
-{size / 1e9:.1f} GB. The items, the code and the results are in the S1Arena-MM repository on GitHub.
+{size / 1e9:.1f} GB. The items, the code and the results are in the
+[S1Arena-MM repository on GitHub](https://github.com/zhaoyang02/S1Arena-MM).
 
 | Modality | Tasks | Items |
 |---|---|---|
@@ -397,9 +398,10 @@ with a probability distribution over its options. This dataset holds the media t
 
 ## Use
 
-Request access on this page and log in with `hf auth login` (or set `HF_TOKEN`). Then, in a clone of the repository:
+Request access on this page and log in with `hf auth login` (or set `HF_TOKEN`). Then:
 
 ```bash
+git clone https://github.com/zhaoyang02/S1Arena-MM && cd S1Arena-MM
 pip install -e '.[image,video,audio]'
 export JEVARENA_MM_MEDIA=/path/to/media
 jevarena-mm fetch       # this dataset's folders, and the sources it does not host from their publishers
