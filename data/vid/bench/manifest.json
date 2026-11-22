@@ -1,0 +1,91 @@
+[
+ {
+  "name": "vid.bench/mvbench/test",
+  "leaf": "vid.bench/mvbench",
+  "status": "released",
+  "version": 1,
+  "source": "MVBench (Li et al., 2024)",
+  "url": "https://github.com/OpenGVLab/Ask-Anything/blob/main/video_chat2/MVBENCH.md",
+  "license": "MIT (dataset card); source videos keep their own licenses",
+  "tier": "A",
+  "criteria_source": "Original MVBench questions and options",
+  "redistributable": true,
+  "notes": "500 questions over MVBench's temporal subtasks; 2-5 options. Closest leaf: vid.basic/temporal.",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/bench/mvbench/test.jsonl",
+  "sha256": "3dd95dc64b02b1f38656a0bd39df2797a383a0c24b3eee8d6eba79b16077eadd",
+  "label_counts": {
+   "A": 155,
+   "C": 135,
+   "B": 132,
+   "D": 71,
+   "E": 7
+  }
+ },
+ {
+  "name": "vid.bench/nextqa/val",
+  "leaf": "vid.bench/nextqa",
+  "status": "released",
+  "version": 1,
+  "source": "NExT-QA, multiple choice, validation split (Xiao et al., 2021)",
+  "url": "https://github.com/doc-doc/NExT-QA",
+  "license": "MIT (annotations); VidOR videos from YFCC100m under their own Creative Commons terms",
+  "tier": "A",
+  "criteria_source": "Original NExT-QA questions and options",
+  "redistributable": true,
+  "notes": "500 causal, temporal and descriptive questions; 5 options. Closest leaf: vid.know/causal_qa.",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/bench/nextqa/val.jsonl",
+  "sha256": "13d723f9d4a43829418a0f5a8d68a22c196660afbfaa63c9ced1d2f82bcd6fe6",
+  "label_counts": {
+   "A": 73,
+   "E": 103,
+   "D": 121,
+   "B": 95,
+   "C": 108
+  }
+ },
+ {
+  "name": "vid.bench/tempcompass/mc",
+  "leaf": "vid.bench/tempcompass",
+  "status": "released",
+  "version": 1,
+  "source": "TempCompass, multiple-choice questions (Liu et al., 2024)",
+  "url": "https://github.com/llyx97/TempCompass",
+  "license": "CC BY-NC 4.0",
+  "tier": "A",
+  "criteria_source": "Original TempCompass questions and options",
+  "redistributable": true,
+  "notes": "500 questions on temporal aspects (action, speed, direction, order, attribute change); 2-4 options. Closest leaf: vid.basic/temporal.",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/bench/tempcompass/mc.jsonl",
+  "sha256": "480ebfbcaf37922f8c4c0f6966347827b4f834da85224c9d458b02812a2776fa",
+  "label_counts": {
+   "A": 137,
+   "B": 153,
+   "C": 163,
+   "D": 47
+  }
+ }
+]

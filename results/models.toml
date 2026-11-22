@@ -1,0 +1,205 @@
+# Display names of the models in the results page (jevarena-mm results-page). One table per model id as the reports
+# name it. type: "system-one" for decision models with their own read-out (a decision head, a scoring server),
+# "mllm" for multimodal LLMs used as classifiers (label-token probabilities). source: "run" for models run for this
+# release, "recorded" for runs recorded earlier with the same input policy. status = "running": kept off the tables until its runs
+# finish, and listed as running.
+
+[[model]]
+id = "OmniJev/OneJev-27B@fps=1,min_frames=2"
+name = "OneJev-27B"
+repo = "OmniJev/OneJev-27B"
+type = "system-one"
+source = "recorded"
+
+[[model]]
+id = "OmniJev/OneJev-9B@fps=1,min_frames=2,revision=59429e8"
+name = "OneJev-9B"
+repo = "OmniJev/OneJev-9B"
+type = "system-one"
+
+[[model]]
+id = "OmniJev/OneJev-4B@fps=1,min_frames=2,revision=c88e186"
+name = "OneJev-4B"
+repo = "OmniJev/OneJev-4B"
+type = "system-one"
+
+[[model]]
+id = "OmniJev/OneJev-0.8B@fps=1,min_frames=2,revision=c3939d8"
+name = "OneJev-0.8B"
+repo = "OmniJev/OneJev-0.8B"
+type = "system-one"
+
+[[model]]
+id = "akhilaaa3/Jev-Omni@fps=1,frames=16"
+name = "Jev-Omni"
+repo = "akhilaaa3/Jev-Omni"
+type = "system-one"
+source = "recorded"
+
+[[model]]
+id = "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3"
+name = "Jev-Omni + head-v3"
+repo = "ferdinandl007/jev-omni-general-head-v3"
+type = "system-one"
+
+[[model]]
+id = "vllm-sr/d3"
+name = "d3"
+repo = "vllm-sr/d3"
+type = "system-one"
+
+[[model]]
+id = "Cloudflare/clef@video-default"
+name = "clef"
+repo = "Cloudflare/clef"
+type = "system-one"
+
+[[model]]
+id = "Cloudflare/clef-flash@video-default"
+name = "clef-flash"
+repo = "Cloudflare/clef-flash"
+type = "system-one"
+
+[[model]]
+id = "Cloudflare/clef-omni@fps=1,fit=64000"
+name = "clef-omni"
+repo = "Cloudflare/clef-omni"
+type = "system-one"
+
+[[model]]
+id = "juspay/Xor-26B-A4B@v1.1"
+name = "Xor-26B-A4B"
+repo = "juspay/Xor-26B-A4B"
+type = "system-one"
+
+[[model]]
+id = "yuyu199741/raya-decision-v1@frames=8"
+name = "raya-decision-v1"
+repo = "yuyu199741/raya-decision-v1"
+type = "system-one"
+
+[[model]]
+id = "Qwen/Qwen3.5-35B-A3B-GPTQ-Int4@label-think0-ctx131072-video"
+name = "Qwen3.5-35B-A3B (GPTQ-Int4)"
+repo = "Qwen/Qwen3.5-35B-A3B-GPTQ-Int4"
+type = "mllm"
+
+[[model]]
+id = "Qwen/Qwen3.8-27B-FP8@label-think0-ctx131072-video"
+name = "Qwen3.8-27B (FP8)"
+repo = "Qwen/Qwen3.8-27B-FP8"
+type = "mllm"
+
+[[model]]
+id = "Qwen/Qwen3.5-9B@label-think0-ctx131072-video"
+name = "Qwen3.5-9B"
+repo = "Qwen/Qwen3.5-9B"
+type = "mllm"
+
+[[model]]
+id = "Qwen/Qwen3.5-4B@label-think0-ctx131072-video"
+name = "Qwen3.5-4B"
+repo = "Qwen/Qwen3.5-4B"
+type = "mllm"
+
+[[model]]
+id = "Qwen/Qwen3.5-2B@label-think0-ctx131072-video"
+name = "Qwen3.5-2B"
+repo = "Qwen/Qwen3.5-2B"
+type = "mllm"
+
+[[model]]
+id = "Qwen/Qwen3.5-0.8B@label-think0-video"
+name = "Qwen3.5-0.8B"
+repo = "Qwen/Qwen3.5-0.8B"
+type = "mllm"
+
+[[model]]
+id = "Qwen/Qwen3-VL-30B-A3B-Instruct@label-think0-ctx131072-video"
+name = "Qwen3-VL-30B-A3B-Instruct"
+repo = "Qwen/Qwen3-VL-30B-A3B-Instruct"
+type = "mllm"
+
+[[model]]
+id = "Qwen/Qwen3-Omni-30B-A3B-Thinking@label-think0-ctx65536-video"
+name = "Qwen3-Omni-30B-A3B-Thinking"
+repo = "Qwen/Qwen3-Omni-30B-A3B-Thinking"
+type = "mllm"
+
+[[model]]
+id = "Qwen/Qwen3-Omni-30B-A3B-Instruct@label-think0-ctx65536-video"
+name = "Qwen3-Omni-30B-A3B-Instruct"
+repo = "Qwen/Qwen3-Omni-30B-A3B-Instruct"
+type = "mllm"
+
+[[model]]
+id = "Qwen/Qwen2.5-Omni-7B@label-think0-video"
+name = "Qwen2.5-Omni-7B"
+repo = "Qwen/Qwen2.5-Omni-7B"
+type = "mllm"
+
+[[model]]
+id = "Qwen/Qwen2.5-Omni-7B-AWQ@label-think0-video"
+name = "Qwen2.5-Omni-7B (AWQ)"
+repo = "Qwen/Qwen2.5-Omni-7B-AWQ"
+type = "mllm"
+
+[[model]]
+id = "Qwen/Qwen2.5-Omni-7B-GPTQ-Int4@label-think0-dequant-video"
+name = "Qwen2.5-Omni-7B (GPTQ-Int4)"
+repo = "Qwen/Qwen2.5-Omni-7B-GPTQ-Int4"
+type = "mllm"
+
+[[model]]
+id = "Qwen/Qwen2.5-Omni-3B@label-think0-video"
+name = "Qwen2.5-Omni-3B"
+repo = "Qwen/Qwen2.5-Omni-3B"
+type = "mllm"
+
+[[model]]
+id = "openbmb/MiniCPM-o-4_5@label-think0-video"
+name = "MiniCPM-o 4.5"
+repo = "openbmb/MiniCPM-o-4_5"
+type = "mllm"
+
+[[model]]
+id = "openbmb/MiniCPM-o-2_6@label-think0-video"
+name = "MiniCPM-o 2.6"
+repo = "openbmb/MiniCPM-o-2_6"
+type = "mllm"
+
+[[model]]
+id = "google/gemma-4-26B-A4B-it@label-think0-ctx65536-video"
+name = "Gemma 4 26B-A4B"
+repo = "google/gemma-4-26B-A4B-it"
+type = "mllm"
+
+[[model]]
+id = "google/gemma-4-12B-it@label-think0-ctx65536-video"
+name = "Gemma 4 12B"
+repo = "google/gemma-4-12B-it"
+type = "mllm"
+
+[[model]]
+id = "google/diffusiongemma-26B-A4B-it@steps1-reads1-think0-prompt-1-video"
+name = "DiffusionGemma-26B-A4B"
+repo = "google/diffusiongemma-26B-A4B-it"
+type = "mllm"
+
+[[model]]
+id = "cyankiwi/diffusiongemma-26B-A4B-it-AWQ-INT4@steps1-reads1-think0-prompt-1-video"
+name = "DiffusionGemma-26B-A4B (AWQ-INT4)"
+repo = "cyankiwi/diffusiongemma-26B-A4B-it-AWQ-INT4"
+type = "mllm"
+
+[[model]]
+id = "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16"
+name = "Phi-4-multimodal"
+repo = "microsoft/Phi-4-multimodal-instruct"
+type = "mllm"
+
+[[model]]
+id = "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video"
+name = "Nemotron-3-Nano-Omni-30B-A3B"
+repo = "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16"
+type = "mllm"

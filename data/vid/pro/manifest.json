@@ -1,0 +1,69 @@
+[
+ {
+  "name": "vid.pro/foul/soccernet_mvfoul",
+  "leaf": "vid.pro/foul",
+  "status": "released",
+  "version": 1,
+  "source": "SoccerNet-MVFoul, test split (Held et al., 2023)",
+  "url": "https://huggingface.co/datasets/SoccerNet/SN-MVFouls-2024",
+  "license": "SoccerNet NDA for its data and annotations (SoccerNet/sn-mvfoul README); GPL-3.0 on the Hugging Face card",
+  "tier": "B",
+  "criteria_source": "Adapted from the SoccerNet-MVFoul labels: action class, offence and the original five-level severity",
+  "redistributable": false,
+  "notes": "268 incidents, each shown from 2-4 unsynchronized camera views. 200 action-class choices (8 options), 200 offence yes/no questions and 100 severity ratings on the original five levels. The answers come from SoccerNet's annotations, which SoccerNet shares under its NDA, so they ship as a recipe; `jevarena-mm build` fills them in from annotations.json of SoccerNet's release (fetched with the clips).",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data_local/vid/pro/foul/soccernet_mvfoul.jsonl",
+  "sha256": "360d11f2412aace8d4d7989391ef9e1cfba84bdbfdf57a4b75cc14a8eee3b29c",
+  "label_counts": {
+   "action_1": 87,
+   "false": 100,
+   "action_6": 31,
+   "true": 100,
+   "action_3": 24,
+   "action_0": 33,
+   "action_5": 12,
+   "0": 33,
+   "2": 32,
+   "1": 28,
+   "4": 4,
+   "action_2": 7,
+   "3": 3,
+   "action_7": 2,
+   "action_4": 4
+  }
+ },
+ {
+  "name": "vid.pro/driving_risk/nexar",
+  "leaf": "vid.pro/driving_risk",
+  "status": "released",
+  "version": 1,
+  "source": "Nexar Collision Prediction, test set (Moura and Zvitia, 2025)",
+  "url": "https://huggingface.co/datasets/nexar-ai/nexar_collision_prediction",
+  "license": "Nexar Open Data License (attribution; no resale)",
+  "tier": "B",
+  "criteria_source": "Adapted from Nexar's labels: a test clip of an event ends 0.5, 1.0 or 1.5 s before the collision or near-miss",
+  "redistributable": true,
+  "notes": "500 dashcam clips of about 10 s (median 9.97 s in both classes), one per original video: 250 end 0.5, 1.0 or 1.5 s before a collision or near-miss (133, 69 and 48 clips; many videos are cut at 0.5 s only), 250 are normal drives cut at the same points (136, 68 and 46), so neither clip timing nor length gives the answer.",
+  "media_root": "nexar",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/pro/driving_risk/nexar.jsonl",
+  "sha256": "0e56d633b1830b407349ac8c7a9f5df9d8e5d724ea4b1eddadab75328c5bb6d0",
+  "label_counts": {
+   "true": 250,
+   "false": 250
+  }
+ }
+]

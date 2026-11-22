@@ -1,0 +1,632 @@
+{
+ "plan": "audio_akhilaaa3__Jev-Omni_at_fps-1_frames-16_head-ferdinandl007__jev-omni-general-head-v3",
+ "models": [
+  "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3"
+ ],
+ "overall": {
+  "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+   "static_accuracy": null,
+   "leaves": 0,
+   "envs": 0,
+   "static_answers": 0,
+   "static_unanswered": 0,
+   "env_decisions": 0,
+   "env_failed_decisions": 0
+  }
+ },
+ "static": {},
+ "preview": {
+  "aud.basic/acoustic_scene/tau2019": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.108
+  },
+  "aud.basic/emotion/cremad": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.40748299319727893
+  },
+  "aud.basic/intent/slurp": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.218
+  },
+  "aud.basic/language_id/voxlingua107_dev": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.4120571783716594
+  },
+  "aud.basic/sound_event/sonyc_ust": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.5745
+  },
+  "aud.basic/speaker_change/ami": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.534
+  },
+  "aud.dialog/dialogue_state/spokenwoz": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.751
+  },
+  "aud.dialog/interrupt_backchannel/full_duplex_bench_v15": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.5503355704697986
+  },
+  "aud.dialog/turn_timing/full_duplex_bench_v1": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.5492537313432836
+  },
+  "aud.judge/data_cleaning/nisqa_livetalk": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.3599137931034483
+  },
+  "aud.judge/data_cleaning/signal_defects_synthetic": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.5022935779816514
+  },
+  "aud.judge/naturalness/bvcc": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.23616734143049933
+  },
+  "aud.know/music_understanding/mmau_mini": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.5904761904761905
+  },
+  "aud.know/reasoning/mmau_mini": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.6818181818181818
+  },
+  "aud.know/sound_qa/mmau_mini": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.3888888888888889
+  },
+  "aud.pro/heart_sound/physionet2016": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.5415282392026578
+  },
+  "aud.pro/heart_sound/respiratory_icbhi2017": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.182
+  },
+  "aud.pro/machine_anomaly/mimii_pump_dcase2020": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.534
+  },
+  "aud.ret/audio_text_matching/sonyc_tag_descriptions": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.522
+  },
+  "aud.safety/spoof_detection/asvspoof2019_la": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.488
+  },
+  "aud.safety/toxicity/mutox": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": 0.8562874251497006
+  }
+ },
+ "envs": {},
+ "task_metrics": {
+  "aud.basic/acoustic_scene/tau2019": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.108,
+    "accuracy_se": 0.013894535480989097,
+    "maj": 0.108,
+    "brier": 0.9793298226580968,
+    "ece": 0.16403082065511315,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 191.0,
+    "latency_p95_ms": 195.02499999999998,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/acoustic_scene",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/emotion/cremad": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 1470,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.40748299319727893,
+    "accuracy_se": 0.012820183931319232,
+    "maj": 0.40748299319727893,
+    "brier": 0.4014522982958465,
+    "ece": 0.16910995174006807,
+    "error_rate": 0.0,
+    "answers": 1470,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 103.95,
+    "latency_p95_ms": 109.9,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/emotion",
+    "status": "preview",
+    "expected_items": 1470,
+    "recorded_items": 1470,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/intent/slurp": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.218,
+    "accuracy_se": 0.01848337822317885,
+    "maj": 0.218,
+    "brier": 0.9028219034104159,
+    "ece": 0.08468590449112436,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 246.35000000000002,
+    "latency_p95_ms": 258.015,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/intent",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/language_id/voxlingua107_dev": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 1609,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.4120571783716594,
+    "accuracy_se": 0.012274484621113786,
+    "maj": 0.4120571783716594,
+    "brier": 0.7046338142417927,
+    "ece": 0.12664808384893006,
+    "error_rate": 0.0,
+    "answers": 1609,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 186.9,
+    "latency_p95_ms": 267.61999999999995,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/language_id",
+    "status": "preview",
+    "expected_items": 1609,
+    "recorded_items": 1609,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/sound_event/sonyc_ust": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 4000,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5745,
+    "accuracy_se": 0.007818421799177726,
+    "maj": 0.5745,
+    "brier": 0.47569518012977346,
+    "ece": 0.06580590081936158,
+    "error_rate": 0.0,
+    "answers": 4000,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 1419.6,
+    "latency_p95_ms": 1436.505,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/sound_event",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/speaker_change/ami": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.534,
+    "accuracy_se": 0.022331264423258324,
+    "maj": 0.534,
+    "brier": 0.4886228598825618,
+    "ece": 0.11595392406665528,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 86.5,
+    "latency_p95_ms": 92.30499999999999,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/speaker_change",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/dialogue_state/spokenwoz": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 2000,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.751,
+    "accuracy_se": 0.009671932233869729,
+    "maj": 0.751,
+    "brier": 0.4085959380061224,
+    "ece": 0.11596790436885823,
+    "error_rate": 0.0,
+    "answers": 2000,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 4960.7,
+    "latency_p95_ms": 9259.13,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.dialog/dialogue_state",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/interrupt_backchannel/full_duplex_bench_v15": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 298,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5503355704697986,
+    "accuracy_se": 0.028865549838747197,
+    "maj": 0.5503355704697986,
+    "brier": 0.430864678605841,
+    "ece": 0.19171310089177074,
+    "error_rate": 0.0,
+    "answers": 298,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 172.8,
+    "latency_p95_ms": 182.415,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.dialog/interrupt_backchannel",
+    "status": "preview",
+    "expected_items": 298,
+    "recorded_items": 298,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/turn_timing/full_duplex_bench_v1": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 335,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5492537313432836,
+    "accuracy_se": 0.027225718179425866,
+    "maj": 0.5492537313432836,
+    "brier": 0.5217554269560628,
+    "ece": 0.17238926297799323,
+    "error_rate": 0.0,
+    "answers": 335,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 146.4,
+    "latency_p95_ms": 207.42000000000002,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.dialog/turn_timing",
+    "status": "preview",
+    "expected_items": 335,
+    "recorded_items": 335,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/data_cleaning/nisqa_livetalk": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 464,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.3599137931034483,
+    "accuracy_se": 0.02230632287611355,
+    "maj": 0.3599137931034483,
+    "brier": 0.3207591309429301,
+    "ece": 0.1894050615929766,
+    "error_rate": 0.0,
+    "answers": 464,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 354.0,
+    "latency_p95_ms": 375.735,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.judge/data_cleaning",
+    "status": "preview",
+    "expected_items": 232,
+    "recorded_items": 232,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/data_cleaning/signal_defects_synthetic": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 436,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5022935779816514,
+    "accuracy_se": 0.023972912851274654,
+    "maj": 0.5022935779816514,
+    "brier": 0.5309526904006481,
+    "ece": 0.12548484210988897,
+    "error_rate": 0.0,
+    "answers": 436,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 110.1,
+    "latency_p95_ms": 148.125,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.judge/data_cleaning",
+    "status": "preview",
+    "expected_items": 436,
+    "recorded_items": 436,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/naturalness/bvcc": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 741,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.23616734143049933,
+    "accuracy_se": 0.01561324490885817,
+    "maj": 0.23616734143049933,
+    "brier": 0.2871351440160643,
+    "ece": 0.14942825103597526,
+    "error_rate": 0.0,
+    "answers": 741,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 107.9,
+    "latency_p95_ms": 150.0,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.judge/naturalness",
+    "status": "preview",
+    "expected_items": 741,
+    "recorded_items": 741,
+    "pending_items": 0
+   }
+  },
+  "aud.know/music_understanding/mmau_mini": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 105,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5904761904761905,
+    "accuracy_se": 0.04821965555951266,
+    "maj": 0.5904761904761905,
+    "brier": 0.5210390200005154,
+    "ece": 0.08876046137223366,
+    "error_rate": 0.0,
+    "answers": 105,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 358.1,
+    "latency_p95_ms": 374.48,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.know/music_understanding",
+    "status": "preview",
+    "expected_items": 105,
+    "recorded_items": 105,
+    "pending_items": 0
+   }
+  },
+  "aud.know/reasoning/mmau_mini": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 330,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.6818181818181818,
+    "accuracy_se": 0.02567875831209237,
+    "maj": 0.6818181818181818,
+    "brier": 0.4095087557701555,
+    "ece": 0.05388593406140678,
+    "error_rate": 0.0,
+    "answers": 330,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 220.0,
+    "latency_p95_ms": 454.71000000000004,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.know/reasoning",
+    "status": "preview",
+    "expected_items": 330,
+    "recorded_items": 330,
+    "pending_items": 0
+   }
+  },
+  "aud.know/sound_qa/mmau_mini": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 36,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.3888888888888889,
+    "accuracy_se": 0.08240220541217404,
+    "maj": 0.3888888888888889,
+    "brier": 0.7592173959027091,
+    "ece": 0.19528775174024904,
+    "error_rate": 0.0,
+    "answers": 36,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 194.35,
+    "latency_p95_ms": 224.85,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.know/sound_qa",
+    "status": "preview",
+    "expected_items": 36,
+    "recorded_items": 36,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/heart_sound/physionet2016": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 301,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5415282392026578,
+    "accuracy_se": 0.028767771628955833,
+    "maj": 0.5415282392026578,
+    "brier": 0.5149008598369816,
+    "ece": 0.08753266788771562,
+    "error_rate": 0.0,
+    "answers": 301,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 254.4,
+    "latency_p95_ms": 389.8,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.pro/heart_sound",
+    "status": "preview",
+    "expected_items": 301,
+    "recorded_items": 301,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/heart_sound/respiratory_icbhi2017": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.182,
+    "accuracy_se": 0.017272773297730432,
+    "maj": 0.182,
+    "brier": 0.8013742351160831,
+    "ece": 0.20246518562509755,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 115.5,
+    "latency_p95_ms": 153.5,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.pro/heart_sound",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/machine_anomaly/mimii_pump_dcase2020": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.534,
+    "accuracy_se": 0.022331264423258324,
+    "maj": 0.534,
+    "brier": 0.49792722212171076,
+    "ece": 0.0528726570453927,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 169.4,
+    "latency_p95_ms": 171.41,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.pro/machine_anomaly",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.ret/audio_text_matching/sonyc_tag_descriptions": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.522,
+    "accuracy_se": 0.02236139673920787,
+    "maj": 0.522,
+    "brier": 0.531130607220951,
+    "ece": 0.11415602315856058,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 177.5,
+    "latency_p95_ms": 180.7,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.ret/audio_text_matching",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.safety/spoof_detection/asvspoof2019_la": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.488,
+    "accuracy_se": 0.022376626797927065,
+    "maj": 0.488,
+    "brier": 0.6435208580738199,
+    "ece": 0.22993687082849448,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 100.45,
+    "latency_p95_ms": 144.505,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.safety/spoof_detection",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.safety/toxicity/mutox": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16,head=ferdinandl007/jev-omni-general-head-v3": {
+    "n_questions": 167,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.8562874251497006,
+    "accuracy_se": 0.02722720895927504,
+    "maj": 0.8562874251497006,
+    "brier": 0.23017033755137914,
+    "ece": 0.11396057662211564,
+    "error_rate": 0.0,
+    "answers": 167,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 146.7,
+    "latency_p95_ms": 155.78,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.safety/toxicity",
+    "status": "preview",
+    "expected_items": 167,
+    "recorded_items": 167,
+    "pending_items": 0
+   }
+  }
+ }
+}

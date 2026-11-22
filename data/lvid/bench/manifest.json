@@ -1,0 +1,61 @@
+[
+ {
+  "name": "lvid.bench/egoschema/public_500",
+  "leaf": "lvid.bench/egoschema",
+  "status": "released",
+  "version": 1,
+  "source": "EgoSchema, public answer subset (Mangalam et al., 2023)",
+  "url": "https://github.com/egoschema/EgoSchema",
+  "license": "Questions: published by the EgoSchema authors, no license stated; clips cut from Ego4D (Ego4D license)",
+  "tier": "A",
+  "criteria_source": "Original EgoSchema questions and options",
+  "redistributable": true,
+  "notes": "The 500 questions with public answers, on three-minute Ego4D clips; 5 options. The questions are as EgoSchema publishes them; the clips come from EgoSchema's release (scripts/fetch/egoschema.py). Closest leaf: lvid.know/long_qa.",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/lvid/bench/egoschema/public_500.jsonl",
+  "sha256": "f00912d4392bc24cda267ba46a56c841f5ebf2a7d729be1417584b4fd9f681d9",
+  "label_counts": {
+   "A": 101,
+   "C": 91,
+   "E": 117,
+   "D": 83,
+   "B": 108
+  }
+ },
+ {
+  "name": "lvid.bench/vsi_bench/test",
+  "leaf": "lvid.bench/vsi_bench",
+  "status": "released",
+  "version": 1,
+  "source": "VSI-Bench (Yang et al., 2025)",
+  "url": "https://huggingface.co/datasets/nyu-visionx/VSI-Bench",
+  "license": "Apache-2.0 (annotations); videos under the ARKitScenes, ScanNet and ScanNet++ terms",
+  "tier": "A",
+  "criteria_source": "Original VSI-Bench questions and options",
+  "redistributable": true,
+  "notes": "243 indoor walkthrough videos, 500 spatial and route-planning questions with 2-4 options. Closest leaf: lvid.embodied/ego_plan.",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/lvid/bench/vsi_bench/test.jsonl",
+  "sha256": "92feac7289ee4d06ccc6108d5dda022876dde90de7d668a0c4d82c8589bc45d6",
+  "label_counts": {
+   "A": 156,
+   "C": 112,
+   "B": 159,
+   "D": 73
+  }
+ }
+]

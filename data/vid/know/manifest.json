@@ -1,0 +1,57 @@
+[
+ {
+  "name": "vid.know/causal_qa/perception_test",
+  "leaf": "vid.know/causal_qa",
+  "status": "released",
+  "version": 1,
+  "source": "Perception Test, multiple-choice video QA, valid split (Patraucean et al., 2023)",
+  "url": "https://github.com/google-deepmind/perception_test",
+  "license": "CC BY 4.0",
+  "tier": "A",
+  "criteria_source": "Original Perception Test questions and options",
+  "redistributable": true,
+  "notes": "500 videos, one question each, from the explanatory (cause-of-motion) questions; 3 options.",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/know/causal_qa/perception_test.jsonl",
+  "sha256": "3176417a221b266446f288764e9d59242aa94c29365f822fb46ce731dabe8440",
+  "label_counts": {
+   "option_2": 172,
+   "option_1": 154,
+   "option_0": 174
+  }
+ },
+ {
+  "name": "vid.know/physics/physion",
+  "leaf": "vid.know/physics",
+  "status": "released",
+  "version": 1,
+  "source": "Physion object contact prediction, test set (Bear et al., 2021)",
+  "url": "https://github.com/cogtoolslab/physics-benchmarking-neurips2021",
+  "license": "MIT (code and data)",
+  "tier": "B",
+  "criteria_source": "Adapted from Physion's object contact prediction task (will the red agent touch the yellow target)",
+  "redistributable": true,
+  "notes": "500 stimuli; the video ends before the outcome, as in Physion's readout protocol (254 yes, 246 no). Known limit: hard; OneJev-27B scores at chance (51 %).",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/know/physics/physion.jsonl",
+  "sha256": "c044b036b3124841893ff3a4a56b6cc10b6e688a702905a23a959cf4b75aed2f",
+  "label_counts": {
+   "true": 254,
+   "false": 246
+  }
+ }
+]

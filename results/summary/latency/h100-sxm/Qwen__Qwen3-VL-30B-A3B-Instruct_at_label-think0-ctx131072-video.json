@@ -1,0 +1,135 @@
+{
+ "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct@label-think0-ctx131072-video",
+ "spec": "lm:Qwen/Qwen3-VL-30B-A3B-Instruct@gpu=0.95,maxlen=131072",
+ "set": "v1",
+ "set_digest": "2906cc887102",
+ "gpu": "h100",
+ "gpus": 1,
+ "median_ms": 167.9,
+ "per_kind": {
+  "short": {
+   "requests": 200,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 200,
+   "median_ms": 433.9,
+   "p90_ms": 7132.5,
+   "mean_ms": 4339.8,
+   "median_ci95_ms": [
+    339.8,
+    690.1
+   ],
+   "gpu_s_per_1k": 4339.8
+  },
+  "long": {
+   "requests": 70,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 70,
+   "median_ms": 1030.2,
+   "p90_ms": 27515.4,
+   "mean_ms": 7531.0,
+   "median_ci95_ms": [
+    560.1,
+    1701.2
+   ],
+   "gpu_s_per_1k": 7531.0
+  },
+  "av": {
+   "requests": 60,
+   "failed": 0,
+   "unsupported": 60
+  },
+  "bench": {
+   "requests": 50,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 50,
+   "median_ms": 1232.3,
+   "p90_ms": 2738.4,
+   "mean_ms": 1381.4,
+   "median_ci95_ms": [
+    601.7,
+    1503.9
+   ],
+   "gpu_s_per_1k": 1381.4
+  },
+  "loop": {
+   "requests": 100,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 100,
+   "median_ms": 167.9,
+   "p90_ms": 187.3,
+   "mean_ms": 170.2,
+   "median_ci95_ms": [
+    141.6,
+    171.6
+   ],
+   "gpu_s_per_1k": 170.2
+  }
+ },
+ "repeat": {
+  "n": 30,
+  "ratio_median": 0.992,
+  "abs_change_p50": 0.019
+ },
+ "consistency": {
+  "questions": 320,
+  "no_cached_row": 0,
+  "status_changed": 0,
+  "top_option_agreement": 0.9625,
+  "max_abs_diff_p50": 0.01162,
+  "max_abs_diff_p95": 0.10642,
+  "verdict": "differs from the accuracy run"
+ },
+ "load_s": 108.4,
+ "warmup_ms": [
+  469.3,
+  421.1,
+  2115.6,
+  196.7,
+  40008.5,
+  3518.2,
+  162.1,
+  1799.9,
+  153.7,
+  29500.6
+ ],
+ "peak_memory_mib": {
+  "0": 80633
+ },
+ "machine": {
+  "host": "",
+  "gpus": [
+   {
+    "index": "0",
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_mib": 81559,
+    "driver": "580.95.05"
+   }
+  ],
+  "cpu": "Intel(R) Xeon(R) Platinum 8480C",
+  "cpu_count": 96,
+  "python": "3.12.13",
+  "packages": {
+   "jevarena-mm": "0.1.0.dev0",
+   "torch": "2.13.0+cu129",
+   "vllm": "0.30.0+cu129",
+   "transformers": "5.19.0",
+   "av": "19.0.1",
+   "numpy": "2.3.5"
+  },
+  "commit": "53194ab144dd4542868a841b8ba74a64b686f966",
+  "env": {
+   "CUDA_VISIBLE_DEVICES": "0",
+   "JEVARENA_MM_DECODE_THREADS": "4",
+   "OMP_NUM_THREADS": "16",
+   "CUDA_HOME": "/usr/local/cuda-12.8",
+   "NVCC_CCBIN": "/usr/bin/g++",
+   "DG_JIT_NVCC_COMPILER": "/usr/local/cuda-13.0/bin/nvcc",
+   "LD_LIBRARY_PATH": ":/usr/local/cuda/lib64"
+  }
+ },
+ "measured": "2026-10-18T16:55:06+0000"
+}

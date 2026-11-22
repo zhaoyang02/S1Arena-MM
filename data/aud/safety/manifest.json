@@ -1,0 +1,58 @@
+[
+ {
+  "name": "aud.safety/spoof_detection/asvspoof2019_la",
+  "leaf": "aud.safety/spoof_detection",
+  "status": "released",
+  "version": 1,
+  "source": "ASVspoof 2019, Logical Access, evaluation split (Wang et al., 2020)",
+  "url": "https://zenodo.org/records/6906306",
+  "license": "Open Data Commons Attribution; see original release content conditions",
+  "tier": "C",
+  "criteria_source": "Written; gold is the official bona fide or spoof label",
+  "redistributable": true,
+  "notes": "250 bona fide and 250 spoofed utterances from 67 speakers; the spoofs cover attacks A07-A19. Logical Access only (speech synthesis and voice conversion), without replay attacks. Attack and speaker ids are in meta.audio_provenance; the model gets only the audio.",
+  "media_root": "audio_delivery",
+  "frozen": true,
+  "diagnostic_only": false,
+  "items": 500,
+  "modalities": [
+   "audio"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/aud/safety/spoof_detection/asvspoof2019_la.jsonl",
+  "sha256": "961eded4f6b9f9f0db29037ea7bb7e59ae0534997b83f93e0b69673dac812852",
+  "label_counts": {
+   "false": 250,
+   "true": 250
+  }
+ },
+ {
+  "name": "aud.safety/toxicity/mutox",
+  "leaf": "aud.safety/toxicity",
+  "status": "released",
+  "version": 1,
+  "source": "MuTox, English devtest (Costa-jussà et al., 2024)",
+  "url": "https://github.com/facebookresearch/seamless_communication/tree/main/src/seamless_communication/cli/toxicity/mutox",
+  "license": "MIT annotation release; individual podcast audio rights require review",
+  "tier": "C",
+  "criteria_source": "Written; gold is MuTox's human toxicity label",
+  "redistributable": true,
+  "notes": "167 segments (20 toxic, 147 not) whose source audio could still be downloaded and is marked public domain by its source: audiobooks on archive.org, 157 of them from LibriVox. A small subset with a strong source bias, not representative of MuTox's devtest. The public-domain mark is the source's own statement, recorded per item in meta.audio_provenance, not a legal guarantee.",
+  "media_root": "audio_delivery",
+  "frozen": true,
+  "diagnostic_only": false,
+  "items": 167,
+  "modalities": [
+   "audio"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/aud/safety/toxicity/mutox.jsonl",
+  "sha256": "fdaf577c310b3f4d1bd8cddd37f589baba95e2c6d3bc1d23336adaee5031f72a",
+  "label_counts": {
+   "false": 147,
+   "true": 20
+  }
+ }
+]

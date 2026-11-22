@@ -1,0 +1,31 @@
+# secrets
+.env
+secrets.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.venv-audio-stream/
+.venv-audio-stream-qwen/
+*.egg-info/
+.pytest_cache/
+
+# caches and local-only data
+.cache/
+media/
+data_local/
+results/runs/
+results/episodes/
+results/slurm/
+# per-request latency rows (their summaries, results/summary/latency/, are committed)
+results/latency/
+
+# logs
+*.log
+slurm-*.out
+
+# cluster settings (scripts/slurm/site.env.example)
+scripts/slurm/site.env

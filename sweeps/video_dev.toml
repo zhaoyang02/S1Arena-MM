@@ -1,0 +1,14 @@
+# OneJev-27B (onejev) and Jev-Omni (jev_omni) on the static video tasks and the closed-loop environments, one sample
+# each; `sweep-report` reports their recorded predictions and episodes and makes no calls.
+name = "video_dev"
+tasks = ["vid", "lvid"]
+envs = ["loop"]
+
+[defaults]
+k = 1
+
+[[models]]
+spec = "onejev"
+
+[[models]]
+spec = "jev_omni"

@@ -1,0 +1,58 @@
+[
+ {
+  "name": "img.batch/curation/koniq10k",
+  "leaf": "img.batch/curation",
+  "status": "released",
+  "version": 1,
+  "source": "KonIQ-10k, test (Hosu et al., 2020)",
+  "url": "https://database.mmsp-kn.de/koniq-10k-database.html",
+  "license": "no license stated, Flickr images under their own Creative Commons licenses",
+  "tier": "B",
+  "criteria_source": "MOS binned to the dataset's 5-point ACR scale",
+  "redistributable": true,
+  "notes": "",
+  "media_root": "koniq10k",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "image"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/img/batch/curation/koniq10k.jsonl",
+  "sha256": "aebb69bba2f7dd7406584f71f542fccc02f255d8379232fd411c1a2003fea9f6",
+  "label_counts": {
+   "3": 162,
+   "1": 161,
+   "0": 16,
+   "2": 161
+  }
+ },
+ {
+  "name": "img.batch/curation/seetrue",
+  "leaf": "img.batch/curation",
+  "status": "released",
+  "version": 1,
+  "source": "SeeTRUE, test (Yarom et al., 2023)",
+  "url": "https://huggingface.co/datasets/yonatanbitton/SeeTRUE",
+  "license": "CC BY 4.0, test-only use",
+  "tier": "B",
+  "criteria_source": "SeeTRUE alignment labels",
+  "redistributable": true,
+  "notes": "gated: HF click-through",
+  "media_root": "seetrue",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "image"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/img/batch/curation/seetrue.jsonl",
+  "sha256": "a02150e70ddeaf532e28e6c39567dcfa61dbf233b6c15bae9dee7cc70caf314f",
+  "label_counts": {
+   "true": 250,
+   "false": 250
+  }
+ }
+]

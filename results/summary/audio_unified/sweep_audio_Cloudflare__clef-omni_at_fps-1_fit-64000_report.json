@@ -1,0 +1,632 @@
+{
+ "plan": "audio_Cloudflare__clef-omni_at_fps-1_fit-64000",
+ "models": [
+  "Cloudflare/clef-omni@fps=1,fit=64000"
+ ],
+ "overall": {
+  "Cloudflare/clef-omni@fps=1,fit=64000": {
+   "static_accuracy": null,
+   "leaves": 0,
+   "envs": 0,
+   "static_answers": 0,
+   "static_unanswered": 0,
+   "env_decisions": 0,
+   "env_failed_decisions": 0
+  }
+ },
+ "static": {},
+ "preview": {
+  "aud.basic/acoustic_scene/tau2019": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.46
+  },
+  "aud.basic/emotion/cremad": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.5306122448979592
+  },
+  "aud.basic/intent/slurp": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.804
+  },
+  "aud.basic/language_id/voxlingua107_dev": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.8614045991298943
+  },
+  "aud.basic/sound_event/sonyc_ust": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.788
+  },
+  "aud.basic/speaker_change/ami": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.568
+  },
+  "aud.dialog/dialogue_state/spokenwoz": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.9385
+  },
+  "aud.dialog/interrupt_backchannel/full_duplex_bench_v15": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.9966442953020134
+  },
+  "aud.dialog/turn_timing/full_duplex_bench_v1": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.5104477611940299
+  },
+  "aud.judge/data_cleaning/nisqa_livetalk": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.5172413793103449
+  },
+  "aud.judge/data_cleaning/signal_defects_synthetic": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.6399082568807339
+  },
+  "aud.judge/naturalness/bvcc": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.26180836707152494
+  },
+  "aud.know/music_understanding/mmau_mini": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.6095238095238096
+  },
+  "aud.know/reasoning/mmau_mini": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.7848484848484848
+  },
+  "aud.know/sound_qa/mmau_mini": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.75
+  },
+  "aud.pro/heart_sound/physionet2016": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.4983388704318937
+  },
+  "aud.pro/heart_sound/respiratory_icbhi2017": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.28
+  },
+  "aud.pro/machine_anomaly/mimii_pump_dcase2020": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.496
+  },
+  "aud.ret/audio_text_matching/sonyc_tag_descriptions": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.584
+  },
+  "aud.safety/spoof_detection/asvspoof2019_la": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.514
+  },
+  "aud.safety/toxicity/mutox": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": 0.5269461077844312
+  }
+ },
+ "envs": {},
+ "task_metrics": {
+  "aud.basic/acoustic_scene/tau2019": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.46,
+    "accuracy_se": 0.022311333245289593,
+    "maj": 0.46,
+    "brier": 0.6944122025894653,
+    "ece": 0.08885136279809368,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 332.4,
+    "latency_p95_ms": 353.835,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/acoustic_scene",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/emotion/cremad": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 1470,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5306122448979592,
+    "accuracy_se": 0.013020978268142266,
+    "maj": 0.5306122448979592,
+    "brier": 0.5125022209130534,
+    "ece": 0.3661229207989815,
+    "error_rate": 0.0,
+    "answers": 1470,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 263.2,
+    "latency_p95_ms": 309.35499999999996,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/emotion",
+    "status": "preview",
+    "expected_items": 1470,
+    "recorded_items": 1470,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/intent/slurp": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.804,
+    "accuracy_se": 0.017770751227744897,
+    "maj": 0.804,
+    "brier": 0.3359871114708476,
+    "ece": 0.15441027584015926,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 432.5,
+    "latency_p95_ms": 445.625,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/intent",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/language_id/voxlingua107_dev": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 1609,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.8614045991298943,
+    "accuracy_se": 0.008616581107373763,
+    "maj": 0.8614045991298943,
+    "brier": 0.3594219427130887,
+    "ece": 0.3833603127998269,
+    "error_rate": 0.0,
+    "answers": 1609,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 311.4,
+    "latency_p95_ms": 347.96,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/language_id",
+    "status": "preview",
+    "expected_items": 1609,
+    "recorded_items": 1609,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/sound_event/sonyc_ust": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 4000,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.788,
+    "accuracy_se": 0.006463315218284091,
+    "maj": 0.788,
+    "brier": 0.36764737826163413,
+    "ece": 0.18008729336636767,
+    "error_rate": 0.0,
+    "answers": 4000,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 344.7,
+    "latency_p95_ms": 355.905,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/sound_event",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/speaker_change/ami": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.568,
+    "accuracy_se": 0.022175109265613186,
+    "maj": 0.568,
+    "brier": 0.68696204235099,
+    "ece": 0.3543795019846179,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 247.25,
+    "latency_p95_ms": 266.115,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/speaker_change",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/dialogue_state/spokenwoz": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 2000,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.9385,
+    "accuracy_se": 0.00537338921499531,
+    "maj": 0.9385,
+    "brier": 0.13276169492773449,
+    "ece": 0.11440467360823507,
+    "error_rate": 0.0,
+    "answers": 2000,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 740.5,
+    "latency_p95_ms": 1053.1649999999997,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.dialog/dialogue_state",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/interrupt_backchannel/full_duplex_bench_v15": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 298,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.9966442953020134,
+    "accuracy_se": 0.003355704697986578,
+    "maj": 0.9966442953020134,
+    "brier": 0.04205120956163563,
+    "ece": 0.10842389310148164,
+    "error_rate": 0.0,
+    "answers": 298,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 269.9,
+    "latency_p95_ms": 290.615,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.dialog/interrupt_backchannel",
+    "status": "preview",
+    "expected_items": 298,
+    "recorded_items": 298,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/turn_timing/full_duplex_bench_v1": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 335,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5104477611940299,
+    "accuracy_se": 0.027352809371198113,
+    "maj": 0.5104477611940299,
+    "brier": 0.4713596647570519,
+    "ece": 0.2750930330559081,
+    "error_rate": 0.0,
+    "answers": 335,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 264.2,
+    "latency_p95_ms": 297.76,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.dialog/turn_timing",
+    "status": "preview",
+    "expected_items": 335,
+    "recorded_items": 335,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/data_cleaning/nisqa_livetalk": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 464,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5172413793103449,
+    "accuracy_se": 0.023223151424221135,
+    "maj": 0.5172413793103449,
+    "brier": 0.20370432265117203,
+    "ece": 0.13627251374647886,
+    "error_rate": 0.0,
+    "answers": 464,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 292.1,
+    "latency_p95_ms": 302.445,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.judge/data_cleaning",
+    "status": "preview",
+    "expected_items": 232,
+    "recorded_items": 232,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/data_cleaning/signal_defects_synthetic": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 436,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.6399082568807339,
+    "accuracy_se": 0.023015520982743662,
+    "maj": 0.6399082568807339,
+    "brier": 0.48820245807357676,
+    "ece": 0.1467142236839587,
+    "error_rate": 0.0,
+    "answers": 436,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 246.75,
+    "latency_p95_ms": 258.55,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.judge/data_cleaning",
+    "status": "preview",
+    "expected_items": 436,
+    "recorded_items": 436,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/naturalness/bvcc": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 741,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.26180836707152494,
+    "accuracy_se": 0.016160710865538972,
+    "maj": 0.26180836707152494,
+    "brier": 0.24900900940971504,
+    "ece": 0.1284795136253809,
+    "error_rate": 0.0,
+    "answers": 741,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 247.5,
+    "latency_p95_ms": 264.0,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.judge/naturalness",
+    "status": "preview",
+    "expected_items": 741,
+    "recorded_items": 741,
+    "pending_items": 0
+   }
+  },
+  "aud.know/music_understanding/mmau_mini": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 105,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.6095238095238096,
+    "accuracy_se": 0.047838322981141414,
+    "maj": 0.6095238095238096,
+    "brier": 0.48665414424271985,
+    "ece": 0.11197887776060617,
+    "error_rate": 0.0,
+    "answers": 105,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 361.4,
+    "latency_p95_ms": 372.56,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.know/music_understanding",
+    "status": "preview",
+    "expected_items": 105,
+    "recorded_items": 105,
+    "pending_items": 0
+   }
+  },
+  "aud.know/reasoning/mmau_mini": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 330,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.7848484848484848,
+    "accuracy_se": 0.022655161766118655,
+    "maj": 0.7848484848484848,
+    "brier": 0.2929301015804651,
+    "ece": 0.049248391818206776,
+    "error_rate": 0.0,
+    "answers": 330,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 308.2,
+    "latency_p95_ms": 529.03,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.know/reasoning",
+    "status": "preview",
+    "expected_items": 330,
+    "recorded_items": 330,
+    "pending_items": 0
+   }
+  },
+  "aud.know/sound_qa/mmau_mini": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 36,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.75,
+    "accuracy_se": 0.07319250547113999,
+    "maj": 0.75,
+    "brier": 0.32646121281061546,
+    "ece": 0.16094478967451806,
+    "error_rate": 0.0,
+    "answers": 36,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 302.8,
+    "latency_p95_ms": 318.15,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.know/sound_qa",
+    "status": "preview",
+    "expected_items": 36,
+    "recorded_items": 36,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/heart_sound/physionet2016": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 301,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.4983388704318937,
+    "accuracy_se": 0.028867354147811906,
+    "maj": 0.4983388704318937,
+    "brier": 0.6776490223031175,
+    "ece": 0.30331137064993124,
+    "error_rate": 0.0,
+    "answers": 301,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 284.8,
+    "latency_p95_ms": 334.7,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.pro/heart_sound",
+    "status": "preview",
+    "expected_items": 301,
+    "recorded_items": 301,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/heart_sound/respiratory_icbhi2017": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.28,
+    "accuracy_se": 0.020099950647503192,
+    "maj": 0.28,
+    "brier": 1.08521815444436,
+    "ece": 0.49716034672013537,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 257.2,
+    "latency_p95_ms": 267.405,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.pro/heart_sound",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/machine_anomaly/mimii_pump_dcase2020": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.496,
+    "accuracy_se": 0.022382357781962105,
+    "maj": 0.496,
+    "brier": 0.9108550452406382,
+    "ece": 0.457711696786251,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 257.3,
+    "latency_p95_ms": 262.52,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.pro/machine_anomaly",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.ret/audio_text_matching/sonyc_tag_descriptions": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.584,
+    "accuracy_se": 0.022064943313928855,
+    "maj": 0.584,
+    "brier": 0.7173358436280903,
+    "ece": 0.35095434633025613,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 273.7,
+    "latency_p95_ms": 280.905,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.ret/audio_text_matching",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.safety/spoof_detection/asvspoof2019_la": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.514,
+    "accuracy_se": 0.022374298166353144,
+    "maj": 0.514,
+    "brier": 0.7571010672464125,
+    "ece": 0.35809065286080316,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 245.1,
+    "latency_p95_ms": 257.5,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.safety/spoof_detection",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.safety/toxicity/mutox": {
+   "Cloudflare/clef-omni@fps=1,fit=64000": {
+    "n_questions": 167,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5269461077844312,
+    "accuracy_se": 0.038751129581302876,
+    "maj": 0.5269461077844312,
+    "brier": 0.8288491853782299,
+    "ece": 0.39748570607765354,
+    "error_rate": 0.0,
+    "answers": 167,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 260.5,
+    "latency_p95_ms": 275.64,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.safety/toxicity",
+    "status": "preview",
+    "expected_items": 167,
+    "recorded_items": 167,
+    "pending_items": 0
+   }
+  }
+ }
+}

@@ -1,0 +1,30 @@
+[
+ {
+  "name": "aud.ret/audio_text_matching/sonyc_tag_descriptions",
+  "leaf": "aud.ret/audio_text_matching",
+  "status": "released",
+  "version": 1,
+  "source": "SONYC-UST v2.3, test split, verified labels (Cartwright et al., 2020)",
+  "url": "https://zenodo.org/records/3966543",
+  "license": "CC BY 4.0",
+  "tier": "C",
+  "criteria_source": "Written; template descriptions of the SONYC-UST coarse classes, e.g. 'An engine is audible.'",
+  "redistributable": true,
+  "notes": "250 recordings, each asked with one matching and one non-matching description (250 yes, 250 no). The descriptions only say which coarse classes are audible, so this does not test free-form captions. The recordings are also in aud.basic/sound_event/sonyc_ust.",
+  "media_root": "audio_delivery",
+  "frozen": true,
+  "diagnostic_only": false,
+  "items": 500,
+  "modalities": [
+   "audio"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/aud/ret/audio_text_matching/sonyc_tag_descriptions.jsonl",
+  "sha256": "7ada0f8c8f93bcead35feeffa27cfae96d50f91a8c6ceea08e5286bbe7ffd079",
+  "label_counts": {
+   "true": 250,
+   "false": 250
+  }
+ }
+]

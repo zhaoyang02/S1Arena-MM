@@ -1,0 +1,31 @@
+[
+ {
+  "name": "lvid.embodied/ego_plan/egoplan_bench2",
+  "leaf": "lvid.embodied/ego_plan",
+  "status": "released",
+  "version": 1,
+  "source": "EgoPlan-Bench2 (Qiu et al., 2024)",
+  "url": "https://github.com/qiulu66/EgoPlan-Bench2",
+  "license": "Questions: published by the EgoPlan-Bench2 authors, no license stated; clips cut from Ego4D (Ego4D license)",
+  "tier": "A",
+  "criteria_source": "Original EgoPlan-Bench2 questions and options",
+  "redistributable": true,
+  "notes": "500 next-step planning questions on Ego4D task histories; the video ends at the current observation; 4 options. The questions are as EgoPlan-Bench2 publishes them; the clips come from its reference release (scripts/fetch/egoplan-bench2.py).",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/lvid/embodied/ego_plan/egoplan_bench2.jsonl",
+  "sha256": "945fe6d1e7d0a537001ac6c7e0b0f05619026cbd90dc03671b1f6df338a166ab",
+  "label_counts": {
+   "B": 117,
+   "A": 141,
+   "C": 135,
+   "D": 107
+  }
+ }
+]

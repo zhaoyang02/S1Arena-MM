@@ -1,0 +1,132 @@
+{
+ "model_id": "cyankiwi/diffusiongemma-26B-A4B-it-AWQ-INT4@steps1-reads1-think0-prompt-1-video",
+ "spec": "dgemma:cyankiwi/diffusiongemma-26B-A4B-it-AWQ-INT4@gpu=0.9",
+ "set": "v1",
+ "set_digest": "2906cc887102",
+ "gpu": "h100",
+ "gpus": 1,
+ "median_ms": 236.8,
+ "per_kind": {
+  "short": {
+   "requests": 200,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 200,
+   "median_ms": 681.8,
+   "p90_ms": 2018.7,
+   "mean_ms": 1082.3,
+   "median_ci95_ms": [
+    595.7,
+    809.0
+   ],
+   "gpu_s_per_1k": 1082.3
+  },
+  "long": {
+   "requests": 70,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 70,
+   "median_ms": 784.4,
+   "p90_ms": 1954.9,
+   "mean_ms": 1064.2,
+   "median_ci95_ms": [
+    637.5,
+    932.6
+   ],
+   "gpu_s_per_1k": 1064.2
+  },
+  "av": {
+   "requests": 60,
+   "failed": 0,
+   "unsupported": 60
+  },
+  "bench": {
+   "requests": 50,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 50,
+   "median_ms": 980.8,
+   "p90_ms": 1751.9,
+   "mean_ms": 1099.0,
+   "median_ci95_ms": [
+    757.3,
+    1219.1
+   ],
+   "gpu_s_per_1k": 1099.0
+  },
+  "loop": {
+   "requests": 100,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 100,
+   "median_ms": 236.8,
+   "p90_ms": 309.8,
+   "mean_ms": 252.0,
+   "median_ci95_ms": [
+    232.6,
+    250.8
+   ],
+   "gpu_s_per_1k": 252.0
+  }
+ },
+ "repeat": {
+  "n": 30,
+  "ratio_median": 1.023,
+  "abs_change_p50": 0.025
+ },
+ "consistency": {
+  "questions": 320,
+  "no_cached_row": 0,
+  "status_changed": 0,
+  "top_option_agreement": 0.9563,
+  "max_abs_diff_p50": 0.02257,
+  "max_abs_diff_p95": 0.11378,
+  "verdict": "differs from the accuracy run"
+ },
+ "load_s": 115.3,
+ "warmup_ms": [
+  1200.2,
+  570.1,
+  1065.2,
+  486.8,
+  1539.2,
+  1868.0,
+  493.9,
+  1155.9,
+  504.2,
+  4040.5
+ ],
+ "peak_memory_mib": {
+  "0": 74591
+ },
+ "machine": {
+  "host": "",
+  "gpus": [
+   {
+    "index": "0",
+    "name": "NVIDIA H100 PCIe",
+    "memory_mib": 81559,
+    "driver": "570.195.03"
+   }
+  ],
+  "cpu": "AMD EPYC 9454 48-Core Processor",
+  "cpu_count": 96,
+  "python": "3.12.15",
+  "packages": {
+   "jevarena-mm": "0.1.0.dev0",
+   "torch": "2.13.0+cu129",
+   "vllm": "0.31.0+cu129",
+   "transformers": "5.17.0",
+   "av": "19.0.1",
+   "numpy": "2.3.5"
+  },
+  "commit": "c6b61b21c43aebcb8c10c9cd561452b6b845884e",
+  "env": {
+   "CUDA_VISIBLE_DEVICES": "0",
+   "JEVARENA_MM_DECODE_THREADS": "4",
+   "OMP_NUM_THREADS": "96",
+   "CUDA_HOME": "/opt/apps/cuda/12.8"
+  }
+ },
+ "measured": "2026-10-16T07:29:12-0500"
+}

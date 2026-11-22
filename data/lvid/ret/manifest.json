@@ -1,0 +1,89 @@
+[
+ {
+  "name": "lvid.ret/moment/charades_sta",
+  "leaf": "lvid.ret/moment",
+  "status": "released",
+  "version": 2,
+  "source": "Charades-STA (Gao et al., 2017)",
+  "url": "https://github.com/jiyanggao/TALL",
+  "license": "Charades license (non-commercial research)",
+  "tier": "C",
+  "criteria_source": "Written; gold is the quarter that holds every interval of the query; the query is quoted verbatim",
+  "redistributable": false,
+  "notes": "114 Charades-STA test events, one per video, 29 / 28 / 29 / 28 per quarter, the correct option equally often in each position; every annotated window of the event lies in the answer quarter of the whole video (decoded duration). OneJev-27B scores 43.0 % and Jev-Omni 37.7 % (chance 25 %). Media: the official Charades license allows local evaluation only, no redistribution. The queries, windows and gold quarters ship as a recipe; `jevarena-mm build` fills them in from the Charades-STA test annotations, fetched with the videos. Leaf score: the mean of its sources, so these 114 items weigh as much as Ego4D-NLQ's 247 and QVHighlights's 139.",
+  "media_root": "",
+  "frozen": true,
+  "items": 114,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data_local/lvid/ret/moment/charades_sta.jsonl",
+  "sha256": "7f59016dc4eaf3280f5d75552a7bc5c86d897723cc18140217e0ba50c12c1f06",
+  "label_counts": {
+   "fourth_quarter": 28,
+   "second_quarter": 28,
+   "third_quarter": 29,
+   "first_quarter": 29
+  }
+ },
+ {
+  "name": "lvid.ret/moment/ego4d_nlq",
+  "leaf": "lvid.ret/moment",
+  "status": "released",
+  "version": 2,
+  "source": "Ego4D natural language queries, validation split (Grauman et al., 2022)",
+  "url": "https://ego4d-data.org/",
+  "license": "Ego4D license agreement",
+  "tier": "C",
+  "criteria_source": "Written; gold is the quarter that holds all annotated response windows; the query is quoted verbatim",
+  "redistributable": false,
+  "notes": "247 NLQ validation queries from 247 parent videos, 62 / 62 / 62 / 61 per quarter, the correct option equally often in each position; every annotation of the query lies in the answer quarter of the official clip, and the selection is spread over query templates and clip lengths. OneJev-27B scores 51.4 % and Jev-Omni 29.6 % (chance 25 %). The queries and gold quarters ship as a recipe; `jevarena-mm build` fills them in from your copy of the Ego4D annotations (Ego4D license; fetched with the videos). Leaf score: the mean of its sources, so these 247 items weigh as much as Charades-STA's 114 and QVHighlights's 139.",
+  "media_root": "",
+  "frozen": true,
+  "items": 247,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data_local/lvid/ret/moment/ego4d_nlq.jsonl",
+  "sha256": "bc4afbe12a07e2cf32a5324b7c55613aa0e3f4c6c54bdc124434e0e3ce1abf79",
+  "label_counts": {
+   "second_quarter": 62,
+   "fourth_quarter": 61,
+   "third_quarter": 62,
+   "first_quarter": 62
+  }
+ },
+ {
+  "name": "lvid.ret/moment/qvhighlights",
+  "leaf": "lvid.ret/moment",
+  "status": "released",
+  "version": 1,
+  "source": "QVHighlights, validation split (Lei et al., 2021)",
+  "url": "https://github.com/jayleicn/moment_detr",
+  "license": "CC BY-NC-SA 4.0 (annotations); YouTube videos, no license stated",
+  "tier": "C",
+  "criteria_source": "Written; gold is the quarter that holds the annotated moment; the query is quoted verbatim",
+  "redistributable": true,
+  "notes": "137 videos, 139 queries with a single moment. Leaf score: the mean of its sources, so these 139 items weigh as much as Charades-STA's 114 and Ego4D-NLQ's 247.",
+  "media_root": "",
+  "frozen": true,
+  "items": 139,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/lvid/ret/moment/qvhighlights.jsonl",
+  "sha256": "5753f196d8d12c93b4c453273cc93706029d860293f71b9d81213af4b0b54ff4",
+  "label_counts": {
+   "first_quarter": 45,
+   "second_quarter": 26,
+   "fourth_quarter": 45,
+   "third_quarter": 23
+  }
+ }
+]

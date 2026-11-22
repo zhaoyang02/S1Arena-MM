@@ -1,0 +1,132 @@
+{
+ "model_id": "OmniJev/OneJev-0.8B@fps=1,min_frames=2,revision=c3939d8",
+ "spec": "onejev:OmniJev/OneJev-0.8B@gpu_layers=1000",
+ "set": "v1",
+ "set_digest": "2906cc887102",
+ "gpu": "h100",
+ "gpus": 1,
+ "median_ms": 182.8,
+ "per_kind": {
+  "short": {
+   "requests": 200,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 200,
+   "median_ms": 352.9,
+   "p90_ms": 5976.5,
+   "mean_ms": 3382.3,
+   "median_ci95_ms": [
+    275.2,
+    489.5
+   ],
+   "gpu_s_per_1k": 3382.3
+  },
+  "long": {
+   "requests": 70,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 70,
+   "median_ms": 863.6,
+   "p90_ms": 28341.9,
+   "mean_ms": 8599.1,
+   "median_ci95_ms": [
+    478.1,
+    1730.0
+   ],
+   "gpu_s_per_1k": 8599.1
+  },
+  "av": {
+   "requests": 60,
+   "failed": 0,
+   "unsupported": 60
+  },
+  "bench": {
+   "requests": 50,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 50,
+   "median_ms": 932.2,
+   "p90_ms": 2408.4,
+   "mean_ms": 1208.0,
+   "median_ci95_ms": [
+    464.8,
+    1528.2
+   ],
+   "gpu_s_per_1k": 1208.0
+  },
+  "loop": {
+   "requests": 100,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 100,
+   "median_ms": 182.8,
+   "p90_ms": 321.7,
+   "mean_ms": 211.8,
+   "median_ci95_ms": [
+    178.8,
+    193.3
+   ],
+   "gpu_s_per_1k": 211.8
+  }
+ },
+ "repeat": {
+  "n": 30,
+  "ratio_median": 0.939,
+  "abs_change_p50": 0.064
+ },
+ "consistency": {
+  "questions": 320,
+  "no_cached_row": 0,
+  "status_changed": 0,
+  "top_option_agreement": 0.975,
+  "max_abs_diff_p50": 0.00404,
+  "max_abs_diff_p95": 0.01786,
+  "verdict": "differs from the accuracy run"
+ },
+ "load_s": 20.2,
+ "warmup_ms": [
+  2071.4,
+  381.5,
+  1976.2,
+  144.1,
+  70324.0,
+  3315.3,
+  163.7,
+  1945.2,
+  213.0,
+  24975.1
+ ],
+ "peak_memory_mib": {
+  "0": 8541
+ },
+ "machine": {
+  "host": "",
+  "gpus": [
+   {
+    "index": "0",
+    "name": "NVIDIA H100 PCIe",
+    "memory_mib": 81559,
+    "driver": "570.195.03"
+   }
+  ],
+  "cpu": "AMD EPYC 9454 48-Core Processor",
+  "cpu_count": 96,
+  "python": "3.11.17",
+  "packages": {
+   "jevarena-mm": "0.1.0.dev0",
+   "torch": "2.11.0+cu128",
+   "transformers": "5.17.0",
+   "av": "18.1.0",
+   "numpy": "2.4.6"
+  },
+  "commit": "7a58582807a49f858b825ac2fd8f3cfced929252",
+  "env": {
+   "CUDA_VISIBLE_DEVICES": "0",
+   "JEVARENA_MM_DECODE_THREADS": "4",
+   "OMP_NUM_THREADS": "96",
+   "CUDA_HOME": "/opt/apps/cuda/12.8",
+   "TORCH_CUDNN_SDPA_DEPRIORITIZED": "1"
+  }
+ },
+ "measured": "2026-10-17T03:00:41-0500"
+}

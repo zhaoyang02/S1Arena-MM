@@ -1,0 +1,1449 @@
+{
+ "gameworld": {
+  "upstream": "GameWorld @ 3c26bda",
+  "envs": {
+   "01_2048": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "01_01",
+      "01_02",
+      "01_03",
+      "01_04",
+      "01_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "02_another-gentlemans-adventure": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "02_01",
+      "02_02",
+      "02_03",
+      "02_04",
+      "02_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "03_astray": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "03_01",
+      "03_02",
+      "03_03",
+      "03_04",
+      "03_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "04_boxel-rebound": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "04_01",
+      "04_02",
+      "04_03",
+      "04_04",
+      "04_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "05_breakout": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "05_01",
+      "05_02",
+      "05_03",
+      "05_04",
+      "05_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "06_captaincallisto": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "06_01",
+      "06_02",
+      "06_03",
+      "06_04",
+      "06_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "07_chrome-dino": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "07_01",
+      "07_02",
+      "07_03",
+      "07_04",
+      "07_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "08_core-ball": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "08_01",
+      "08_02",
+      "08_03",
+      "08_04",
+      "08_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "09_cubefield": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "09_01",
+      "09_02",
+      "09_03",
+      "09_04",
+      "09_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "10_doodle-jump": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "10_01",
+      "10_02",
+      "10_03",
+      "10_04",
+      "10_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "11_edge-surf": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "11_01",
+      "11_02",
+      "11_03",
+      "11_04",
+      "11_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "12_fireboy-and-watergirl": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "12_01",
+      "12_02",
+      "12_03",
+      "12_04",
+      "12_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "13_flappy-bird": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "13_01",
+      "13_02",
+      "13_03",
+      "13_04",
+      "13_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "14_geodash": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "14_01",
+      "14_02",
+      "14_03",
+      "14_04",
+      "14_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "15_google-snake": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "15_01",
+      "15_02",
+      "15_03",
+      "15_04",
+      "15_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "16_hextris": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "16_01",
+      "16_02",
+      "16_03",
+      "16_04",
+      "16_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "17_mario-game": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "17_01",
+      "17_02",
+      "17_03",
+      "17_04",
+      "17_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "18_minecraft-clone-glm": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "18_01",
+      "18_02",
+      "18_03",
+      "18_04",
+      "18_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "19_minesweeper": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "19_01",
+      "19_02",
+      "19_03",
+      "19_04",
+      "19_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "20_monkey-mart": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "20_01",
+      "20_02",
+      "20_03",
+      "20_04",
+      "20_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "21_ns-shaft": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "21_01",
+      "21_02",
+      "21_03",
+      "21_04",
+      "21_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "22_ovo": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "22_01",
+      "22_02",
+      "22_03",
+      "22_04",
+      "22_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "23_pacman": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "23_01",
+      "23_02",
+      "23_03",
+      "23_04",
+      "23_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "24_restless-wing-syndrome": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "24_01",
+      "24_02",
+      "24_03",
+      "24_04",
+      "24_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "25_rocket-league-2d": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "25_01",
+      "25_02",
+      "25_03",
+      "25_04",
+      "25_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "26_run-3": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "26_01",
+      "26_02",
+      "26_03",
+      "26_04",
+      "26_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "27_stack": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "27_01",
+      "27_02",
+      "27_03",
+      "27_04",
+      "27_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "28_temple-run-2": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "28_01",
+      "28_02",
+      "28_03",
+      "28_04",
+      "28_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "29_tetris": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "29_01",
+      "29_02",
+      "29_03",
+      "29_04",
+      "29_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "30_vex-3": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "30_01",
+      "30_02",
+      "30_03",
+      "30_04",
+      "30_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "31_wolf3d": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "31_01",
+      "31_02",
+      "31_03",
+      "31_04",
+      "31_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "32_wordle": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "32_01",
+      "32_02",
+      "32_03",
+      "32_04",
+      "32_05"
+     ],
+     "upstream_seed": 42
+    },
+    "unsupported": "type_text.text: non-enumerable action parameter"
+   },
+   "33_worlds-hardest-game": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "33_01",
+      "33_02",
+      "33_03",
+      "33_04",
+      "33_05"
+     ],
+     "upstream_seed": 42
+    }
+   },
+   "34_worlds-hardest-game-2": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "tasks": [
+      "34_01",
+      "34_02",
+      "34_03",
+      "34_04",
+      "34_05"
+     ],
+     "upstream_seed": 42
+    }
+   }
+  }
+ },
+ "balrog_pixels": {
+  "upstream": "BALROG @ b7afe79",
+  "envs": {
+   "babyai-goto": {
+    "episodes": 10,
+    "max_decisions": 64,
+    "details": {
+     "suite": "babyai",
+     "task": "BabyAI-MixedTrainLocal-v0/goto",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+     ]
+    }
+   },
+   "babyai-open": {
+    "episodes": 10,
+    "max_decisions": 128,
+    "details": {
+     "suite": "babyai",
+     "task": "BabyAI-MixedTrainLocal-v0/open",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+     ]
+    }
+   },
+   "babyai-pick-up-seq-go-to": {
+    "episodes": 10,
+    "max_decisions": 128,
+    "details": {
+     "suite": "babyai",
+     "task": "BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+     ]
+    }
+   },
+   "babyai-pickup": {
+    "episodes": 10,
+    "max_decisions": 64,
+    "details": {
+     "suite": "babyai",
+     "task": "BabyAI-MixedTrainLocal-v0/pickup",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+     ]
+    }
+   },
+   "babyai-putnext": {
+    "episodes": 10,
+    "max_decisions": 128,
+    "details": {
+     "suite": "babyai",
+     "task": "BabyAI-MixedTrainLocal-v0/putnext",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+     ]
+    }
+   },
+   "babaisai-goto-win": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/goto_win",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-goto-win-distr-obj": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/goto_win-distr_obj",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-goto-win-distr-obj-irrelevant-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/goto_win-distr_obj-irrelevant_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-goto-win-distr-obj-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/goto_win-distr_obj_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-goto-win-distr-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/goto_win-distr_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-make-win": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/make_win",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-make-win-distr-obj": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/make_win-distr_obj",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-make-win-distr-obj-irrelevant-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/make_win-distr_obj-irrelevant_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-make-win-distr-obj-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/make_win-distr_obj_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-make-win-distr-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/make_win-distr_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-break-stop-goto-win": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-break_stop-goto_win",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-break-stop-goto-win-distr-obj": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-break_stop-goto_win-distr_obj",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-break-stop-goto-win-distr-obj-irrelevant-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-break_stop-goto_win-distr_obj-irrelevant_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-break-stop-goto-win-distr-obj-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-break_stop-goto_win-distr_obj_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-break-stop-goto-win-distr-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-break_stop-goto_win-distr_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-break-stop-make-win": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-break_stop-make_win",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-break-stop-make-win-distr-obj": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-break_stop-make_win-distr_obj",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-break-stop-make-win-distr-obj-irrelevant-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-break_stop-make_win-distr_obj-irrelevant_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-break-stop-make-win-distr-obj-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-break_stop-make_win-distr_obj_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-break-stop-make-win-distr-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-break_stop-make_win-distr_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-goto-win": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-goto_win",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-goto-win-distr-obj": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-goto_win-distr_obj",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-goto-win-distr-obj-irrelevant-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-goto_win-distr_obj-irrelevant_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-goto-win-distr-obj-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-goto_win-distr_obj_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-goto-win-distr-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-goto_win-distr_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-goto-win-distr-win-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-goto_win-distr_win_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-make-wall-win": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-make_wall_win",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-make-win": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-make_win",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-make-win-distr-obj": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-make_win-distr_obj",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-make-win-distr-obj-irrelevant-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-make_win-distr_obj-irrelevant_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-make-win-distr-obj-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-make_win-distr_obj_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-make-win-distr-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-make_win-distr_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-make-win-distr-win-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-make_win-distr_win_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-make-you": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-make_you",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-make-you-make-win": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-make_you-make_win",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-maybe-break-stop-goto-win": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-maybe_break_stop-goto_win",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-maybe-break-stop-goto-win-distr-obj": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-maybe_break_stop-goto_win-distr_obj",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-maybe-break-stop-goto-win-distr-obj-irrelevant-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-maybe_break_stop-goto_win-distr_obj-irrelevant_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-maybe-break-stop-goto-win-distr-obj-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-maybe_break_stop-goto_win-distr_obj_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "babaisai-two-room-maybe-break-stop-goto-win-distr-rule": {
+    "episodes": 3,
+    "max_decisions": 100,
+    "details": {
+     "suite": "babaisai",
+     "task": "env/two_room-maybe_break_stop-goto_win-distr_rule",
+     "seeds": [
+      42,
+      43,
+      44
+     ]
+    }
+   },
+   "minihack-minihack-boxoban-hard-v0": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "suite": "minihack",
+     "task": "MiniHack-Boxoban-Hard-v0",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+     ]
+    }
+   },
+   "minihack-minihack-boxoban-medium-v0": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "suite": "minihack",
+     "task": "MiniHack-Boxoban-Medium-v0",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+     ]
+    }
+   },
+   "minihack-minihack-corridor-r3-v0": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "suite": "minihack",
+     "task": "MiniHack-Corridor-R3-v0",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+     ]
+    }
+   },
+   "minihack-minihack-corridorbattle-dark-v0": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "suite": "minihack",
+     "task": "MiniHack-CorridorBattle-Dark-v0",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+     ]
+    }
+   },
+   "minihack-minihack-mazewalk-15x15-v0": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "suite": "minihack",
+     "task": "MiniHack-MazeWalk-15x15-v0",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+     ]
+    }
+   },
+   "minihack-minihack-mazewalk-9x9-v0": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "suite": "minihack",
+     "task": "MiniHack-MazeWalk-9x9-v0",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+     ]
+    }
+   },
+   "minihack-minihack-quest-easy-v0": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "suite": "minihack",
+     "task": "MiniHack-Quest-Easy-v0",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+     ]
+    }
+   },
+   "minihack-minihack-quest-medium-v0": {
+    "episodes": 5,
+    "max_decisions": 100,
+    "details": {
+     "suite": "minihack",
+     "task": "MiniHack-Quest-Medium-v0",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+     ]
+    }
+   },
+   "crafter-default": {
+    "episodes": 10,
+    "max_decisions": 2000,
+    "details": {
+     "suite": "crafter",
+     "task": "default",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+     ]
+    }
+   },
+   "nle-nethackchallenge-v0": {
+    "episodes": 5,
+    "max_decisions": 100000,
+    "details": {
+     "suite": "nle",
+     "task": "NetHackChallenge-v0",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+     ]
+    },
+    "blocked": "Frozen official BALROG declares 248 actions, but balrog-nle 0.9.0 pre_step cannot execute 100 advertised two-digit actions (00\u201399). No action filtering, default fallback or custom multi-key executor is authorized; upstream action contract is blocked."
+   },
+   "textworld-coin-collector": {
+    "episodes": 10,
+    "max_decisions": 80,
+    "details": {
+     "suite": "textworld",
+     "task": "coin_collector",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+     ]
+    },
+    "unsupported": "Official TextWorldWrapper.language_action_space is AlwaysTrue: unrestricted natural-language commands, no complete finite candidate list. Classification adapters do not support free-text actions. No hidden admissible-action filtering used."
+   },
+   "textworld-the-cooking-game": {
+    "episodes": 10,
+    "max_decisions": 80,
+    "details": {
+     "suite": "textworld",
+     "task": "the_cooking_game",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+     ]
+    },
+    "unsupported": "Official TextWorldWrapper.language_action_space is AlwaysTrue: unrestricted natural-language commands, no complete finite candidate list. Classification adapters do not support free-text actions. No hidden admissible-action filtering used."
+   },
+   "textworld-treasure-hunter": {
+    "episodes": 10,
+    "max_decisions": 80,
+    "details": {
+     "suite": "textworld",
+     "task": "treasure_hunter",
+     "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+     ]
+    },
+    "unsupported": "Official TextWorldWrapper.language_action_space is AlwaysTrue: unrestricted natural-language commands, no complete finite candidate list. Classification adapters do not support free-text actions. No hidden admissible-action filtering used."
+   }
+  }
+ },
+ "vsbench": {
+  "upstream": "VS-Bench @ 2c3531c",
+  "envs": {
+   "atari_pong": {
+    "episodes": 10,
+    "max_decisions": 0,
+    "version": 2,
+    "details": {
+     "model_roles": [
+      0
+     ],
+     "upstream_seeds": "episode i at seed i; environment and opponents on isolated random streams"
+    }
+   },
+   "battle_of_the_colors": {
+    "episodes": 10,
+    "max_decisions": 0,
+    "version": 2,
+    "details": {
+     "model_roles": [
+      0,
+      1
+     ],
+     "upstream_seeds": "episode i at seed i; environment and opponents on isolated random streams"
+    }
+   },
+   "breakthrough": {
+    "episodes": 10,
+    "max_decisions": 0,
+    "version": 2,
+    "details": {
+     "model_roles": [
+      0
+     ],
+     "upstream_seeds": "episode i at seed i; environment and opponents on isolated random streams"
+    }
+   },
+   "coin_dilemma": {
+    "episodes": 10,
+    "max_decisions": 0,
+    "version": 2,
+    "details": {
+     "model_roles": [
+      0,
+      1
+     ],
+     "upstream_seeds": "episode i at seed i; environment and opponents on isolated random streams"
+    }
+   },
+   "hanabi": {
+    "episodes": 10,
+    "max_decisions": 0,
+    "version": 2,
+    "details": {
+     "model_roles": [
+      0,
+      1
+     ],
+     "upstream_seeds": "episode i at seed i; environment and opponents on isolated random streams"
+    }
+   },
+   "knights_archers_zombies": {
+    "episodes": 10,
+    "max_decisions": 0,
+    "version": 2,
+    "details": {
+     "model_roles": [
+      0,
+      1
+     ],
+     "upstream_seeds": "episode i at seed i; environment and opponents on isolated random streams"
+    }
+   },
+   "kuhn_poker": {
+    "episodes": 10,
+    "max_decisions": 0,
+    "version": 2,
+    "details": {
+     "model_roles": [
+      1
+     ],
+     "upstream_seeds": "episode i at seed i; environment and opponents on isolated random streams"
+    }
+   },
+   "monster_hunt": {
+    "episodes": 10,
+    "max_decisions": 0,
+    "version": 2,
+    "details": {
+     "model_roles": [
+      0,
+      1
+     ],
+     "upstream_seeds": "episode i at seed i; environment and opponents on isolated random streams"
+    }
+   },
+   "overcooked": {
+    "episodes": 10,
+    "max_decisions": 0,
+    "version": 2,
+    "details": {
+     "model_roles": [
+      0,
+      1
+     ],
+     "upstream_seeds": "episode i at seed i; environment and opponents on isolated random streams"
+    }
+   },
+   "simple_push": {
+    "episodes": 10,
+    "max_decisions": 0,
+    "version": 2,
+    "details": {
+     "model_roles": [
+      0
+     ],
+     "upstream_seeds": "episode i at seed i; environment and opponents on isolated random streams"
+    }
+   }
+  }
+ }
+}

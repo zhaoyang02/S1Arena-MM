@@ -1,0 +1,30 @@
+[
+ {
+  "name": "lvid.judge/meeting_summary/tofueval_meetingbank",
+  "leaf": "lvid.judge/meeting_summary",
+  "status": "released",
+  "version": 1,
+  "source": "TofuEval, MeetingBank topic summaries (Tang et al., 2024; Hu et al., 2023)",
+  "url": "https://github.com/amazon-science/tofueval",
+  "license": "MeetingBank: CC BY-NC-ND 4.0 (the strictest of its stated licenses); TofuEval: MIT-0",
+  "tier": "B",
+  "criteria_source": "Adapted from TofuEval's sentence-level factual consistency labels",
+  "redistributable": true,
+  "notes": "50 meetings, 500 summary sentences (250 faithful, 250 not); the agenda segment's audio and video are the input.",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "audio",
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/lvid/judge/meeting_summary/tofueval_meetingbank.jsonl",
+  "sha256": "9d35d85f026812666ebe28f610dc3935926b75d1cc78dc578552a1922bf5b90f",
+  "label_counts": {
+   "true": 250,
+   "false": 250
+  }
+ }
+]

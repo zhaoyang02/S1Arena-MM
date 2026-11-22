@@ -1,0 +1,31 @@
+[
+ {
+  "name": "vid.game/physics_bug/physgame",
+  "leaf": "vid.game/physics_bug",
+  "status": "released",
+  "version": 1,
+  "source": "PhysGame (Cao et al., 2024)",
+  "url": "https://huggingface.co/datasets/PhysGame/GameBench",
+  "license": "Apache-2.0 (dataset card); gameplay clips from Reddit and YouTube, rights not established",
+  "tier": "A",
+  "criteria_source": "Original PhysGame questions and options",
+  "redistributable": true,
+  "notes": "500 gameplay videos, one question each; 4 options.",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/game/physics_bug/physgame.jsonl",
+  "sha256": "194c70b9deede35273b59358beff08a2b6c4c96017d374898a77aa8379af5ac9",
+  "label_counts": {
+   "B": 122,
+   "D": 112,
+   "A": 146,
+   "C": 120
+  }
+ }
+]

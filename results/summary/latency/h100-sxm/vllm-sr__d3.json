@@ -1,0 +1,128 @@
+{
+ "model_id": "vllm-sr/d3",
+ "spec": "d3",
+ "set": "v1",
+ "set_digest": "2906cc887102",
+ "gpu": "h100",
+ "gpus": 1,
+ "median_ms": 537.0,
+ "per_kind": {
+  "short": {
+   "requests": 200,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 200,
+   "median_ms": 507.0,
+   "p90_ms": 2217.4,
+   "mean_ms": 1012.7,
+   "median_ci95_ms": [
+    452.6,
+    680.2
+   ],
+   "gpu_s_per_1k": 1012.7
+  },
+  "long": {
+   "requests": 70,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 70,
+   "median_ms": 734.1,
+   "p90_ms": 2359.7,
+   "mean_ms": 1061.9,
+   "median_ci95_ms": [
+    542.6,
+    929.4
+   ],
+   "gpu_s_per_1k": 1061.9
+  },
+  "av": {
+   "requests": 60,
+   "failed": 0,
+   "unsupported": 60
+  },
+  "bench": {
+   "requests": 50,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 50,
+   "median_ms": 1138.1,
+   "p90_ms": 1955.3,
+   "mean_ms": 1198.4,
+   "median_ci95_ms": [
+    832.3,
+    1376.0
+   ],
+   "gpu_s_per_1k": 1198.4
+  },
+  "loop": {
+   "requests": 100,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 100,
+   "median_ms": 537.0,
+   "p90_ms": 719.8,
+   "mean_ms": 537.6,
+   "median_ci95_ms": [
+    529.9,
+    547.8
+   ],
+   "gpu_s_per_1k": 537.6
+  }
+ },
+ "repeat": {
+  "n": 30,
+  "ratio_median": 0.999,
+  "abs_change_p50": 0.008
+ },
+ "consistency": {
+  "questions": 0,
+  "no_cached_row": 320,
+  "status_changed": 0,
+  "verdict": "no cached accuracy run to compare with (JEVARENA_MM_RUNS)"
+ },
+ "load_s": 19.1,
+ "warmup_ms": [
+  2153.3,
+  528.8,
+  1325.2,
+  326.5,
+  2035.0,
+  2382.3,
+  298.8,
+  1191.0,
+  204.9,
+  4809.2
+ ],
+ "peak_memory_mib": {
+  "0": 56027
+ },
+ "machine": {
+  "host": "",
+  "gpus": [
+   {
+    "index": "0",
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_mib": 81559,
+    "driver": "580.95.05"
+   }
+  ],
+  "cpu": "Intel(R) Xeon(R) Platinum 8480C",
+  "cpu_count": 96,
+  "python": "3.11.15",
+  "packages": {
+   "jevarena-mm": "0.1.0.dev0",
+   "torch": "2.11.0+cu128",
+   "transformers": "5.17.0",
+   "av": "18.1.0",
+   "numpy": "2.4.6"
+  },
+  "commit": "53194ab144dd4542868a841b8ba74a64b686f966",
+  "env": {
+   "CUDA_VISIBLE_DEVICES": "0",
+   "JEVARENA_MM_DECODE_THREADS": "4",
+   "OMP_NUM_THREADS": "16",
+   "LD_LIBRARY_PATH": ":/usr/local/cuda/lib64"
+  }
+ },
+ "measured": "2026-10-18T03:29:51+0000"
+}

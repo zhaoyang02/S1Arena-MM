@@ -1,0 +1,59 @@
+[
+ {
+  "name": "lvid.route/escalation/jev_pair",
+  "leaf": "lvid.route/escalation",
+  "status": "released",
+  "version": 1,
+  "source": "Escalation between Jev-Omni and OneJev-27B on other long-video leaves (built for this benchmark)",
+  "url": "",
+  "license": "Inherits the licenses of the quoted source questions",
+  "tier": "C",
+  "criteria_source": "Written; gold = the stronger system B answers the original question correctly and A does not",
+  "redistributable": false,
+  "notes": "500 questions from Video-MME, VSI-Bench, VideoMMMU, Ego4D-NLQ, UCF-Crime, QVHighlights and Charades-STA, each with system A's actual answer quoted (250 escalate, 250 not). A (Jev-Omni) and B (OneJev-27B) are frozen, fixed systems whose answers are recorded: the item asks whether, for this fixed pair, the question should go from A to B, so any model can be scored on it. The 70 items that quote Ego4D queries and the 113 that quote Video-MME ship as a recipe; `jevarena-mm build` fills them in from those sources' annotations (fetched with the videos; Ego4D needs its license).",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data_local/lvid/route/escalation/jev_pair.jsonl",
+  "sha256": "3d5baabc26e839d31d2423192956333af094bf64ebc1ea58ffa1f11dbcc8d259",
+  "label_counts": {
+   "true": 250,
+   "false": 250
+  }
+ },
+ {
+  "name": "lvid.route/segment/qvhighlights",
+  "leaf": "lvid.route/segment",
+  "status": "released",
+  "version": 1,
+  "source": "QVHighlights saliency scores, validation split (Lei et al., 2021)",
+  "url": "https://github.com/jayleicn/moment_detr",
+  "license": "CC BY-NC-SA 4.0 (annotations); YouTube videos, no license stated",
+  "tier": "B",
+  "criteria_source": "Original five-level saliency scale (0 Very Bad to 4 Very Good)",
+  "redistributable": true,
+  "notes": "482 videos, 500 two-second clips; gold is the distribution of the three annotators' ratings.",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/lvid/route/segment/qvhighlights.jsonl",
+  "sha256": "e9091017d9e692e3d6aa2ce603c9af99c8ca8eccbd4dfecaac16dc69928c37f3",
+  "label_counts": {
+   "4": 155,
+   "1": 100,
+   "0": 93,
+   "2": 93,
+   "3": 59
+  }
+ }
+]

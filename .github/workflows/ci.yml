@@ -1,0 +1,38 @@
+# Every push to main and every pull request: lint, tests, and the consistency of the committed items, manifests,
+# generated docs and released task versions. Needs no media, models, GPU or secrets.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04  # pinned: a new image can lag behind the Python builds
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0  # release tags: `check` compares released tasks with the last one
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+      - name: Install
+        run: pip install -e ".[image,video,audio,dev]"
+      - name: Lint
+        run: ruff check jevarena_mm tests scripts
+      - name: Tests
+        run: python -m pytest -q
+      - name: Items, manifests and generated docs
+        run: jevarena-mm check

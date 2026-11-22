@@ -1,0 +1,611 @@
+{
+ "plan": "audio_nvidia__Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16_at_label-think0-ctx65536-video",
+ "models": [
+  "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video"
+ ],
+ "overall": {
+  "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+   "static_accuracy": null,
+   "leaves": 0,
+   "envs": 0,
+   "static_answers": 0,
+   "static_unanswered": 0,
+   "env_decisions": 0,
+   "env_failed_decisions": 0
+  }
+ },
+ "static": {},
+ "preview": {
+  "aud.basic/acoustic_scene/tau2019": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.162
+  },
+  "aud.basic/emotion/cremad": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.5380952380952381
+  },
+  "aud.basic/intent/slurp": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.47
+  },
+  "aud.basic/language_id/voxlingua107_dev": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.39341205717837163
+  },
+  "aud.basic/sound_event/sonyc_ust": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.652
+  },
+  "aud.basic/speaker_change/ami": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.776
+  },
+  "aud.dialog/dialogue_state/spokenwoz": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.7565
+  },
+  "aud.dialog/interrupt_backchannel/full_duplex_bench_v15": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.4664429530201342
+  },
+  "aud.dialog/turn_timing/full_duplex_bench_v1": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.5313432835820896
+  },
+  "aud.judge/data_cleaning/nisqa_livetalk": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.4525862068965517
+  },
+  "aud.judge/data_cleaning/signal_defects_synthetic": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.573394495412844
+  },
+  "aud.judge/naturalness/bvcc": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.21592442645074225
+  },
+  "aud.know/music_understanding/mmau_mini": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.6761904761904762
+  },
+  "aud.know/reasoning/mmau_mini": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.7333333333333333
+  },
+  "aud.know/sound_qa/mmau_mini": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.6111111111111112
+  },
+  "aud.pro/heart_sound/physionet2016": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.5083056478405316
+  },
+  "aud.pro/heart_sound/respiratory_icbhi2017": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.28
+  },
+  "aud.pro/machine_anomaly/mimii_pump_dcase2020": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.526
+  },
+  "aud.ret/audio_text_matching/sonyc_tag_descriptions": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.642
+  },
+  "aud.safety/spoof_detection/asvspoof2019_la": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.49
+  },
+  "aud.safety/toxicity/mutox": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": 0.7964071856287425
+  }
+ },
+ "envs": {},
+ "task_metrics": {
+  "aud.basic/acoustic_scene/tau2019": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.162,
+    "accuracy_se": 0.016494123566423557,
+    "maj": 0.162,
+    "brier": 1.279116766664135,
+    "ece": 0.555426331106042,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/acoustic_scene",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/emotion/cremad": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 1470,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5380952380952381,
+    "accuracy_se": 0.013007531798215899,
+    "maj": 0.5380952380952381,
+    "brier": 0.6010956097615672,
+    "ece": 0.4328610750682781,
+    "error_rate": 0.0,
+    "answers": 1470,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/emotion",
+    "status": "preview",
+    "expected_items": 1470,
+    "recorded_items": 1470,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/intent/slurp": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.47,
+    "accuracy_se": 0.022342748192502798,
+    "maj": 0.47,
+    "brier": 0.7150778631753092,
+    "ece": 0.1900977059690539,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/intent",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/language_id/voxlingua107_dev": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 1609,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.39341205717837163,
+    "accuracy_se": 0.012182255325026543,
+    "maj": 0.39341205717837163,
+    "brier": 0.8471422268026987,
+    "ece": 0.27981794292211815,
+    "error_rate": 0.0,
+    "answers": 1609,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/language_id",
+    "status": "preview",
+    "expected_items": 1609,
+    "recorded_items": 1609,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/sound_event/sonyc_ust": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 4000,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.652,
+    "accuracy_se": 0.007532475326619831,
+    "maj": 0.652,
+    "brier": 0.43892076384523215,
+    "ece": 0.14520721824112487,
+    "error_rate": 0.0,
+    "answers": 4000,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/sound_event",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/speaker_change/ami": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.776,
+    "accuracy_se": 0.01866399446471086,
+    "maj": 0.776,
+    "brier": 0.3278388881099504,
+    "ece": 0.08411430466719357,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/speaker_change",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/dialogue_state/spokenwoz": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 2000,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.7565,
+    "accuracy_se": 0.009599476546926269,
+    "maj": 0.7565,
+    "brier": 0.43736181484275355,
+    "ece": 0.1769922186823121,
+    "error_rate": 0.0,
+    "answers": 2000,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.dialog/dialogue_state",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/interrupt_backchannel/full_duplex_bench_v15": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 298,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.4664429530201342,
+    "accuracy_se": 0.028947527391485064,
+    "maj": 0.4664429530201342,
+    "brier": 0.7470904117478533,
+    "ece": 0.3818698915188042,
+    "error_rate": 0.0,
+    "answers": 298,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.dialog/interrupt_backchannel",
+    "status": "preview",
+    "expected_items": 298,
+    "recorded_items": 298,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/turn_timing/full_duplex_bench_v1": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 335,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5313432835820896,
+    "accuracy_se": 0.0273049752312307,
+    "maj": 0.5313432835820896,
+    "brier": 0.5415924915312618,
+    "ece": 0.16993716068836626,
+    "error_rate": 0.0,
+    "answers": 335,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.dialog/turn_timing",
+    "status": "preview",
+    "expected_items": 335,
+    "recorded_items": 335,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/data_cleaning/nisqa_livetalk": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 464,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.4525862068965517,
+    "accuracy_se": 0.02313225811488395,
+    "maj": 0.4525862068965517,
+    "brier": 0.33376629884569825,
+    "ece": 0.22389906881708832,
+    "error_rate": 0.0,
+    "answers": 464,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.judge/data_cleaning",
+    "status": "preview",
+    "expected_items": 232,
+    "recorded_items": 232,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/data_cleaning/signal_defects_synthetic": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 436,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.573394495412844,
+    "accuracy_se": 0.02371348362949217,
+    "maj": 0.573394495412844,
+    "brier": 0.4794976660118859,
+    "ece": 0.24459997967112546,
+    "error_rate": 0.0,
+    "answers": 436,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.judge/data_cleaning",
+    "status": "preview",
+    "expected_items": 436,
+    "recorded_items": 436,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/naturalness/bvcc": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 741,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.21592442645074225,
+    "accuracy_se": 0.015125648009913862,
+    "maj": 0.21592442645074225,
+    "brier": 0.3753846938536959,
+    "ece": 0.2461347526998327,
+    "error_rate": 0.0,
+    "answers": 741,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.judge/naturalness",
+    "status": "preview",
+    "expected_items": 741,
+    "recorded_items": 741,
+    "pending_items": 0
+   }
+  },
+  "aud.know/music_understanding/mmau_mini": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 105,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.6761904761904762,
+    "accuracy_se": 0.04588414718067472,
+    "maj": 0.6761904761904762,
+    "brier": 0.411689827463122,
+    "ece": 0.09030457156205779,
+    "error_rate": 0.0,
+    "answers": 105,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.know/music_understanding",
+    "status": "preview",
+    "expected_items": 105,
+    "recorded_items": 105,
+    "pending_items": 0
+   }
+  },
+  "aud.know/reasoning/mmau_mini": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 330,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.7333333333333333,
+    "accuracy_se": 0.02438019249069104,
+    "maj": 0.7333333333333333,
+    "brier": 0.3702731621311287,
+    "ece": 0.12904482689300822,
+    "error_rate": 0.0,
+    "answers": 330,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.know/reasoning",
+    "status": "preview",
+    "expected_items": 330,
+    "recorded_items": 330,
+    "pending_items": 0
+   }
+  },
+  "aud.know/sound_qa/mmau_mini": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 36,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.6111111111111112,
+    "accuracy_se": 0.08240220541217404,
+    "maj": 0.6111111111111112,
+    "brier": 0.566100600683358,
+    "ece": 0.25823690053998144,
+    "error_rate": 0.0,
+    "answers": 36,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.know/sound_qa",
+    "status": "preview",
+    "expected_items": 36,
+    "recorded_items": 36,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/heart_sound/physionet2016": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 301,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5083056478405316,
+    "accuracy_se": 0.02886353040395146,
+    "maj": 0.5083056478405316,
+    "brier": 0.5272287374362,
+    "ece": 0.12478615117190334,
+    "error_rate": 0.0,
+    "answers": 301,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.pro/heart_sound",
+    "status": "preview",
+    "expected_items": 301,
+    "recorded_items": 301,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/heart_sound/respiratory_icbhi2017": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.28,
+    "accuracy_se": 0.020099950647503192,
+    "maj": 0.28,
+    "brier": 1.2445994614126503,
+    "ece": 0.5958172008905528,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.pro/heart_sound",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/machine_anomaly/mimii_pump_dcase2020": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.526,
+    "accuracy_se": 0.022352791650914177,
+    "maj": 0.526,
+    "brier": 0.5224010091931459,
+    "ece": 0.12717497596111518,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.pro/machine_anomaly",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.ret/audio_text_matching/sonyc_tag_descriptions": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.642,
+    "accuracy_se": 0.021461434862859133,
+    "maj": 0.642,
+    "brier": 0.5783786898558402,
+    "ece": 0.24773411567979442,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.ret/audio_text_matching",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.safety/spoof_detection/asvspoof2019_la": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.49,
+    "accuracy_se": 0.022378596989230864,
+    "maj": 0.49,
+    "brier": 0.5521858705972134,
+    "ece": 0.1633879092737375,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.safety/spoof_detection",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.safety/toxicity/mutox": {
+   "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@label-think0-ctx65536-video": {
+    "n_questions": 167,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.7964071856287425,
+    "accuracy_se": 0.03125321962283345,
+    "maj": 0.7964071856287425,
+    "brier": 0.2775742526632961,
+    "ece": 0.11717495938637015,
+    "error_rate": 0.0,
+    "answers": 167,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.safety/toxicity",
+    "status": "preview",
+    "expected_items": 167,
+    "recorded_items": 167,
+    "pending_items": 0
+   }
+  }
+ }
+}

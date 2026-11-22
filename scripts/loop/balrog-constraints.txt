@@ -1,0 +1,6 @@
+# BALROG @ b7afe79 pins neither. Its wrappers read attributes through gymnasium.Wrapper (Gymnasium 1.0 stopped
+# forwarding them), its gym 0.23 environments predate NumPy 2, and its post-install imports pkg_resources. The versions
+# VS-Bench @ 2c3531c pins for the same libraries.
+gymnasium==0.29.1
+numpy==1.26.4
+setuptools<81

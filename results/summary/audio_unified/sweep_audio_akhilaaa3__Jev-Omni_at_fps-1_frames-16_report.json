@@ -1,0 +1,632 @@
+{
+ "plan": "audio_akhilaaa3__Jev-Omni_at_fps-1_frames-16",
+ "models": [
+  "akhilaaa3/Jev-Omni@fps=1,frames=16"
+ ],
+ "overall": {
+  "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+   "static_accuracy": null,
+   "leaves": 0,
+   "envs": 0,
+   "static_answers": 0,
+   "static_unanswered": 0,
+   "env_decisions": 0,
+   "env_failed_decisions": 0
+  }
+ },
+ "static": {},
+ "preview": {
+  "aud.basic/acoustic_scene/tau2019": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.086
+  },
+  "aud.basic/emotion/cremad": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.5238095238095238
+  },
+  "aud.basic/intent/slurp": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.204
+  },
+  "aud.basic/language_id/voxlingua107_dev": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.41578620261031696
+  },
+  "aud.basic/sound_event/sonyc_ust": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.50425
+  },
+  "aud.basic/speaker_change/ami": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.57
+  },
+  "aud.dialog/dialogue_state/spokenwoz": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.714
+  },
+  "aud.dialog/interrupt_backchannel/full_duplex_bench_v15": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.697986577181208
+  },
+  "aud.dialog/turn_timing/full_duplex_bench_v1": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.4507462686567164
+  },
+  "aud.judge/data_cleaning/nisqa_livetalk": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.3642241379310345
+  },
+  "aud.judge/data_cleaning/signal_defects_synthetic": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.5045871559633027
+  },
+  "aud.judge/naturalness/bvcc": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.18353576248313092
+  },
+  "aud.know/music_understanding/mmau_mini": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.5619047619047619
+  },
+  "aud.know/reasoning/mmau_mini": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.6909090909090909
+  },
+  "aud.know/sound_qa/mmau_mini": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.3333333333333333
+  },
+  "aud.pro/heart_sound/physionet2016": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.48172757475083056
+  },
+  "aud.pro/heart_sound/respiratory_icbhi2017": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.344
+  },
+  "aud.pro/machine_anomaly/mimii_pump_dcase2020": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.48
+  },
+  "aud.ret/audio_text_matching/sonyc_tag_descriptions": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.492
+  },
+  "aud.safety/spoof_detection/asvspoof2019_la": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.482
+  },
+  "aud.safety/toxicity/mutox": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.8263473053892215
+  }
+ },
+ "envs": {},
+ "task_metrics": {
+  "aud.basic/acoustic_scene/tau2019": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.086,
+    "accuracy_se": 0.012550818542716023,
+    "maj": 0.086,
+    "brier": 0.9719945790073882,
+    "ece": 0.18390721116132533,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 193.05,
+    "latency_p95_ms": 199.0,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/acoustic_scene",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/emotion/cremad": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 1470,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5238095238095238,
+    "accuracy_se": 0.013030652101770982,
+    "maj": 0.5238095238095238,
+    "brier": 0.4590372321854546,
+    "ece": 0.27831146980711724,
+    "error_rate": 0.0,
+    "answers": 1470,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 105.4,
+    "latency_p95_ms": 112.4,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/emotion",
+    "status": "preview",
+    "expected_items": 1470,
+    "recorded_items": 1470,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/intent/slurp": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.204,
+    "accuracy_se": 0.01803936910413861,
+    "maj": 0.204,
+    "brier": 0.9005413014365049,
+    "ece": 0.11016459134548626,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 251.1,
+    "latency_p95_ms": 262.525,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/intent",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/language_id/voxlingua107_dev": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 1609,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.41578620261031696,
+    "accuracy_se": 0.012290736822807584,
+    "maj": 0.41578620261031696,
+    "brier": 0.692595790894536,
+    "ece": 0.13969571919164733,
+    "error_rate": 0.0,
+    "answers": 1609,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 192.1,
+    "latency_p95_ms": 272.08,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/language_id",
+    "status": "preview",
+    "expected_items": 1609,
+    "recorded_items": 1609,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/sound_event/sonyc_ust": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 4000,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.50425,
+    "accuracy_se": 0.00790639691345168,
+    "maj": 0.50425,
+    "brier": 0.5478776698580998,
+    "ece": 0.24382068761954542,
+    "error_rate": 0.0,
+    "answers": 4000,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 1445.4499999999998,
+    "latency_p95_ms": 1464.96,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/sound_event",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/speaker_change/ami": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.57,
+    "accuracy_se": 0.022162634426652866,
+    "maj": 0.57,
+    "brier": 0.5777244064852721,
+    "ece": 0.19193654812217759,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 89.3,
+    "latency_p95_ms": 94.80499999999999,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.basic/speaker_change",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/dialogue_state/spokenwoz": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 2000,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.714,
+    "accuracy_se": 0.010107080515077988,
+    "maj": 0.714,
+    "brier": 0.46643238431980877,
+    "ece": 0.07427975823278464,
+    "error_rate": 0.0,
+    "answers": 2000,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 5032.4,
+    "latency_p95_ms": 9387.974999999997,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.dialog/dialogue_state",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/interrupt_backchannel/full_duplex_bench_v15": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 298,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.697986577181208,
+    "accuracy_se": 0.026641485285845538,
+    "maj": 0.697986577181208,
+    "brier": 0.34945456882854276,
+    "ece": 0.099757738103303,
+    "error_rate": 0.0,
+    "answers": 298,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 174.7,
+    "latency_p95_ms": 183.515,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.dialog/interrupt_backchannel",
+    "status": "preview",
+    "expected_items": 298,
+    "recorded_items": 298,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/turn_timing/full_duplex_bench_v1": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 335,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.4507462686567164,
+    "accuracy_se": 0.027225718179425866,
+    "maj": 0.4507462686567164,
+    "brier": 0.481647469145777,
+    "ece": 0.2607968302072588,
+    "error_rate": 0.0,
+    "answers": 335,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 147.9,
+    "latency_p95_ms": 208.89000000000001,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.dialog/turn_timing",
+    "status": "preview",
+    "expected_items": 335,
+    "recorded_items": 335,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/data_cleaning/nisqa_livetalk": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 464,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.3642241379310345,
+    "accuracy_se": 0.022363814651957394,
+    "maj": 0.3642241379310345,
+    "brier": 0.35208529275575345,
+    "ece": 0.21551090911731924,
+    "error_rate": 0.0,
+    "answers": 464,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 359.09999999999997,
+    "latency_p95_ms": 380.79999999999995,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.judge/data_cleaning",
+    "status": "preview",
+    "expected_items": 232,
+    "recorded_items": 232,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/data_cleaning/signal_defects_synthetic": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 436,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5045871559633027,
+    "accuracy_se": 0.023972156166368403,
+    "maj": 0.5045871559633027,
+    "brier": 0.529628337913942,
+    "ece": 0.14617757153413252,
+    "error_rate": 0.0,
+    "answers": 436,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 111.65,
+    "latency_p95_ms": 149.9,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.judge/data_cleaning",
+    "status": "preview",
+    "expected_items": 436,
+    "recorded_items": 436,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/naturalness/bvcc": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 741,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.18353576248313092,
+    "accuracy_se": 0.014230267816365773,
+    "maj": 0.18353576248313092,
+    "brier": 0.29859362400626444,
+    "ece": 0.16573915649718382,
+    "error_rate": 0.0,
+    "answers": 741,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 109.5,
+    "latency_p95_ms": 152.0,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.judge/naturalness",
+    "status": "preview",
+    "expected_items": 741,
+    "recorded_items": 741,
+    "pending_items": 0
+   }
+  },
+  "aud.know/music_understanding/mmau_mini": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 105,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5619047619047619,
+    "accuracy_se": 0.04865180450182497,
+    "maj": 0.5619047619047619,
+    "brier": 0.5450045849031167,
+    "ece": 0.13098101525454744,
+    "error_rate": 0.0,
+    "answers": 105,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 364.1,
+    "latency_p95_ms": 379.24,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.know/music_understanding",
+    "status": "preview",
+    "expected_items": 105,
+    "recorded_items": 105,
+    "pending_items": 0
+   }
+  },
+  "aud.know/reasoning/mmau_mini": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 330,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.6909090909090909,
+    "accuracy_se": 0.025477430205441524,
+    "maj": 0.6909090909090909,
+    "brier": 0.39641960478670824,
+    "ece": 0.07564501428662684,
+    "error_rate": 0.0,
+    "answers": 330,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 224.7,
+    "latency_p95_ms": 458.755,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.know/reasoning",
+    "status": "preview",
+    "expected_items": 330,
+    "recorded_items": 330,
+    "pending_items": 0
+   }
+  },
+  "aud.know/sound_qa/mmau_mini": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 36,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.3333333333333333,
+    "accuracy_se": 0.07968190728895957,
+    "maj": 0.3333333333333333,
+    "brier": 0.7902964047096372,
+    "ece": 0.2608111010880585,
+    "error_rate": 0.0,
+    "answers": 36,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 196.8,
+    "latency_p95_ms": 228.20000000000002,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.know/sound_qa",
+    "status": "preview",
+    "expected_items": 36,
+    "recorded_items": 36,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/heart_sound/physionet2016": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 301,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.48172757475083056,
+    "accuracy_se": 0.028848230360255692,
+    "maj": 0.48172757475083056,
+    "brier": 0.535770382657822,
+    "ece": 0.15706909088156382,
+    "error_rate": 0.0,
+    "answers": 301,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 258.2,
+    "latency_p95_ms": 395.8,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.pro/heart_sound",
+    "status": "preview",
+    "expected_items": 301,
+    "recorded_items": 301,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/heart_sound/respiratory_icbhi2017": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.344,
+    "accuracy_se": 0.021265758037978793,
+    "maj": 0.344,
+    "brier": 0.759517488143238,
+    "ece": 0.08882355177925223,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 116.45,
+    "latency_p95_ms": 155.0,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.pro/heart_sound",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/machine_anomaly/mimii_pump_dcase2020": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.48,
+    "accuracy_se": 0.022365160424231326,
+    "maj": 0.48,
+    "brier": 0.6176608423636885,
+    "ece": 0.2431222946141395,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 171.3,
+    "latency_p95_ms": 175.31,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.pro/machine_anomaly",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.ret/audio_text_matching/sonyc_tag_descriptions": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.492,
+    "accuracy_se": 0.022380208834928014,
+    "maj": 0.492,
+    "brier": 0.627294554374479,
+    "ece": 0.241310196708708,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 179.5,
+    "latency_p95_ms": 183.0,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.ret/audio_text_matching",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.safety/spoof_detection/asvspoof2019_la": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.482,
+    "accuracy_se": 0.022368565117387874,
+    "maj": 0.482,
+    "brier": 0.7128526639622634,
+    "ece": 0.28831555218626337,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 101.9,
+    "latency_p95_ms": 146.70499999999998,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.safety/spoof_detection",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.safety/toxicity/mutox": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "n_questions": 167,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.8263473053892215,
+    "accuracy_se": 0.0294014011084459,
+    "maj": 0.8263473053892215,
+    "brier": 0.2642227786924449,
+    "ece": 0.10094024130144033,
+    "error_rate": 0.0,
+    "answers": 167,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": 148.3,
+    "latency_p95_ms": 157.38,
+    "cost_per_1k_usd": 0.0,
+    "cost_per_1m_usd": 0.0,
+    "leaf": "aud.safety/toxicity",
+    "status": "preview",
+    "expected_items": 167,
+    "recorded_items": 167,
+    "pending_items": 0
+   }
+  }
+ }
+}

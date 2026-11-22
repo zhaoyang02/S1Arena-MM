@@ -1,0 +1,143 @@
+{
+ "model_id": "Qwen/Qwen2.5-Omni-7B-GPTQ-Int4@label-think0-dequant-video",
+ "spec": "lm:Qwen/Qwen2.5-Omni-7B-GPTQ-Int4@gpu=0.9,dequant=DEQUANT_PATH",
+ "set": "v1",
+ "set_digest": "2906cc887102",
+ "gpu": "h100",
+ "gpus": 1,
+ "median_ms": 334.8,
+ "per_kind": {
+  "short": {
+   "requests": 200,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 200,
+   "median_ms": 670.0,
+   "p90_ms": 7437.9,
+   "mean_ms": 3610.5,
+   "median_ci95_ms": [
+    491.3,
+    810.6
+   ],
+   "gpu_s_per_1k": 3610.5
+  },
+  "long": {
+   "requests": 70,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 70,
+   "median_ms": 2201.2,
+   "p90_ms": 17815.9,
+   "mean_ms": 5040.9,
+   "median_ci95_ms": [
+    1069.8,
+    3770.0
+   ],
+   "gpu_s_per_1k": 5040.9
+  },
+  "av": {
+   "requests": 60,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 60,
+   "median_ms": 5428.6,
+   "p90_ms": 16206.7,
+   "mean_ms": 7596.1,
+   "median_ci95_ms": [
+    4763.1,
+    6087.9
+   ],
+   "gpu_s_per_1k": 7596.1
+  },
+  "bench": {
+   "requests": 50,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 50,
+   "median_ms": 2078.5,
+   "p90_ms": 4386.8,
+   "mean_ms": 2324.9,
+   "median_ci95_ms": [
+    969.5,
+    3547.4
+   ],
+   "gpu_s_per_1k": 2324.9
+  },
+  "loop": {
+   "requests": 100,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 100,
+   "median_ms": 334.8,
+   "p90_ms": 586.9,
+   "mean_ms": 359.5,
+   "median_ci95_ms": [
+    322.4,
+    344.6
+   ],
+   "gpu_s_per_1k": 359.5
+  }
+ },
+ "repeat": {
+  "n": 30,
+  "ratio_median": 0.994,
+  "abs_change_p50": 0.01
+ },
+ "consistency": {
+  "questions": 380,
+  "no_cached_row": 0,
+  "status_changed": 0,
+  "top_option_agreement": 0.9816,
+  "max_abs_diff_p50": 0.00353,
+  "max_abs_diff_p95": 0.03142,
+  "verdict": "same configuration"
+ },
+ "load_s": 77.1,
+ "warmup_ms": [
+  505.4,
+  765.8,
+  3969.5,
+  404.7,
+  16950.2,
+  4639.4,
+  222.0,
+  4022.8,
+  164.4,
+  19644.4,
+  5303.8,
+  4898.1
+ ],
+ "peak_memory_mib": {
+  "0": 80447
+ },
+ "machine": {
+  "host": "",
+  "gpus": [
+   {
+    "index": "0",
+    "name": "NVIDIA H100 PCIe",
+    "memory_mib": 81559,
+    "driver": "570.195.03"
+   }
+  ],
+  "cpu": "AMD EPYC 9454 48-Core Processor",
+  "cpu_count": 96,
+  "python": "3.12.15",
+  "packages": {
+   "jevarena-mm": "0.1.0.dev0",
+   "torch": "2.13.0+cu129",
+   "vllm": "0.30.0+cu129",
+   "transformers": "5.19.0",
+   "av": "19.0.1",
+   "numpy": "2.3.5"
+  },
+  "commit": "c6b61b21c43aebcb8c10c9cd561452b6b845884e",
+  "env": {
+   "CUDA_VISIBLE_DEVICES": "0",
+   "JEVARENA_MM_DECODE_THREADS": "4",
+   "OMP_NUM_THREADS": "96",
+   "CUDA_HOME": "/opt/apps/cuda/12.8"
+  }
+ },
+ "measured": "2026-10-16T05:19:08-0500"
+}

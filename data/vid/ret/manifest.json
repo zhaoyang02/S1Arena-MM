@@ -1,0 +1,32 @@
+[
+ {
+  "name": "vid.ret/text_match/msrvtt_mc",
+  "leaf": "vid.ret/text_match",
+  "status": "released",
+  "version": 1,
+  "source": "MSR-VTT multiple-choice test (Xu et al., 2016; Yu et al., 2018)",
+  "url": "https://github.com/yj-yu/lsmdc",
+  "license": "No license stated; video rights not established",
+  "tier": "B",
+  "criteria_source": "Original five candidate captions; the question is written",
+  "redistributable": true,
+  "notes": "500 test videos, one each; the options are the five captions of the JSFusion multiple-choice test.",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/ret/text_match/msrvtt_mc.jsonl",
+  "sha256": "2740cba941d66abd09acb9356a9eaf4eb528a21a0a2c5cd27fe2a0826a0a0c36",
+  "label_counts": {
+   "a4": 112,
+   "a3": 105,
+   "a1": 100,
+   "a5": 93,
+   "a2": 90
+  }
+ }
+]

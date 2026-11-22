@@ -1,0 +1,30 @@
+[
+ {
+  "name": "lvid.dialog/meeting_decision/ami",
+  "leaf": "lvid.dialog/meeting_decision",
+  "status": "released",
+  "version": 1,
+  "source": "AMI Meeting Corpus, decision annotations (Carletta et al., 2005)",
+  "url": "https://groups.inf.ed.ac.uk/ami/corpus/",
+  "license": "CC BY 4.0",
+  "tier": "B",
+  "criteria_source": "Adapted from the AMI decision annotations",
+  "redistributable": true,
+  "notes": "133 meetings, 500 decisions (250 made, 250 not, each asked as made or as not made); the full meeting audio and a close-up video are the input. 71 % of the meetings are from AMI's training split. Models that do not take audio (OneJev-27B) are unsupported.",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "audio",
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/lvid/dialog/meeting_decision/ami.jsonl",
+  "sha256": "2a8a1fd9079d2716b9facb6577800d02cb409c4fe65d79b639fc25f8dda3066c",
+  "label_counts": {
+   "true": 250,
+   "false": 250
+  }
+ }
+]

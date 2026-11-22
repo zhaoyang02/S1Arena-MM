@@ -1,0 +1,35 @@
+[
+ {
+  "name": "img.code/render_match/matplotlib_render",
+  "leaf": "img.code/render_match",
+  "status": "released",
+  "version": 1,
+  "source": "Program-generated matplotlib scripts and renders (built for this benchmark)",
+  "url": "",
+  "license": "CC BY 4.0 (generated)",
+  "tier": "C",
+  "criteria_source": "written for this benchmark",
+  "redistributable": true,
+  "notes": "generated media shipped with the release",
+  "media_root": "jevarena_img",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "image"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/img/code/render_match/matplotlib_render.jsonl",
+  "sha256": "6d51127db92b5f3144eee5076c63080bb4ca31eb59d6c3f632daffdc0695d0ef",
+  "label_counts": {
+   "script_3": 87,
+   "script_1": 98,
+   "script_4": 85,
+   "script_2": 85,
+   "script_5": 59,
+   "script_7": 38,
+   "script_6": 37,
+   "script_8": 11
+  }
+ }
+]

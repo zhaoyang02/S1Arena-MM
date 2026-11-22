@@ -1,0 +1,79 @@
+# Video baselines: the models that run locally, on all static video tasks and the closed-loop environments, one sample
+# each (k = 1), with the input policies in docs/models.md. OneJev-27B (onejev) and Jev-Omni (jev_omni) are in the plan
+# video_dev.
+#
+# On a Slurm cluster: `jevarena-mm sweep-submit sweeps/video_baselines.toml -p <partition> -A <account> --site-env
+# <file>` prints one job array per model (--go submits); `sweep-status` shows the coverage, `sweep-report` the results.
+# The slurm tables are sized for nodes of three 40 GB A100s; `gpus=` in a spec spreads a model over that many GPUs and
+# is not part of its id. Node counts and limits come from a calibration run on such nodes (every 150th item): a node's
+# shards finish together, a two-GPU model gets a one-GPU model on its third GPU.
+# workers: threads that decode media for the GPU (which takes one request at a time). Eight per shard, three shards a
+# node, ran 256 GB nodes out of memory on long 1080p videos (OneJev and Jev-Omni decode a 1 fps grid at full size).
+name = "video_baselines"
+tasks = ["vid", "lvid"]
+envs = ["loop"]
+
+[defaults]
+k = 1
+slurm = { time = "24:00:00" }
+
+[[models]]
+spec = "onejev:OmniJev/OneJev-9B"
+workers = 2
+slurm = { name = "jvb-onejev-9b" }
+
+[[models]]
+spec = "onejev:OmniJev/OneJev-4B"
+workers = 2
+slurm = { name = "jvb-onejev-4b" }
+
+[[models]]
+spec = "onejev:OmniJev/OneJev-0.8B"
+workers = 2
+slurm = { array = 0 }  # on the third GPU of clef's nodes
+
+[[models]]
+spec = "jev_omni@head=ferdinandl007/jev-omni-general-head-v3"
+workers = 2
+slurm = { name = "jvb-jevomni-headv3" }
+
+[[models]]
+spec = "raya"
+slurm = { array = 0 }  # on the third GPU of Xor's node
+
+[[models]]
+spec = "clef"  # Cloudflare/clef-flash
+workers = 3
+slurm = { name = "jvb-clef-flash" }
+
+[[models]]
+spec = "clef:Cloudflare/clef@gpus=2"
+workers = 2  # its fill model is OneJev-0.8B
+slurm = { gpus_per_shard = 2, fill = "onejev:OmniJev/OneJev-0.8B", array = 2, time = "48:00:00", name = "jvb-clef+onejev-0.8b" }
+
+[[models]]
+spec = "clef:Cloudflare/clef-omni@gpus=3"
+workers = 3
+slurm = { gpus_per_shard = 3, array = 2, time = "48:00:00", name = "jvb-clef-omni" }
+
+[[models]]
+spec = "xor"  # tp=2: two GPUs per server
+slurm = { gpus_per_shard = 2, fill = "raya", time = "30:00:00", name = "jvb-xor+raya" }
+
+# The Qwen family (lm:) and DiffusionGemma (dgemma:) are in the plan system1_fulleval, with the specs they are run with
+# (docs/models.md).
+
+# vLLM (runtime with lm): three models no other plan runs, with the settings sweeps/system1_fulleval.toml gives their
+# families. Qwen3-VL-30B-A3B in BF16 needs more than two 40 GB cards at a 131,072-token context: three pipeline stages
+# as Qwen3-Omni-30B-A3B.
+[[models]]
+spec = "lm:Qwen/Qwen3-VL-30B-A3B-Instruct@pp=3,pplayers=10+19+19,maxlen=131072,gpu=0.88"
+slurm = { gpus_per_shard = 3, array = 3, time = "48:00:00", name = "jvb-qwen3vl-30b" }
+
+[[models]]
+spec = "lm:google/gemma-4-26B-A4B-it@tp=2,gpu=0.85,maxlen=65536"
+slurm = { gpus_per_shard = 2, fill = "lm:Qwen/Qwen3.5-2B@maxlen=131072", array = 3, time = "48:00:00", name = "jvb-gemma4-26b+qwen35-2b" }
+
+[[models]]
+spec = "lm:Qwen/Qwen3.5-2B@maxlen=131072"
+slurm = { array = 0 }  # on the third GPU of Gemma 4 26B-A4B's node

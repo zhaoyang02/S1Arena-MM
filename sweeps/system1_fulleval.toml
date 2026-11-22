@@ -1,0 +1,86 @@
+# The full video evaluation: the 41 offline video tasks (vid, lvid) and the closed-loop suites (GameWorld, BALROG,
+# VS-Bench) for System-1 decision models and multimodal LLMs. Each spec is the one its results were made with, so the
+# report reads their cached rows; sweep-report makes no calls. The models with envs = false play the closed-loop
+# suites in the plans video_baselines and video_dev; here they run the static tasks only.
+name = "system1_fulleval"
+tasks = ["vid", "lvid"]
+envs = ["loop"]
+
+[defaults]
+k = 1
+
+[[models]]
+spec = "dgemma:google/diffusiongemma-26B-A4B-it@tp=2,gpu=0.9"
+
+[[models]]
+spec = "dgemma:cyankiwi/diffusiongemma-26B-A4B-it-AWQ-INT4@gpu=0.85"
+
+[[models]]
+spec = "lm:Qwen/Qwen3-Omni-30B-A3B-Thinking@pp=3,pplayers=10+19+19,maxlen=65536,gpu=0.88,batched=32768"
+
+[[models]]
+spec = "lm:Qwen/Qwen3-Omni-30B-A3B-Instruct@pp=3,pplayers=10+19+19,maxlen=65536,gpu=0.88,batched=32768"
+
+[[models]]
+spec = "lm:Qwen/Qwen2.5-Omni-7B-GPTQ-Int4@dequant=DEQUANT_PATH"  # DEQUANT_PATH: the copy scripts/gptq_dequant.py writes
+
+[[models]]
+spec = "lm:Qwen/Qwen2.5-Omni-7B-AWQ"
+
+[[models]]
+spec = "lm:Qwen/Qwen2.5-Omni-7B"
+
+[[models]]
+spec = "lm:Qwen/Qwen2.5-Omni-3B"
+
+[[models]]
+spec = "lm:Qwen/Qwen3.5-35B-A3B-GPTQ-Int4@gpu=0.8,maxlen=131072"
+
+[[models]]
+spec = "lm:Qwen/Qwen3.8-27B-FP8@tp=2,gpu=0.7,maxlen=131072"
+
+[[models]]
+spec = "lm:Qwen/Qwen3.5-9B@gpu=0.7,maxlen=131072"
+
+[[models]]
+spec = "lm:Qwen/Qwen3.5-4B@maxlen=131072"
+
+[[models]]
+spec = "lm:Qwen/Qwen3.5-0.8B"
+
+[[models]]
+spec = "d3@gpus=2"
+
+# Other omni families that vLLM serves directly
+[[models]]
+spec = "lm:google/gemma-4-12B-it@gpu=0.85,maxlen=65536"
+
+[[models]]
+spec = "lm:openbmb/MiniCPM-o-4_5@gpu=0.85"
+
+[[models]]
+spec = "lm:microsoft/Phi-4-multimodal-instruct@max_frames=16,gpu=0.85,maxlen=65536"
+
+[[models]]
+spec = "lm:openbmb/MiniCPM-o-2_6@gpu=0.85"
+
+# Nemotron 3 Nano Omni on two 40 GB cards: no pipeline parallelism, and its audio cut at 600 s (several hour-long tracks
+# in one encoder batch ran out of memory); its FP8 release fails to load on Ampere
+[[models]]
+spec = "lm:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@tp=2,maxlen=65536,gpu=0.9,seqs=64,batched=4096"
+
+[[models]]
+spec = "jev_omni@head=ferdinandl007/jev-omni-general-head-v3"
+envs = false
+
+[[models]]
+spec = "raya"
+envs = false
+
+[[models]]
+spec = "clef:Cloudflare/clef-flash"
+envs = false
+
+[[models]]
+spec = "jev_omni"
+envs = false

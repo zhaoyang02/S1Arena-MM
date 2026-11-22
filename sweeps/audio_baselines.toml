@@ -1,0 +1,52 @@
+# Native-audio models on the audio tasks, with the same probability adapters as for video (scripts/audio/run_unified.py
+# runs one spec). Set DEQUANT_PATH to the local converted checkpoint (scripts/gptq_dequant.py).
+name = "audio_baselines"
+tasks = ["aud"]
+envs = []
+
+[defaults]
+k = 1
+workers = 1
+envs = false
+
+[[models]]
+spec = "jev_omni@head=ferdinandl007/jev-omni-general-head-v3"
+
+[[models]]
+spec = "jev_omni"
+
+[[models]]
+spec = "clef:Cloudflare/clef-omni@gpus=2"
+
+[[models]]
+spec = "lm:Qwen/Qwen3-Omni-30B-A3B-Instruct@pp=2,pplayers=24+24,maxlen=65536,gpu=0.85,batched=16384"
+
+[[models]]
+spec = "lm:Qwen/Qwen3-Omni-30B-A3B-Thinking@pp=2,pplayers=24+24,maxlen=65536,gpu=0.85,batched=16384"
+
+[[models]]
+spec = "lm:Qwen/Qwen2.5-Omni-7B"
+
+[[models]]
+spec = "lm:Qwen/Qwen2.5-Omni-7B-AWQ"
+
+[[models]]
+spec = "lm:Qwen/Qwen2.5-Omni-7B-GPTQ-Int4@dequant=DEQUANT_PATH"
+
+[[models]]
+spec = "lm:Qwen/Qwen2.5-Omni-3B"
+
+[[models]]
+spec = "lm:google/gemma-4-12B-it@gpu=0.85,maxlen=65536"
+
+[[models]]
+spec = "lm:openbmb/MiniCPM-o-4_5@gpu=0.85"
+
+[[models]]
+spec = "lm:openbmb/MiniCPM-o-2_6@gpu=0.85"
+
+[[models]]
+spec = "lm:microsoft/Phi-4-multimodal-instruct@max_frames=16,gpu=0.85,maxlen=65536"
+
+[[models]]
+spec = "lm:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@tp=2,maxlen=65536,gpu=0.85"

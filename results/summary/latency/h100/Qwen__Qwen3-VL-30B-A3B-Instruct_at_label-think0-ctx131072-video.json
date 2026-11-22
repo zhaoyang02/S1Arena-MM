@@ -1,0 +1,140 @@
+{
+ "model_id": "Qwen/Qwen3-VL-30B-A3B-Instruct@label-think0-ctx131072-video",
+ "spec": "lm:Qwen/Qwen3-VL-30B-A3B-Instruct@tp=2,gpu=0.8,maxlen=131072",
+ "set": "v1",
+ "set_digest": "2906cc887102",
+ "gpu": "h100",
+ "gpus": 2,
+ "median_ms": 473.1,
+ "per_kind": {
+  "short": {
+   "requests": 200,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 200,
+   "median_ms": 635.0,
+   "p90_ms": 5801.2,
+   "mean_ms": 3607.8,
+   "median_ci95_ms": [
+    535.6,
+    974.2
+   ],
+   "gpu_s_per_1k": 7215.6
+  },
+  "long": {
+   "requests": 70,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 70,
+   "median_ms": 1393.7,
+   "p90_ms": 21658.2,
+   "mean_ms": 6477.6,
+   "median_ci95_ms": [
+    810.6,
+    1921.7
+   ],
+   "gpu_s_per_1k": 12955.2
+  },
+  "av": {
+   "requests": 60,
+   "failed": 0,
+   "unsupported": 60
+  },
+  "bench": {
+   "requests": 50,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 50,
+   "median_ms": 1614.7,
+   "p90_ms": 2658.8,
+   "mean_ms": 1518.7,
+   "median_ci95_ms": [
+    852.2,
+    1816.8
+   ],
+   "gpu_s_per_1k": 3037.4
+  },
+  "loop": {
+   "requests": 100,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 100,
+   "median_ms": 473.1,
+   "p90_ms": 527.2,
+   "mean_ms": 409.9,
+   "median_ci95_ms": [
+    415.7,
+    477.1
+   ],
+   "gpu_s_per_1k": 819.8
+  }
+ },
+ "repeat": {
+  "n": 30,
+  "ratio_median": 0.996,
+  "abs_change_p50": 0.023
+ },
+ "consistency": {
+  "questions": 320,
+  "no_cached_row": 0,
+  "status_changed": 0,
+  "top_option_agreement": 0.95,
+  "max_abs_diff_p50": 0.01597,
+  "max_abs_diff_p95": 0.12425,
+  "verdict": "differs from the accuracy run"
+ },
+ "load_s": 462.2,
+ "warmup_ms": [
+  543.1,
+  668.1,
+  2273.3,
+  322.8,
+  32574.1,
+  3376.9,
+  254.7,
+  2056.4,
+  234.4,
+  22311.2
+ ],
+ "peak_memory_mib": {
+  "0": 70435,
+  "1": 69255
+ },
+ "machine": {
+  "host": "",
+  "gpus": [
+   {
+    "index": "0",
+    "name": "NVIDIA H100 PCIe",
+    "memory_mib": 81559,
+    "driver": "570.195.03"
+   },
+   {
+    "index": "1",
+    "name": "NVIDIA H100 PCIe",
+    "memory_mib": 81559,
+    "driver": "570.195.03"
+   }
+  ],
+  "cpu": "AMD EPYC 9454 48-Core Processor",
+  "cpu_count": 96,
+  "python": "3.12.15",
+  "packages": {
+   "jevarena-mm": "0.1.0.dev0",
+   "torch": "2.13.0+cu129",
+   "vllm": "0.30.0+cu129",
+   "transformers": "5.19.0",
+   "av": "19.0.1",
+   "numpy": "2.3.5"
+  },
+  "commit": "7a58582807a49f858b825ac2fd8f3cfced929252",
+  "env": {
+   "CUDA_VISIBLE_DEVICES": "0,1",
+   "JEVARENA_MM_DECODE_THREADS": "4",
+   "OMP_NUM_THREADS": "96",
+   "CUDA_HOME": "/opt/apps/cuda/12.8",
+   "TORCH_CUDNN_SDPA_DEPRIORITIZED": "1"
+  }
+ },
+ "measured": "2026-10-17T04:48:33-0500"
+}

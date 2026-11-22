@@ -1,0 +1,63 @@
+[
+ {
+  "name": "img.social/art_emotion/artemis",
+  "leaf": "img.social/art_emotion",
+  "status": "released",
+  "version": 1,
+  "source": "ArtEmis v2 contrastive, WikiArt images (Mohamed et al., 2022)",
+  "url": "https://www.artemisdataset-v2.org/",
+  "license": "ArtEmis terms (research use)",
+  "tier": "B",
+  "criteria_source": "ArtEmis emotion labels",
+  "redistributable": false,
+  "notes": "CSV needs the ArtEmis terms form",
+  "media_root": "wikiart",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "image"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data_local/img/social/art_emotion/artemis.jsonl",
+  "sha256": "6f51bbec602a8daeafe32a3a0c0a8fbc3ce1d73be2bcd279db713d22f98f9a34",
+  "label_counts": {
+   "sadness": 64,
+   "anger": 64,
+   "fear": 64,
+   "awe": 64,
+   "contentment": 64,
+   "disgust": 63,
+   "amusement": 55,
+   "excitement": 62
+  }
+ },
+ {
+  "name": "img.social/humor/newyorker",
+  "leaf": "img.social/humor",
+  "status": "released",
+  "version": 1,
+  "source": "New Yorker caption ranking, test (Zhang et al., 2024)",
+  "url": "https://huggingface.co/datasets/yguooo/newyorker_caption_ranking",
+  "license": "CC BY-NC 4.0; cartoons copyrighted",
+  "tier": "B",
+  "criteria_source": "crowd caption ratings",
+  "redistributable": true,
+  "notes": "",
+  "media_root": "newyorker_caption_ranking",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "image"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/img/social/humor/newyorker.jsonl",
+  "sha256": "290e7cbd5773e9d3f661d7d52a78894ae052323f6d20f6aaf701cc9f06fe7db2",
+  "label_counts": {
+   "2": 23,
+   "1": 174,
+   "0": 303
+  }
+ }
+]

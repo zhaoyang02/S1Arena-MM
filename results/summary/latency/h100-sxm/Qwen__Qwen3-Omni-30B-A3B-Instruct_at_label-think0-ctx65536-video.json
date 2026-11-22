@@ -1,0 +1,150 @@
+{
+ "model_id": "Qwen/Qwen3-Omni-30B-A3B-Instruct@label-think0-ctx65536-video",
+ "spec": "lm:Qwen/Qwen3-Omni-30B-A3B-Instruct@tp=2,gpu=0.8,maxlen=65536,batched=32768",
+ "set": "v1",
+ "set_digest": "2906cc887102",
+ "gpu": "h100",
+ "gpus": 2,
+ "median_ms": 194.2,
+ "per_kind": {
+  "short": {
+   "requests": 200,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 200,
+   "median_ms": 554.0,
+   "p90_ms": 9051.5,
+   "mean_ms": 4566.8,
+   "median_ci95_ms": [
+    459.5,
+    726.0
+   ],
+   "gpu_s_per_1k": 9133.6
+  },
+  "long": {
+   "requests": 70,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 70,
+   "median_ms": 1768.7,
+   "p90_ms": 24947.8,
+   "mean_ms": 8212.7,
+   "median_ci95_ms": [
+    857.7,
+    3378.2
+   ],
+   "gpu_s_per_1k": 16425.4
+  },
+  "av": {
+   "requests": 60,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 60,
+   "median_ms": 7556.6,
+   "p90_ms": 21869.8,
+   "mean_ms": 10992.7,
+   "median_ci95_ms": [
+    7343.1,
+    9040.1
+   ],
+   "gpu_s_per_1k": 21985.4
+  },
+  "bench": {
+   "requests": 50,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 50,
+   "median_ms": 1528.5,
+   "p90_ms": 5219.0,
+   "mean_ms": 2306.6,
+   "median_ci95_ms": [
+    710.8,
+    2839.4
+   ],
+   "gpu_s_per_1k": 4613.2
+  },
+  "loop": {
+   "requests": 100,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 100,
+   "median_ms": 194.2,
+   "p90_ms": 219.2,
+   "mean_ms": 184.5,
+   "median_ci95_ms": [
+    140.8,
+    201.0
+   ],
+   "gpu_s_per_1k": 369.0
+  }
+ },
+ "repeat": {
+  "n": 30,
+  "ratio_median": 0.988,
+  "abs_change_p50": 0.018
+ },
+ "consistency": {
+  "questions": 0,
+  "no_cached_row": 380,
+  "status_changed": 0,
+  "verdict": "no cached accuracy run to compare with (JEVARENA_MM_RUNS)"
+ },
+ "load_s": 96.6,
+ "warmup_ms": [
+  607.1,
+  702.7,
+  4062.3,
+  410.7,
+  37158.1,
+  6581.0,
+  260.2,
+  4458.4,
+  218.3,
+  26588.6,
+  8106.8,
+  5948.1
+ ],
+ "peak_memory_mib": {
+  "0": 79401,
+  "1": 79325
+ },
+ "machine": {
+  "host": "",
+  "gpus": [
+   {
+    "index": "0",
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_mib": 81559,
+    "driver": "580.95.05"
+   },
+   {
+    "index": "1",
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_mib": 81559,
+    "driver": "580.95.05"
+   }
+  ],
+  "cpu": "Intel(R) Xeon(R) Platinum 8480C",
+  "cpu_count": 96,
+  "python": "3.12.13",
+  "packages": {
+   "jevarena-mm": "0.1.0.dev0",
+   "torch": "2.13.0+cu129",
+   "vllm": "0.30.0+cu129",
+   "transformers": "5.19.0",
+   "av": "19.0.1",
+   "numpy": "2.3.5"
+  },
+  "commit": "53194ab144dd4542868a841b8ba74a64b686f966",
+  "env": {
+   "CUDA_VISIBLE_DEVICES": "0,1",
+   "JEVARENA_MM_DECODE_THREADS": "4",
+   "OMP_NUM_THREADS": "16",
+   "CUDA_HOME": "/usr/local/cuda-12.8",
+   "NVCC_CCBIN": "/usr/bin/g++",
+   "DG_JIT_NVCC_COMPILER": "/usr/local/cuda-13.0/bin/nvcc",
+   "LD_LIBRARY_PATH": ":/usr/local/cuda/lib64"
+  }
+ },
+ "measured": "2026-10-18T17:54:43+0000"
+}

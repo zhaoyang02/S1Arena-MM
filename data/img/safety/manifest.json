@@ -1,0 +1,149 @@
+[
+ {
+  "name": "img.safety/hateful_meme/hateful_memes",
+  "leaf": "img.safety/hateful_meme",
+  "status": "released",
+  "version": 1,
+  "source": "Hateful Memes, test_seen (Kiela et al., 2020)",
+  "url": "https://huggingface.co/datasets/neuralcatcher/hateful_memes",
+  "license": "Hateful Memes Dataset License (non-commercial research)",
+  "tier": "B",
+  "criteria_source": "hateful / not hateful labels",
+  "redistributable": false,
+  "notes": "research use only under the Facebook license",
+  "media_root": "hateful_memes",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "image"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data_local/img/safety/hateful_meme/hateful_memes.jsonl",
+  "sha256": "e88a4b442da8d2b6907d011412ead8a266397173b42ae0d4a380d1b705e89146",
+  "label_counts": {
+   "true": 250,
+   "false": 250
+  }
+ },
+ {
+  "name": "img.safety/injection/figstep",
+  "leaf": "img.safety/injection",
+  "status": "released",
+  "version": 1,
+  "source": "FigStep SafeBench (Gong et al., 2025)",
+  "url": "https://github.com/ThuCCSLab/FigStep",
+  "license": "MIT",
+  "tier": "C",
+  "criteria_source": "written for this benchmark",
+  "redistributable": true,
+  "notes": "benign counterparts rendered with the FigStep template (generated)",
+  "media_root": "figstep",
+  "frozen": true,
+  "items": 295,
+  "modalities": [
+   "image"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/img/safety/injection/figstep.jsonl",
+  "sha256": "cc14e19f5df50cfa187f676bb75289088c5f19021610ab08d88fcee4441a65b4",
+  "label_counts": {
+   "true": 148,
+   "false": 147
+  }
+ },
+ {
+  "name": "img.safety/policy/unsafebench",
+  "leaf": "img.safety/policy",
+  "status": "released",
+  "version": 1,
+  "source": "UnsafeBench, test (Qu et al., 2024)",
+  "url": "https://huggingface.co/datasets/yiting/UnsafeBench",
+  "license": "UnsafeBench data use agreement (research, education, responsible commercial use)",
+  "tier": "B",
+  "criteria_source": "11 unsafe categories",
+  "redistributable": true,
+  "notes": "gated: HF click-through",
+  "media_root": "unsafebench",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "image"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/img/safety/policy/unsafebench.jsonl",
+  "sha256": "6fc6b2027e728b86ec6e670aedaa1e58e98447b410d026b9a46007c70bfe9a3f",
+  "label_counts": {
+   "true": 250,
+   "Political": 23,
+   "false": 250,
+   "Safe": 250,
+   "Deception": 23,
+   "Public and personal health": 23,
+   "Hate": 23,
+   "Violence": 23,
+   "Shocking": 23,
+   "Spam": 23,
+   "Self-harm": 23,
+   "Illegal activity": 22,
+   "Harassment": 22,
+   "Sexual": 22
+  }
+ },
+ {
+  "name": "img.safety/privacy/vispr",
+  "leaf": "img.safety/privacy",
+  "status": "released",
+  "version": 1,
+  "source": "VISPR, test 2017 (Orekondy et al., 2017)",
+  "url": "https://tribhuvanesh.github.io/vpa/",
+  "license": "CC BY-NC 4.0",
+  "tier": "B",
+  "criteria_source": "68 privacy attributes",
+  "redistributable": true,
+  "notes": "64 boolean questions per item (multi-label)",
+  "media_root": "vispr",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "image"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/img/safety/privacy/vispr.jsonl",
+  "sha256": "8642d5cd261603ebcd75e7769f1ae49a9ef009f85a52ee554a6e2bfd4f6b778b",
+  "label_counts": {
+   "false": 25513,
+   "true": 1987
+  }
+ },
+ {
+  "name": "img.safety/synthetic/genimage_midjourney",
+  "leaf": "img.safety/synthetic",
+  "status": "released",
+  "version": 1,
+  "source": "GenImage Midjourney subset, val (Zhu et al., 2023)",
+  "url": "https://github.com/GenImage-Dataset/GenImage",
+  "license": "CC BY-NC-SA 4.0, ImageNet images under the ImageNet terms",
+  "tier": "B",
+  "criteria_source": "real / generated",
+  "redistributable": true,
+  "notes": "all images re-encoded JPEG q95 at 512 px so file format does not reveal the label (generated)",
+  "media_root": "jevarena_img",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "image"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/img/safety/synthetic/genimage_midjourney.jsonl",
+  "sha256": "18a2f541904de978cf97ebebe61a7c53e80e066d7dba26f2ec5338798ecf00ed",
+  "label_counts": {
+   "true": 250,
+   "false": 250
+  }
+ }
+]

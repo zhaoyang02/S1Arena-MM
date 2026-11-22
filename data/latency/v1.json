@@ -1,0 +1,4049 @@
+{
+ "version": "v1",
+ "seed": 0,
+ "per_leaf": 10,
+ "av_per_leaf": 20,
+ "created": "2026-10-15",
+ "items": [
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/egoschema",
+   "task": "lvid.bench/egoschema/public_500",
+   "item_id": "lvid.bench.egoschema.public_500:8648ec82adb1",
+   "group": "source-family:cceaa56af0c652f0ddf8b78c0e6200e74c50147c1aee3c47035833539d2af784",
+   "media_s": 180.0
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/egoschema",
+   "task": "lvid.bench/egoschema/public_500",
+   "item_id": "lvid.bench.egoschema.public_500:b51b4b1304c9",
+   "group": "source-family:e46060e75f7018a89d9c702cd89bbc993b73db266c65a681a4eb8816f2230cc0",
+   "media_s": 180.0
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/egoschema",
+   "task": "lvid.bench/egoschema/public_500",
+   "item_id": "lvid.bench.egoschema.public_500:b2cb8f6eddf0",
+   "group": "source-family:d8deee61044e1acb5313fb931602562b935e5b6c8d744f839a11e8b8f893a271",
+   "media_s": 180.0
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/egoschema",
+   "task": "lvid.bench/egoschema/public_500",
+   "item_id": "lvid.bench.egoschema.public_500:f31095096d65",
+   "group": "source-family:c405534b067f82639ab1e4b7779e6748bc9e479e6ea2f478c7d26cecc44b1e38",
+   "media_s": 180.0
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/egoschema",
+   "task": "lvid.bench/egoschema/public_500",
+   "item_id": "lvid.bench.egoschema.public_500:ef526571e921",
+   "group": "source-family:d6886df524a2b56b3f0a88f6f0180ef61c38bd71106aeb8df00f4a3e1b323ac0",
+   "media_s": 180.0
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/egoschema",
+   "task": "lvid.bench/egoschema/public_500",
+   "item_id": "lvid.bench.egoschema.public_500:0847aaf8fbf2",
+   "group": "source-family:020936bd23f7b141db0c5e7651d3209870af936b75d7e78252838cd4071dce6f",
+   "media_s": 180.0
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/egoschema",
+   "task": "lvid.bench/egoschema/public_500",
+   "item_id": "lvid.bench.egoschema.public_500:d83ea26ad85d",
+   "group": "source-family:8cf21c29663b539a2af57f052ca856d598f6d456391c3a0466685cfa7b44814f",
+   "media_s": 180.0
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/egoschema",
+   "task": "lvid.bench/egoschema/public_500",
+   "item_id": "lvid.bench.egoschema.public_500:9c277b9fe9ba",
+   "group": "source-family:16854e2ad0ce31a2b21765524006deba0a6141cbd7bd8247459584b6b7ed7698",
+   "media_s": 180.0
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/egoschema",
+   "task": "lvid.bench/egoschema/public_500",
+   "item_id": "lvid.bench.egoschema.public_500:566e854d21dc",
+   "group": "source-family:fdd047afac66210473fb44d400f0c33b3d575bf7d0a0644663abf87c0bc4c337",
+   "media_s": 180.0
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/egoschema",
+   "task": "lvid.bench/egoschema/public_500",
+   "item_id": "lvid.bench.egoschema.public_500:6c01de68cce2",
+   "group": "source-family:fcf73d2be4737faeb1d38b1e51d5ac1788f85e78e4add3bc55115be1a948d1d3",
+   "media_s": 180.0
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/vsi_bench",
+   "task": "lvid.bench/vsi_bench/test",
+   "item_id": "lvid.bench.vsi_bench.test:98b013c4f25e",
+   "group": "vsi-bench:arkitscenes_42899729",
+   "media_s": 65.1
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/vsi_bench",
+   "task": "lvid.bench/vsi_bench/test",
+   "item_id": "lvid.bench.vsi_bench.test:55d8d312e4a3",
+   "group": "vsi-bench:arkitscenes_42899698",
+   "media_s": 46.3
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/vsi_bench",
+   "task": "lvid.bench/vsi_bench/test",
+   "item_id": "lvid.bench.vsi_bench.test:fb8e91dfc297",
+   "group": "vsi-bench:scannetpp_6115eddb86",
+   "media_s": 145.033
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/vsi_bench",
+   "task": "lvid.bench/vsi_bench/test",
+   "item_id": "lvid.bench.vsi_bench.test:8008f07960f2",
+   "group": "vsi-bench:scannet_scene0616_01",
+   "media_s": 138.708
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/vsi_bench",
+   "task": "lvid.bench/vsi_bench/test",
+   "item_id": "lvid.bench.vsi_bench.test:02bde7f62c86",
+   "group": "vsi-bench:scannet_scene0149_00",
+   "media_s": 58.708
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/vsi_bench",
+   "task": "lvid.bench/vsi_bench/test",
+   "item_id": "lvid.bench.vsi_bench.test:eb556e5e9f95",
+   "group": "vsi-bench:arkitscenes_47334103",
+   "media_s": 88.3
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/vsi_bench",
+   "task": "lvid.bench/vsi_bench/test",
+   "item_id": "lvid.bench.vsi_bench.test:b9b529c317b3",
+   "group": "vsi-bench:scannetpp_e398684d27",
+   "media_s": 97.767
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/vsi_bench",
+   "task": "lvid.bench/vsi_bench/test",
+   "item_id": "lvid.bench.vsi_bench.test:81a6e1fe8846",
+   "group": "vsi-bench:scannetpp_1ada7a0617",
+   "media_s": 91.967
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/vsi_bench",
+   "task": "lvid.bench/vsi_bench/test",
+   "item_id": "lvid.bench.vsi_bench.test:a63606a19d8b",
+   "group": "vsi-bench:scannetpp_25f3b7a318",
+   "media_s": 175.733
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/vsi_bench",
+   "task": "lvid.bench/vsi_bench/test",
+   "item_id": "lvid.bench.vsi_bench.test:31c0f4a565c9",
+   "group": "vsi-bench:scannetpp_f3d64c30f8",
+   "media_s": 188.933
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:d25fdeaab9c8",
+   "group": "ami:ES2005c",
+   "media_s": 2296.84
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:b169c77d4c68",
+   "group": "ami:TS3004b",
+   "media_s": 2239.0
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:a70597d0fa8e",
+   "group": "ami:IS1002b",
+   "media_s": 2363.84
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:cf26e914615d",
+   "group": "ami:ES2007c",
+   "media_s": 2372.2
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:1489c8e2f679",
+   "group": "ami:TS3005d",
+   "media_s": 2657.76
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:ab6571215914",
+   "group": "ami:ES2012a",
+   "media_s": 1107.96
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:7635a805a645",
+   "group": "ami:ES2015b",
+   "media_s": 2291.08
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:9bdba9be36f5",
+   "group": "ami:ES2003a",
+   "media_s": 1123.88
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:239aa7136f7b",
+   "group": "ami:TS3012b",
+   "media_s": 2445.88
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:73dd8c303e1b",
+   "group": "ami:IS1002c",
+   "media_s": 2076.48
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:b36ce4274b7d",
+   "group": "ami:TS3005c",
+   "media_s": 2392.76
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:c86e739eaca0",
+   "group": "ami:ES2013b",
+   "media_s": 2123.12
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:12326828847e",
+   "group": "ami:ES2007a",
+   "media_s": 1207.12
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:866f88ad3aab",
+   "group": "ami:ES2012d",
+   "media_s": 948.44
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:f86a11275853",
+   "group": "ami:ES2005d",
+   "media_s": 1726.12
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:f0af8bdd7ed7",
+   "group": "ami:TS3006b",
+   "media_s": 2348.8
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:4d554affecd2",
+   "group": "ami:TS3003c",
+   "media_s": 4160.16
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:200ed6581b2b",
+   "group": "ami:IS1000b",
+   "media_s": 2336.88
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:934a57bd7c8d",
+   "group": "ami:IS1007d",
+   "media_s": 2015.52
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:707449d9bf07",
+   "group": "ami:ES2014c",
+   "media_s": 2270.68
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.embodied/ego_plan",
+   "task": "lvid.embodied/ego_plan/egoplan_bench2",
+   "item_id": "lvid.embodied.ego_plan.egoplan_bench2:e5cd5f115793",
+   "group": "ego4d:63e9e643-25c5-435d-b6f0-0aab1af76e68",
+   "media_s": 31.367
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.embodied/ego_plan",
+   "task": "lvid.embodied/ego_plan/egoplan_bench2",
+   "item_id": "lvid.embodied.ego_plan.egoplan_bench2:59fde588bb9b",
+   "group": "ego4d:ae2b93af-1890-45ea-876e-c77a0d56aa00",
+   "media_s": 10.333
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.embodied/ego_plan",
+   "task": "lvid.embodied/ego_plan/egoplan_bench2",
+   "item_id": "lvid.embodied.ego_plan.egoplan_bench2:54856bee9250",
+   "group": "ego4d:ce85a66a-6417-430c-a300-d69ee4528913",
+   "media_s": 10.433
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.embodied/ego_plan",
+   "task": "lvid.embodied/ego_plan/egoplan_bench2",
+   "item_id": "lvid.embodied.ego_plan.egoplan_bench2:448237c3497d",
+   "group": "ego4d:e832a197-6ce3-47fa-9871-e87f906d1d74",
+   "media_s": 115.433
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.embodied/ego_plan",
+   "task": "lvid.embodied/ego_plan/egoplan_bench2",
+   "item_id": "lvid.embodied.ego_plan.egoplan_bench2:520e32bb823a",
+   "group": "ego4d:579bcf96-f29d-4f02-bb10-ef8b9404e362",
+   "media_s": 171.033
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.embodied/ego_plan",
+   "task": "lvid.embodied/ego_plan/egoplan_bench2",
+   "item_id": "lvid.embodied.ego_plan.egoplan_bench2:a52f9aa693e8",
+   "group": "ego4d:8253ab0b-51ab-4168-8c63-3bb179be485a",
+   "media_s": 10.533
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.embodied/ego_plan",
+   "task": "lvid.embodied/ego_plan/egoplan_bench2",
+   "item_id": "lvid.embodied.ego_plan.egoplan_bench2:f047a323c465",
+   "group": "ego4d:57433609-a139-4d16-9202-c138939b143a",
+   "media_s": 152.633
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.embodied/ego_plan",
+   "task": "lvid.embodied/ego_plan/egoplan_bench2",
+   "item_id": "lvid.embodied.ego_plan.egoplan_bench2:89de2b16717c",
+   "group": "ego4d:d9db7166-e5fe-4ce5-85eb-0c437c4ddf32",
+   "media_s": 133.767
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.embodied/ego_plan",
+   "task": "lvid.embodied/ego_plan/egoplan_bench2",
+   "item_id": "lvid.embodied.ego_plan.egoplan_bench2:f806a7c9352c",
+   "group": "ego4d:5fce50cf-ebc5-4c09-8704-20c48fe42c7e",
+   "media_s": 17.267
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.embodied/ego_plan",
+   "task": "lvid.embodied/ego_plan/egoplan_bench2",
+   "item_id": "lvid.embodied.ego_plan.egoplan_bench2:50bcb256e235",
+   "group": "ego4d:28254e60-9e37-4b4c-a1c4-0cf771d51611",
+   "media_s": 9.733
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:a54a4410cf98",
+   "group": "tofueval-meetingbank:SeattleCityCouncil_11092020",
+   "media_s": 495.14
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:90e6dff566be",
+   "group": "tofueval-meetingbank:SeattleCityCouncil_12142020",
+   "media_s": 849.94
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:9e045305e456",
+   "group": "tofueval-meetingbank:SeattleCityCouncil_02212017",
+   "media_s": 461.28
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:cc50b4fbce37",
+   "group": "tofueval-meetingbank:LongBeachCC_08112020",
+   "media_s": 672.861
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:1cacbff65006",
+   "group": "tofueval-meetingbank:LongBeachCC_08152017",
+   "media_s": 603.419
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:6aa25fbbe8c4",
+   "group": "tofueval-meetingbank:SeattleCityCouncil_08082016",
+   "media_s": 583.96
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:b0488c61bed9",
+   "group": "tofueval-meetingbank:LongBeachCC_12052017",
+   "media_s": 568.099
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:86970eb669e8",
+   "group": "tofueval-meetingbank:LongBeachCC_05062014",
+   "media_s": 862.641
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:fa5fd5abf5db",
+   "group": "tofueval-meetingbank:AlamedaCC_09152020",
+   "media_s": 530.88
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:8f7707cd6e0e",
+   "group": "tofueval-meetingbank:AlamedaCC_11172015",
+   "media_s": 585.979
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:9d7f6a933345",
+   "group": "tofueval-meetingbank:SeattleCityCouncil_09122016",
+   "media_s": 810.72
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:f67434f23842",
+   "group": "tofueval-meetingbank:LongBeachCC_02142017",
+   "media_s": 582.7
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:e733d91cfe37",
+   "group": "tofueval-meetingbank:DenverCityCouncil_11212016",
+   "media_s": 482.74
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:e3269371a5c0",
+   "group": "tofueval-meetingbank:SeattleCityCouncil_02082022",
+   "media_s": 670.1
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:accb5e8c4039",
+   "group": "tofueval-meetingbank:DenverCityCouncil_04052021",
+   "media_s": 653.5
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:b592c09a655d",
+   "group": "tofueval-meetingbank:SeattleCityCouncil_08142017",
+   "media_s": 540.88
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:02ca2e29196e",
+   "group": "tofueval-meetingbank:LongBeachCC_08252020",
+   "media_s": 856.38
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:063acd2dfbd5",
+   "group": "tofueval-meetingbank:SeattleCityCouncil_05262020",
+   "media_s": 809.3
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:4b5afae3c671",
+   "group": "tofueval-meetingbank:LongBeachCC_09042018",
+   "media_s": 556.699
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:0e5ac6ed50c6",
+   "group": "tofueval-meetingbank:LongBeachCC_02092016",
+   "media_s": 704.32
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:a41e4474ca61",
+   "group": "videommmu:vYNa7L0f_go",
+   "media_s": 753.286
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:002441847bf6",
+   "group": "videommmu:GLx5yl0sxeM",
+   "media_s": 263.2
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:6bb4da44a5db",
+   "group": "videommmu:ItuHSOg9EE4",
+   "media_s": 340.2
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:723810ab4193",
+   "group": "videommmu:6-GdxDTRnEc",
+   "media_s": 1828.493
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:89454043fceb",
+   "group": "videommmu:HW47fAnWJa4",
+   "media_s": 2092.0
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:97bac782b80f",
+   "group": "videommmu:culCiOfbScs",
+   "media_s": 1455.321
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:a8bf574e2599",
+   "group": "videommmu:dWtzaKYFg00",
+   "media_s": 598.2
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:62571e94f04f",
+   "group": "videommmu:FymCPiejdm0",
+   "media_s": 843.867
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:a01e9fcfdd93",
+   "group": "videommmu:oarGRayak5o",
+   "media_s": 2819.133
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:505b9c0e1ab0",
+   "group": "videommmu:pkRSp_H0HIQ",
+   "media_s": 686.2
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:4ca009e35e5f",
+   "group": "videommmu:jNc2SflUl9U",
+   "media_s": 916.165
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:cfd4f4287711",
+   "group": "videommmu:PSUKRB_G6N0",
+   "media_s": 369.102
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:d23716ff5824",
+   "group": "videommmu:2UvzjtJb-WQ",
+   "media_s": 1610.832
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:b20c979f3357",
+   "group": "videommmu:yza-hpIubxQ",
+   "media_s": 1542.0
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:cd9579b7d3d2",
+   "group": "videommmu:W3qoQIlfG0E",
+   "media_s": 1662.08
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:5f54c1cb72ef",
+   "group": "videommmu:x04dnqg-iPw",
+   "media_s": 1046.067
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:542513d88c8d",
+   "group": "videommmu:CsKC2FTFahE",
+   "media_s": 1152.651
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:7623970b13d4",
+   "group": "videommmu:ZM2X-XBRKHM",
+   "media_s": 1741.8
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:eb62a75011f7",
+   "group": "videommmu:qP7Ro6abxuw",
+   "media_s": 624.691
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.know/lecture",
+   "task": "lvid.know/lecture/videommmu",
+   "item_id": "lvid.know.lecture.videommmu:dfa08a6a54a6",
+   "group": "videommmu:O-wq-C-52NY",
+   "media_s": 159.75
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/long_qa",
+   "task": "lvid.know/long_qa/video_mme",
+   "item_id": "lvid.know.long_qa.video_mme:89a0fae43fd6",
+   "group": "videomme:fuDNhWIa6KQ",
+   "media_s": 1835.917
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/long_qa",
+   "task": "lvid.know/long_qa/video_mme",
+   "item_id": "lvid.know.long_qa.video_mme:41b4f5b9b4fa",
+   "group": "videomme:1NH5dJ9VRvU",
+   "media_s": 2705.467
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/long_qa",
+   "task": "lvid.know/long_qa/video_mme",
+   "item_id": "lvid.know.long_qa.video_mme:bab0a4b08f69",
+   "group": "videomme:lAgwMGRvJrM",
+   "media_s": 1803.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/long_qa",
+   "task": "lvid.know/long_qa/video_mme",
+   "item_id": "lvid.know.long_qa.video_mme:616fb02dd31a",
+   "group": "videomme:0w4OTD4L0GQ",
+   "media_s": 1813.145
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/long_qa",
+   "task": "lvid.know/long_qa/video_mme",
+   "item_id": "lvid.know.long_qa.video_mme:f02a0456a997",
+   "group": "videomme:mzvHYBgD-tI",
+   "media_s": 1817.607
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/long_qa",
+   "task": "lvid.know/long_qa/video_mme",
+   "item_id": "lvid.know.long_qa.video_mme:a7c4533768b2",
+   "group": "videomme:lMxFbRc3Luk",
+   "media_s": 2635.424
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/long_qa",
+   "task": "lvid.know/long_qa/video_mme",
+   "item_id": "lvid.know.long_qa.video_mme:f5b11cd70c4e",
+   "group": "videomme:BoBapnk6TB8",
+   "media_s": 2842.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/long_qa",
+   "task": "lvid.know/long_qa/video_mme",
+   "item_id": "lvid.know.long_qa.video_mme:0fa794d2256b",
+   "group": "videomme:rVPDIRSyS34",
+   "media_s": 2681.148
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/long_qa",
+   "task": "lvid.know/long_qa/video_mme",
+   "item_id": "lvid.know.long_qa.video_mme:84b0e206395d",
+   "group": "videomme:ZLRyTFIZOIs",
+   "media_s": 2769.96
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/long_qa",
+   "task": "lvid.know/long_qa/video_mme",
+   "item_id": "lvid.know.long_qa.video_mme:8df4418c1ed7",
+   "group": "videomme:B9He5DVePvk",
+   "media_s": 2545.56
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/needle",
+   "task": "lvid.know/needle/generated",
+   "item_id": "lvid.know.needle.generated:b5a97a78fac5",
+   "group": "programmatic-needle:scene_9a843f6e4fe83292394b",
+   "media_s": 60.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/needle",
+   "task": "lvid.know/needle/generated",
+   "item_id": "lvid.know.needle.generated:b23a13caf9bc",
+   "group": "programmatic-needle:scene_e0a0d551883fd6d980e8",
+   "media_s": 60.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/needle",
+   "task": "lvid.know/needle/generated",
+   "item_id": "lvid.know.needle.generated:d91884ea5986",
+   "group": "programmatic-needle:scene_fa4ef6a17237d120c516",
+   "media_s": 300.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/needle",
+   "task": "lvid.know/needle/generated",
+   "item_id": "lvid.know.needle.generated:4f5420bed0ff",
+   "group": "programmatic-needle:scene_e2f357a450520e23d76f",
+   "media_s": 120.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/needle",
+   "task": "lvid.know/needle/generated",
+   "item_id": "lvid.know.needle.generated:f4abedc8033b",
+   "group": "programmatic-needle:scene_44d7ab75d31969fa655a",
+   "media_s": 300.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/needle",
+   "task": "lvid.know/needle/generated",
+   "item_id": "lvid.know.needle.generated:596914545df9",
+   "group": "programmatic-needle:scene_7af72acb55411bfc7e2a",
+   "media_s": 60.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/needle",
+   "task": "lvid.know/needle/generated",
+   "item_id": "lvid.know.needle.generated:63a94436f24a",
+   "group": "programmatic-needle:scene_8aebc7d62cac26989398",
+   "media_s": 300.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/needle",
+   "task": "lvid.know/needle/generated",
+   "item_id": "lvid.know.needle.generated:11338f83d76a",
+   "group": "programmatic-needle:scene_f7f45173f216ca12f93b",
+   "media_s": 180.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/needle",
+   "task": "lvid.know/needle/generated",
+   "item_id": "lvid.know.needle.generated:d7dd558f5033",
+   "group": "programmatic-needle:scene_592fbf2765697bcf66d1",
+   "media_s": 120.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/needle",
+   "task": "lvid.know/needle/generated",
+   "item_id": "lvid.know.needle.generated:d07ca91e7b38",
+   "group": "programmatic-needle:scene_366a619d2b69f5d9efcc",
+   "media_s": 60.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.pro/surveillance",
+   "task": "lvid.pro/surveillance/ucf_crime",
+   "item_id": "lvid.pro.surveillance.ucf_crime:325705dab351",
+   "group": "ucf-crime:Shoplifting005_x264",
+   "media_s": 65.567
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.pro/surveillance",
+   "task": "lvid.pro/surveillance/ucf_crime",
+   "item_id": "lvid.pro.surveillance.ucf_crime:6766384c6714",
+   "group": "ucf-crime:Normal_Videos_798_x264",
+   "media_s": 200.033
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.pro/surveillance",
+   "task": "lvid.pro/surveillance/ucf_crime",
+   "item_id": "lvid.pro.surveillance.ucf_crime:d69a284ce656",
+   "group": "ucf-crime:Normal_Videos_063_x264",
+   "media_s": 11.833
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.pro/surveillance",
+   "task": "lvid.pro/surveillance/ucf_crime",
+   "item_id": "lvid.pro.surveillance.ucf_crime:d90deb0617c5",
+   "group": "ucf-crime:Normal_Videos_051_x264",
+   "media_s": 78.6
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.pro/surveillance",
+   "task": "lvid.pro/surveillance/ucf_crime",
+   "item_id": "lvid.pro.surveillance.ucf_crime:1c185c079113",
+   "group": "ucf-crime:Shoplifting037_x264",
+   "media_s": 46.2
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.pro/surveillance",
+   "task": "lvid.pro/surveillance/ucf_crime",
+   "item_id": "lvid.pro.surveillance.ucf_crime:7662c109261e",
+   "group": "ucf-crime:Normal_Videos_923_x264",
+   "media_s": 607.467
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.pro/surveillance",
+   "task": "lvid.pro/surveillance/ucf_crime",
+   "item_id": "lvid.pro.surveillance.ucf_crime:85ed1beea656",
+   "group": "ucf-crime:Normal_Videos_247_x264",
+   "media_s": 273.7
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.pro/surveillance",
+   "task": "lvid.pro/surveillance/ucf_crime",
+   "item_id": "lvid.pro.surveillance.ucf_crime:4d2df3a6ae96",
+   "group": "ucf-crime:Shooting010_x264",
+   "media_s": 88.033
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.pro/surveillance",
+   "task": "lvid.pro/surveillance/ucf_crime",
+   "item_id": "lvid.pro.surveillance.ucf_crime:83bb5a013c56",
+   "group": "ucf-crime:Robbery102_x264",
+   "media_s": 60.9
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.pro/surveillance",
+   "task": "lvid.pro/surveillance/ucf_crime",
+   "item_id": "lvid.pro.surveillance.ucf_crime:ebb493ce1a87",
+   "group": "ucf-crime:Normal_Videos_885_x264",
+   "media_s": 15.8
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.ret/moment",
+   "task": "lvid.ret/moment/charades_sta",
+   "item_id": "lvid.ret.moment.charades_sta:aa2caa9d87bb",
+   "group": "charades:FAO7J",
+   "media_s": 45.2
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.ret/moment",
+   "task": "lvid.ret/moment/ego4d_nlq",
+   "item_id": "lvid.ret.moment.ego4d_nlq:ec6141b714f4",
+   "group": "ego4d:50b2fa2f-9d39-4b9c-8e3c-4a4ef0669956",
+   "media_s": 480.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.ret/moment",
+   "task": "lvid.ret/moment/qvhighlights",
+   "item_id": "lvid.ret.moment.qvhighlights:33cb3e1e3a31",
+   "group": "qvhighlights:A_MFAuOwK5k_510.0_660.0",
+   "media_s": 150.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.ret/moment",
+   "task": "lvid.ret/moment/charades_sta",
+   "item_id": "lvid.ret.moment.charades_sta:317333b06090",
+   "group": "charades:5EEXF",
+   "media_s": 33.506
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.ret/moment",
+   "task": "lvid.ret/moment/ego4d_nlq",
+   "item_id": "lvid.ret.moment.ego4d_nlq:0e78d8f6ec65",
+   "group": "ego4d:6ae63a5f-09ea-47d2-9ac8-97c04927da86",
+   "media_s": 480.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.ret/moment",
+   "task": "lvid.ret/moment/qvhighlights",
+   "item_id": "lvid.ret.moment.qvhighlights:2f26a057b4fb",
+   "group": "qvhighlights:KRHEqswrh9I_360.0_510.0",
+   "media_s": 150.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.ret/moment",
+   "task": "lvid.ret/moment/charades_sta",
+   "item_id": "lvid.ret.moment.charades_sta:e98d7ea0363d",
+   "group": "charades:BFH78",
+   "media_s": 31.098
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.ret/moment",
+   "task": "lvid.ret/moment/ego4d_nlq",
+   "item_id": "lvid.ret.moment.ego4d_nlq:c3e1c5173d10",
+   "group": "ego4d:d79f9434-2456-4a01-bf72-d597a5668e86",
+   "media_s": 480.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.ret/moment",
+   "task": "lvid.ret/moment/qvhighlights",
+   "item_id": "lvid.ret.moment.qvhighlights:4b53349f4a76",
+   "group": "qvhighlights:hYGAJNV6eYY_210.0_360.0",
+   "media_s": 150.017
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.ret/moment",
+   "task": "lvid.ret/moment/charades_sta",
+   "item_id": "lvid.ret.moment.charades_sta:5e319311781c",
+   "group": "charades:ST7MR",
+   "media_s": 48.529
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/escalation",
+   "task": "lvid.route/escalation/jev_pair",
+   "item_id": "lvid.route.escalation.jev_pair:67bea3416d8b",
+   "group": "media-sha256:a887697ce8f54975697fdf83d5a16ec4e557ef73c9e1024c01099826f8c11e63",
+   "media_s": 3029.96
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/escalation",
+   "task": "lvid.route/escalation/jev_pair",
+   "item_id": "lvid.route.escalation.jev_pair:873c2165aefb",
+   "group": "ego4d:1c7426ad-b6ba-4494-897c-537dd4a201e9",
+   "media_s": 479.967
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/escalation",
+   "task": "lvid.route/escalation/jev_pair",
+   "item_id": "lvid.route.escalation.jev_pair:a10628091d58",
+   "group": "media-sha256:edcf54ba8ee29bfefa3afe2cb9e863f3c186a405dc51ef447ba6e3a4da115fb2",
+   "media_s": 119.3
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/escalation",
+   "task": "lvid.route/escalation/jev_pair",
+   "item_id": "lvid.route.escalation.jev_pair:232606b801f6",
+   "group": "media-sha256:d62503885b79551499ad9e148669ca2bf5e0d97238a6840f5488c437cd1cf7f1",
+   "media_s": 174.633
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/escalation",
+   "task": "lvid.route/escalation/jev_pair",
+   "item_id": "lvid.route.escalation.jev_pair:644ceba66bf3",
+   "group": "media-sha256:2b09c8f833bfc06b33e42126190321d7012027d9ac30e6bff99ee55186c06653",
+   "media_s": 148.8
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/escalation",
+   "task": "lvid.route/escalation/jev_pair",
+   "item_id": "lvid.route.escalation.jev_pair:8fe4122caec3",
+   "group": "media-sha256:e3afec2051a89988f341fde161fd38b8df154f3fcb45f38e6ef52a601ce44bc4",
+   "media_s": 184.767
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/escalation",
+   "task": "lvid.route/escalation/jev_pair",
+   "item_id": "lvid.route.escalation.jev_pair:764537eba621",
+   "group": "media-sha256:954014cc1f5953d0c87b5eec9b854d66290aebf6f52aaff70e9248f9faf43046",
+   "media_s": 809.56
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/escalation",
+   "task": "lvid.route/escalation/jev_pair",
+   "item_id": "lvid.route.escalation.jev_pair:7b789a5983ea",
+   "group": "media-sha256:e650d9747aac210e71653fe2da41ee2117063dbdc1e2c2a8534e2b8673107fa2",
+   "media_s": 96.133
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/escalation",
+   "task": "lvid.route/escalation/jev_pair",
+   "item_id": "lvid.route.escalation.jev_pair:867fc5bd85f6",
+   "group": "media-sha256:8a9b0a610085c7d3a61338e0974d78758580a5d9d27742624a6e5705c0ed2563",
+   "media_s": 172.172
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/escalation",
+   "task": "lvid.route/escalation/jev_pair",
+   "item_id": "lvid.route.escalation.jev_pair:a7428c6d949a",
+   "group": "media-sha256:07bf5b16ca47b4385a110ffd55028d103c56abe269e285a11d003a3f99918cbe",
+   "media_s": 113.067
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/segment",
+   "task": "lvid.route/segment/qvhighlights",
+   "item_id": "lvid.route.segment.qvhighlights:bfeb15aae033",
+   "group": "qvhighlights:0zDV_cVzPiI_360.0_510.0",
+   "media_s": 2.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/segment",
+   "task": "lvid.route/segment/qvhighlights",
+   "item_id": "lvid.route.segment.qvhighlights:84eb713ab882",
+   "group": "qvhighlights:FYU3KWg9TdQ_660.0_810.0",
+   "media_s": 2.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/segment",
+   "task": "lvid.route/segment/qvhighlights",
+   "item_id": "lvid.route.segment.qvhighlights:a991d4548a53",
+   "group": "qvhighlights:c-fzjF9ubUc_210.0_360.0",
+   "media_s": 2.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/segment",
+   "task": "lvid.route/segment/qvhighlights",
+   "item_id": "lvid.route.segment.qvhighlights:4e74dbf0e442",
+   "group": "qvhighlights:bTqMo5klaCE_660.0_810.0",
+   "media_s": 2.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/segment",
+   "task": "lvid.route/segment/qvhighlights",
+   "item_id": "lvid.route.segment.qvhighlights:465c744af2e8",
+   "group": "qvhighlights:rsNuM2HcRh8_60.0_210.0",
+   "media_s": 2.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/segment",
+   "task": "lvid.route/segment/qvhighlights",
+   "item_id": "lvid.route.segment.qvhighlights:6bb059afe76a",
+   "group": "qvhighlights:WINZiMUH7Lk_210.0_360.0",
+   "media_s": 2.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/segment",
+   "task": "lvid.route/segment/qvhighlights",
+   "item_id": "lvid.route.segment.qvhighlights:0bbb954f3a98",
+   "group": "qvhighlights:7PKEbzSNwts_360.0_510.0",
+   "media_s": 2.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/segment",
+   "task": "lvid.route/segment/qvhighlights",
+   "item_id": "lvid.route.segment.qvhighlights:f731c147c8a4",
+   "group": "qvhighlights:DtLI1xR051U_210.0_360.0",
+   "media_s": 2.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/segment",
+   "task": "lvid.route/segment/qvhighlights",
+   "item_id": "lvid.route.segment.qvhighlights:a26be6fffcd3",
+   "group": "qvhighlights:DU3E7tTt0_s_210.0_360.0",
+   "media_s": 2.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.route/segment",
+   "task": "lvid.route/segment/qvhighlights",
+   "item_id": "lvid.route.segment.qvhighlights:da2ccb15c472",
+   "group": "qvhighlights:SyMt-tik9q0_510.0_660.0",
+   "media_s": 2.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_candidates",
+   "task": "vid.basic/action_candidates/kinetics700",
+   "item_id": "vid.basic.action_candidates.kinetics700:b00479628e8c",
+   "group": "source-family:92274f6d20ce58f266459cbdb9b1a42bb10623f10c094165426a66929c3d24ac",
+   "media_s": 10.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_candidates",
+   "task": "vid.basic/action_candidates/kinetics700",
+   "item_id": "vid.basic.action_candidates.kinetics700:11283c1ea5cd",
+   "group": "source-family:72d102b8300f76e3743e75451f193df32284b945679d6049a1619e9dae6daa24",
+   "media_s": 10.01
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_candidates",
+   "task": "vid.basic/action_candidates/kinetics700",
+   "item_id": "vid.basic.action_candidates.kinetics700:429b8712a67a",
+   "group": "source-family:ac28ee5f8cd621f3468ae3c8cf2562c69c12600fa63b4ed621ba6676e3534147",
+   "media_s": 10.01
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_candidates",
+   "task": "vid.basic/action_candidates/kinetics700",
+   "item_id": "vid.basic.action_candidates.kinetics700:02febc08011c",
+   "group": "source-family:a1be94cd42912cbb46a9d5576b862637047680ad07a35540bf193dbc5b659fec",
+   "media_s": 10.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_candidates",
+   "task": "vid.basic/action_candidates/kinetics700",
+   "item_id": "vid.basic.action_candidates.kinetics700:0e7dce1882cd",
+   "group": "source-family:11ebb4bae6806fd0c0033e83484ee33e85174dd408806ad42800ee9b23a974c7",
+   "media_s": 10.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_candidates",
+   "task": "vid.basic/action_candidates/kinetics700",
+   "item_id": "vid.basic.action_candidates.kinetics700:c9be68c91966",
+   "group": "source-family:3341bddb5a3f80d0c041c1ceb327c6e63a88e90fec85d789090631433bc710b0",
+   "media_s": 10.01
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_candidates",
+   "task": "vid.basic/action_candidates/kinetics700",
+   "item_id": "vid.basic.action_candidates.kinetics700:d3cfac82a850",
+   "group": "source-family:7881fb914e3e4f96b53438730199fade02ae119b8cfc920c17d8efc8773e8cfe",
+   "media_s": 10.01
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_candidates",
+   "task": "vid.basic/action_candidates/kinetics700",
+   "item_id": "vid.basic.action_candidates.kinetics700:c0a3481b99b5",
+   "group": "source-family:8983190e847808b148633725b1b4136fe4cb128cf99c99c4319167c0ecb73c4d",
+   "media_s": 10.01
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_candidates",
+   "task": "vid.basic/action_candidates/kinetics700",
+   "item_id": "vid.basic.action_candidates.kinetics700:f1fb33be33a6",
+   "group": "source-family:249b84be4420013b3ec140c3de019f24dc6b708b6a40571f39f279f9f51e7b4b",
+   "media_s": 10.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_candidates",
+   "task": "vid.basic/action_candidates/kinetics700",
+   "item_id": "vid.basic.action_candidates.kinetics700:ff63a787607f",
+   "group": "source-family:a2ac018966e86bfb7673c7f9584ae4cdea4acebe1d8b769e2aefab013d4c37e0",
+   "media_s": 10.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_category",
+   "task": "vid.basic/action_category/ucf101",
+   "item_id": "vid.basic.action_category.ucf101:b74fbd3885ce",
+   "group": "source-family:e5e353935c2c32d572910b9e07a271e9cb69fc42fbe7d955301c82292da74279",
+   "media_s": 5.205
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_category",
+   "task": "vid.basic/action_category/ucf101",
+   "item_id": "vid.basic.action_category.ucf101:b3f2d32d6707",
+   "group": "source-family:bb9e5250b350187d13692f0261bdca213a217546a12b22a54d3d66791050cda4",
+   "media_s": 5.439
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_category",
+   "task": "vid.basic/action_category/ucf101",
+   "item_id": "vid.basic.action_category.ucf101:44ebe178cb1c",
+   "group": "source-family:1c06f5d9c53aeab9cd8584ad9ac9ee55cdbcd1a43c600d1f463d36733c5b019d",
+   "media_s": 15.84
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_category",
+   "task": "vid.basic/action_category/ucf101",
+   "item_id": "vid.basic.action_category.ucf101:a3c547d6f173",
+   "group": "source-family:5adcb182f3060cbd5291abaecbf3a5670468e1cd87edabfe3cd891592a6044ec",
+   "media_s": 8.52
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_category",
+   "task": "vid.basic/action_category/ucf101",
+   "item_id": "vid.basic.action_category.ucf101:748a17de09fe",
+   "group": "source-family:33dbd2aeed11cb5711d6e8c2565b141289e440249b9c51c1d8a7a4ba1bc88999",
+   "media_s": 10.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_category",
+   "task": "vid.basic/action_category/ucf101",
+   "item_id": "vid.basic.action_category.ucf101:3ca9f13b7301",
+   "group": "source-family:15f428914fa4a2996194416ee8c4484ca4d4dd425e6364641bc26537ba1612d0",
+   "media_s": 2.603
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_category",
+   "task": "vid.basic/action_category/ucf101",
+   "item_id": "vid.basic.action_category.ucf101:5e9bc366aad2",
+   "group": "source-family:41ed78bc8ec9050c6cd9ea53cc55318a37758b474c5d117e44393b842a0d9a8f",
+   "media_s": 6.707
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_category",
+   "task": "vid.basic/action_category/ucf101",
+   "item_id": "vid.basic.action_category.ucf101:4b98b436f3c3",
+   "group": "source-family:cc2dbf8e48b1ff4ce218e3139da4abbd282e5b57a0f9cca4719643002bb96a2c",
+   "media_s": 7.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_category",
+   "task": "vid.basic/action_category/ucf101",
+   "item_id": "vid.basic.action_category.ucf101:f6232e9d4aeb",
+   "group": "source-family:ef910103aade5add9b4aa7ec3a73a917f4afad4a28a9e4549b0ea65574e13975",
+   "media_s": 10.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_category",
+   "task": "vid.basic/action_category/ucf101",
+   "item_id": "vid.basic.action_category.ucf101:8fdade3acb76",
+   "group": "source-family:5316c0e616adc4a71cc5cf59be71fb64dc11adeec4407408b9ea44c54af8c713",
+   "media_s": 4.72
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/repetition",
+   "task": "vid.basic/repetition/countix",
+   "item_id": "vid.basic.repetition.countix:e045e9bf9cdb",
+   "group": "countix:countix-45bNxMs82Pg",
+   "media_s": 4.922
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/repetition",
+   "task": "vid.basic/repetition/repcount_a",
+   "item_id": "vid.basic.repetition.repcount_a:90fc461b3131",
+   "group": "repcount-a:stu3_10",
+   "media_s": 20.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/repetition",
+   "task": "vid.basic/repetition/countix",
+   "item_id": "vid.basic.repetition.countix:7b9982d22d33",
+   "group": "countix:countix-4hmh5SAPMsU",
+   "media_s": 9.977
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/repetition",
+   "task": "vid.basic/repetition/repcount_a",
+   "item_id": "vid.basic.repetition.repcount_a:bc6cc21e5c0a",
+   "group": "repcount-a:stu6_42",
+   "media_s": 57.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/repetition",
+   "task": "vid.basic/repetition/countix",
+   "item_id": "vid.basic.repetition.countix:aadc1b73904e",
+   "group": "countix:countix-cPbZyTEwx-M",
+   "media_s": 9.943
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/repetition",
+   "task": "vid.basic/repetition/repcount_a",
+   "item_id": "vid.basic.repetition.repcount_a:b6f8c89b582f",
+   "group": "repcount-a:train2534",
+   "media_s": 10.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/repetition",
+   "task": "vid.basic/repetition/countix",
+   "item_id": "vid.basic.repetition.countix:9e3abbafc473",
+   "group": "countix:countix-bDBDArfw7rM",
+   "media_s": 8.867
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/repetition",
+   "task": "vid.basic/repetition/repcount_a",
+   "item_id": "vid.basic.repetition.repcount_a:7b39cbb14b6f",
+   "group": "repcount-a:stu1_30",
+   "media_s": 12.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/repetition",
+   "task": "vid.basic/repetition/countix",
+   "item_id": "vid.basic.repetition.countix:ec595e50ccc5",
+   "group": "countix:countix-H3Al7BFK6S0",
+   "media_s": 9.89
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/repetition",
+   "task": "vid.basic/repetition/repcount_a",
+   "item_id": "vid.basic.repetition.repcount_a:ce69a0244c98",
+   "group": "repcount-a:stu3_52",
+   "media_s": 33.033
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/state_change",
+   "task": "vid.basic/state_change/changeit",
+   "item_id": "vid.basic.state_change.changeit:31bc210b527e",
+   "group": "changeit:JtLpLTgWkOc",
+   "media_s": 59.133
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/state_change",
+   "task": "vid.basic/state_change/ego4d_oscc",
+   "item_id": "vid.basic.state_change.ego4d_oscc:aa71d389ea09",
+   "group": "ego4d:047c5e54-444f-463e-b677-be38e706a9ea",
+   "media_s": 5.133
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/state_change",
+   "task": "vid.basic/state_change/changeit",
+   "item_id": "vid.basic.state_change.changeit:f9990d7a8cdb",
+   "group": "changeit:wLgL_X7tlZA",
+   "media_s": 30.931
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/state_change",
+   "task": "vid.basic/state_change/ego4d_oscc",
+   "item_id": "vid.basic.state_change.ego4d_oscc:4055ff5dc93d",
+   "group": "ego4d:543ac6fc-9f77-4cdd-b7fe-6721cb037916",
+   "media_s": 6.3
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/state_change",
+   "task": "vid.basic/state_change/changeit",
+   "item_id": "vid.basic.state_change.changeit:94336143893a",
+   "group": "changeit:Q83aku_6AN0",
+   "media_s": 110.01
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/state_change",
+   "task": "vid.basic/state_change/ego4d_oscc",
+   "item_id": "vid.basic.state_change.ego4d_oscc:35a438893d0a",
+   "group": "ego4d:36248b1e-9ba7-4789-bbf5-b9e33e3ab408",
+   "media_s": 7.167
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/state_change",
+   "task": "vid.basic/state_change/changeit",
+   "item_id": "vid.basic.state_change.changeit:2c7aeb74f5b2",
+   "group": "changeit:8CUWh7UOutI",
+   "media_s": 40.767
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/state_change",
+   "task": "vid.basic/state_change/ego4d_oscc",
+   "item_id": "vid.basic.state_change.ego4d_oscc:6911629d3d04",
+   "group": "ego4d:5f2be256-1298-4876-a310-cc9c7e80774a",
+   "media_s": 7.1
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/state_change",
+   "task": "vid.basic/state_change/changeit",
+   "item_id": "vid.basic.state_change.changeit:d4d954ea9105",
+   "group": "changeit:dX-KdS9AOBk",
+   "media_s": 143.143
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/state_change",
+   "task": "vid.basic/state_change/ego4d_oscc",
+   "item_id": "vid.basic.state_change.ego4d_oscc:e009d70d26f7",
+   "group": "ego4d:8c730e66-aa1b-4a0b-a4ee-db42b1b41f96",
+   "media_s": 5.367
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/temporal",
+   "task": "vid.basic/temporal/ssv2",
+   "item_id": "vid.basic.temporal.ssv2:a4e7da9eb3ed",
+   "group": "ssv2:215114",
+   "media_s": 2.833
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/temporal",
+   "task": "vid.basic/temporal/ssv2",
+   "item_id": "vid.basic.temporal.ssv2:78002519054e",
+   "group": "ssv2:87192",
+   "media_s": 5.083
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/temporal",
+   "task": "vid.basic/temporal/ssv2",
+   "item_id": "vid.basic.temporal.ssv2:f0b4d0e85880",
+   "group": "ssv2:475",
+   "media_s": 4.583
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/temporal",
+   "task": "vid.basic/temporal/ssv2",
+   "item_id": "vid.basic.temporal.ssv2:78cfc5cb1571",
+   "group": "ssv2:176249",
+   "media_s": 4.083
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/temporal",
+   "task": "vid.basic/temporal/ssv2",
+   "item_id": "vid.basic.temporal.ssv2:0973d6634848",
+   "group": "ssv2:191232",
+   "media_s": 3.583
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/temporal",
+   "task": "vid.basic/temporal/ssv2",
+   "item_id": "vid.basic.temporal.ssv2:7a20c91bd5d1",
+   "group": "ssv2:68610",
+   "media_s": 3.416
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/temporal",
+   "task": "vid.basic/temporal/ssv2",
+   "item_id": "vid.basic.temporal.ssv2:bf11989e20ba",
+   "group": "ssv2:92782",
+   "media_s": 2.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/temporal",
+   "task": "vid.basic/temporal/ssv2",
+   "item_id": "vid.basic.temporal.ssv2:39b1a9e8f30e",
+   "group": "ssv2:47106",
+   "media_s": 4.25
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/temporal",
+   "task": "vid.basic/temporal/ssv2",
+   "item_id": "vid.basic.temporal.ssv2:e377bb4b8bb6",
+   "group": "ssv2:15812",
+   "media_s": 4.916
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/temporal",
+   "task": "vid.basic/temporal/ssv2",
+   "item_id": "vid.basic.temporal.ssv2:b8bb04b83c1b",
+   "group": "ssv2:74428",
+   "media_s": 3.166
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.batch/quality",
+   "task": "vid.batch/quality/konvid_1k",
+   "item_id": "vid.batch.quality.konvid_1k:ed3bfc471968",
+   "group": "flickr:4991520511",
+   "media_s": 8.008
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.batch/quality",
+   "task": "vid.batch/quality/konvid_1k",
+   "item_id": "vid.batch.quality.konvid_1k:1088a668b8c6",
+   "group": "flickr:9521557660",
+   "media_s": 8.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.batch/quality",
+   "task": "vid.batch/quality/konvid_1k",
+   "item_id": "vid.batch.quality.konvid_1k:f346cf737bcf",
+   "group": "flickr:5825661459",
+   "media_s": 8.008
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.batch/quality",
+   "task": "vid.batch/quality/konvid_1k",
+   "item_id": "vid.batch.quality.konvid_1k:6db386913434",
+   "group": "flickr:6913535960",
+   "media_s": 8.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.batch/quality",
+   "task": "vid.batch/quality/konvid_1k",
+   "item_id": "vid.batch.quality.konvid_1k:a25dd4f047dd",
+   "group": "flickr:8281880253",
+   "media_s": 8.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.batch/quality",
+   "task": "vid.batch/quality/konvid_1k",
+   "item_id": "vid.batch.quality.konvid_1k:8f9d629736c7",
+   "group": "flickr:5030830413",
+   "media_s": 8.008
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.batch/quality",
+   "task": "vid.batch/quality/konvid_1k",
+   "item_id": "vid.batch.quality.konvid_1k:78591b86b733",
+   "group": "flickr:6210381577",
+   "media_s": 8.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.batch/quality",
+   "task": "vid.batch/quality/konvid_1k",
+   "item_id": "vid.batch.quality.konvid_1k:33b4f25af2b5",
+   "group": "flickr:6865667129",
+   "media_s": 8.008
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.batch/quality",
+   "task": "vid.batch/quality/konvid_1k",
+   "item_id": "vid.batch.quality.konvid_1k:c62313f91a46",
+   "group": "flickr:4771991539",
+   "media_s": 8.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.batch/quality",
+   "task": "vid.batch/quality/konvid_1k",
+   "item_id": "vid.batch.quality.konvid_1k:10434051d905",
+   "group": "flickr:5311187352",
+   "media_s": 8.008
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/mvbench",
+   "task": "vid.bench/mvbench/test",
+   "item_id": "vid.bench.mvbench.test:4fa583bf44fc",
+   "group": "source-family:67fa5cf1f4d734a1de32c13b706c544616952d6058d6a2388d21ae1294af62df",
+   "media_s": 32.575
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/mvbench",
+   "task": "vid.bench/mvbench/test",
+   "item_id": "vid.bench.mvbench.test:1262150b1c7d",
+   "group": "source-family:9a1075d68e4d2e6ae4cae2ac6681d722b934b366feb3fdf35f4dfb789e2b1567",
+   "media_s": 5.796
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/mvbench",
+   "task": "vid.bench/mvbench/test",
+   "item_id": "vid.bench.mvbench.test:d44713ac14ca",
+   "group": "source-family:0535b23e0dd35ebc2121a7a8fe927edf1765fdd4d7c7ce49067eda1e44982f72",
+   "media_s": 16.8
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/mvbench",
+   "task": "vid.bench/mvbench/test",
+   "item_id": "vid.bench.mvbench.test:8668a21c4ee3",
+   "group": "source-family:ba6d4e0bc1275a9b0aa32f2b9aee2050966a1bd097f68458eeec4bba7417844c",
+   "media_s": 21.3
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/mvbench",
+   "task": "vid.bench/mvbench/test",
+   "item_id": "vid.bench.mvbench.test:9602da342899",
+   "group": "source-family:bad929a8b60062d6ae4db0f247cc94e67071212edd3ade1792a34d23a4a8934f",
+   "media_s": 15.6
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/mvbench",
+   "task": "vid.bench/mvbench/test",
+   "item_id": "vid.bench.mvbench.test:867ee5335b0a",
+   "group": "source-family:1ed8ce45c72d109970befa19bb50e8f0e2e84ab6a1c6f8f3b157a83a29d8f4f1",
+   "media_s": 4.416
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/mvbench",
+   "task": "vid.bench/mvbench/test",
+   "item_id": "vid.bench.mvbench.test:ea6e5d043c2f",
+   "group": "source-family:35a7bd61e0694c79f22db9459822dac26dd7c16ec61083791ab7501a17f4765b",
+   "media_s": 15.6
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/mvbench",
+   "task": "vid.bench/mvbench/test",
+   "item_id": "vid.bench.mvbench.test:b810a4c00dbf",
+   "group": "source-family:05a119a8ce1aec0108d9289db16dbc873c62066e04745c30a8a13dc6694b39bf",
+   "media_s": 5.12
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/mvbench",
+   "task": "vid.bench/mvbench/test",
+   "item_id": "vid.bench.mvbench.test:057b473a0f31",
+   "group": "source-family:7478b6a867285bb2b4b928246d20dcfa6ddefb34b2f4f2cb68a24a4382935dd2",
+   "media_s": 16.5
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/mvbench",
+   "task": "vid.bench/mvbench/test",
+   "item_id": "vid.bench.mvbench.test:cfe062f8ee12",
+   "group": "source-family:1a1233c7f78e236be79a9fffbcbe8c2b14898f70fad36633360a484b7c528bd0",
+   "media_s": 23.82
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/nextqa",
+   "task": "vid.bench/nextqa/val",
+   "item_id": "vid.bench.nextqa.val:4c5ce75d69b3",
+   "group": "source-family:3323704adc41d474e96c8b2c50e7e3ffb0e1d501c5f6b731f99af9b026bd9944",
+   "media_s": 27.528
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/nextqa",
+   "task": "vid.bench/nextqa/val",
+   "item_id": "vid.bench.nextqa.val:9a3c5096cd12",
+   "group": "source-family:9540876a7e127b2365705657089898660a24696a4dc79b8507bc7fd3801ce79c",
+   "media_s": 33.299
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/nextqa",
+   "task": "vid.bench/nextqa/val",
+   "item_id": "vid.bench.nextqa.val:8aa8f4b6203f",
+   "group": "source-family:f27dc14b7a5f4edc2f0be2efccdb8f5d3e817c8b821f8efeea25d901db362467",
+   "media_s": 18.886
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/nextqa",
+   "task": "vid.bench/nextqa/val",
+   "item_id": "vid.bench.nextqa.val:8afcc28a7887",
+   "group": "source-family:355955d5617241d8719e1579d77d858dc30f56a4a2f50ae06c9d7ac7ef006779",
+   "media_s": 17.316
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/nextqa",
+   "task": "vid.bench/nextqa/val",
+   "item_id": "vid.bench.nextqa.val:87e3390fe1bd",
+   "group": "source-family:c505b9fba20ebeea9f74758bc25c22dcd2ea0a9a3a8b3a180d85c5e701aa1d57",
+   "media_s": 32.0
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/nextqa",
+   "task": "vid.bench/nextqa/val",
+   "item_id": "vid.bench.nextqa.val:9bc5b8ce8e28",
+   "group": "source-family:e05b20081cddd2d8ea1e2d1772144ea9a24a1fd0cb8249dc3f24dd9b50f125c6",
+   "media_s": 34.701
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/nextqa",
+   "task": "vid.bench/nextqa/val",
+   "item_id": "vid.bench.nextqa.val:d6d27892d349",
+   "group": "source-family:4f62c5ef6d40762ced5d4a40518dee4b1abc92cc2ac87105e5e0ff9d40951d54",
+   "media_s": 67.868
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/nextqa",
+   "task": "vid.bench/nextqa/val",
+   "item_id": "vid.bench.nextqa.val:d4e0ec8c7a5d",
+   "group": "source-family:07af5381077cca38a84220b113b704ce5b21620d6d1b7e91ccf03612f34889ed",
+   "media_s": 79.04
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/nextqa",
+   "task": "vid.bench/nextqa/val",
+   "item_id": "vid.bench.nextqa.val:45135f494aed",
+   "group": "source-family:cbae1740e2335563cfc714c3737a7f7989bb80d5c58fd2cc2179c28cceee96ac",
+   "media_s": 86.086
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/nextqa",
+   "task": "vid.bench/nextqa/val",
+   "item_id": "vid.bench.nextqa.val:fe5c54911ce3",
+   "group": "source-family:a60e6a11ae9e0c16f27007122a32667666087825bd2325d6badf0bb73f51a27d",
+   "media_s": 52.594
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/tempcompass",
+   "task": "vid.bench/tempcompass/mc",
+   "item_id": "vid.bench.tempcompass.mc:7f7949ca1cd6",
+   "group": "source-family:fa860da9e663e34453ccf5a5dd661231354f4a73a0e2367c7a4206ba41ccf6a9",
+   "media_s": 8.48
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/tempcompass",
+   "task": "vid.bench/tempcompass/mc",
+   "item_id": "vid.bench.tempcompass.mc:b102c4764f4a",
+   "group": "source-family:7903705f53c9f18492f232297cd05912a7e0465207454e48a9103f802b5d7671",
+   "media_s": 14.02
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/tempcompass",
+   "task": "vid.bench/tempcompass/mc",
+   "item_id": "vid.bench.tempcompass.mc:1f5d500a9c1f",
+   "group": "source-family:89ce9a414c789f0e57405f8533ac3c33f955df86d4f25052adfd99de06b7ea8c",
+   "media_s": 9.0
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/tempcompass",
+   "task": "vid.bench/tempcompass/mc",
+   "item_id": "vid.bench.tempcompass.mc:a00872af576f",
+   "group": "source-family:b248a8d72280eb8384d5f014df110b48f81efadc38b96f0287fa9dafe824df1a",
+   "media_s": 5.038
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/tempcompass",
+   "task": "vid.bench/tempcompass/mc",
+   "item_id": "vid.bench.tempcompass.mc:7371162d827a",
+   "group": "source-family:2165f2585a1fa970f5e096d1341e311237cd66ef1be2882a4e25f2d2aa18997a",
+   "media_s": 10.511
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/tempcompass",
+   "task": "vid.bench/tempcompass/mc",
+   "item_id": "vid.bench.tempcompass.mc:11e3a88aeb63",
+   "group": "source-family:217ceadf08f4c4d0dc0429194bb1359a8aa6d9396808b36a8708f8c838d12593",
+   "media_s": 5.254
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/tempcompass",
+   "task": "vid.bench/tempcompass/mc",
+   "item_id": "vid.bench.tempcompass.mc:dc10a384042a",
+   "group": "source-family:1448097e4c50035d3ce5bae73f99cd568467372b60130370c4930fdf907a16f7",
+   "media_s": 12.08
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/tempcompass",
+   "task": "vid.bench/tempcompass/mc",
+   "item_id": "vid.bench.tempcompass.mc:abea1c11c715",
+   "group": "source-family:5e30bdfd2973f8f14b1c167bfc1a82a527e2ab94ee081b5845b79e64d4e18c3f",
+   "media_s": 5.0
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/tempcompass",
+   "task": "vid.bench/tempcompass/mc",
+   "item_id": "vid.bench.tempcompass.mc:f2936efc2d48",
+   "group": "source-family:91a5df14aacf29eb8bb713edf03aab55452bd31f59219808ffafe042ef91f4df",
+   "media_s": 17.417
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/tempcompass",
+   "task": "vid.bench/tempcompass/mc",
+   "item_id": "vid.bench.tempcompass.mc:67f6603473da",
+   "group": "source-family:171f2caaf7184eff3bf4b0dd1127581bca717e572b720f5dd791129c1bb02a4f",
+   "media_s": 7.542
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/feasibility",
+   "task": "vid.embodied/feasibility/star",
+   "item_id": "vid.embodied.feasibility.star:55899976c7bc",
+   "group": "charades:I4N6K",
+   "media_s": 21.525
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/feasibility",
+   "task": "vid.embodied/feasibility/star",
+   "item_id": "vid.embodied.feasibility.star:8207cb638a0d",
+   "group": "charades:D1WYU",
+   "media_s": 21.525
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/feasibility",
+   "task": "vid.embodied/feasibility/star",
+   "item_id": "vid.embodied.feasibility.star:d370aef8e90d",
+   "group": "charades:T5E2T",
+   "media_s": 13.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/feasibility",
+   "task": "vid.embodied/feasibility/star",
+   "item_id": "vid.embodied.feasibility.star:5815024c16e0",
+   "group": "charades:CCCUJ",
+   "media_s": 7.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/feasibility",
+   "task": "vid.embodied/feasibility/star",
+   "item_id": "vid.embodied.feasibility.star:bb4e2dc205bd",
+   "group": "charades:Z97SD",
+   "media_s": 6.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/feasibility",
+   "task": "vid.embodied/feasibility/star",
+   "item_id": "vid.embodied.feasibility.star:1ad7105c5984",
+   "group": "charades:G4E4S",
+   "media_s": 4.9
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/feasibility",
+   "task": "vid.embodied/feasibility/star",
+   "item_id": "vid.embodied.feasibility.star:f4c8527d6acd",
+   "group": "charades:V3SOF",
+   "media_s": 30.9
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/feasibility",
+   "task": "vid.embodied/feasibility/star",
+   "item_id": "vid.embodied.feasibility.star:c86c631f9f32",
+   "group": "charades:XLR4B",
+   "media_s": 24.075
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/feasibility",
+   "task": "vid.embodied/feasibility/star",
+   "item_id": "vid.embodied.feasibility.star:c613cb7a1e2c",
+   "group": "charades:LLOGB",
+   "media_s": 10.05
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/feasibility",
+   "task": "vid.embodied/feasibility/star",
+   "item_id": "vid.embodied.feasibility.star:900e4074e73d",
+   "group": "charades:T2J3M",
+   "media_s": 21.2
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/procedure",
+   "task": "vid.embodied/procedure/captaincook4d",
+   "item_id": "vid.embodied.procedure.captaincook4d:422346d6bfff",
+   "group": "captaincook4d:25_6",
+   "media_s": 2142.57
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/procedure",
+   "task": "vid.embodied/procedure/captaincook4d",
+   "item_id": "vid.embodied.procedure.captaincook4d:f2f9a5bd60d3",
+   "group": "captaincook4d:7_3",
+   "media_s": 777.777
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/procedure",
+   "task": "vid.embodied/procedure/captaincook4d",
+   "item_id": "vid.embodied.procedure.captaincook4d:8cd11fbd1e06",
+   "group": "captaincook4d:3_14",
+   "media_s": 604.237
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/procedure",
+   "task": "vid.embodied/procedure/captaincook4d",
+   "item_id": "vid.embodied.procedure.captaincook4d:c0b1353ee9e2",
+   "group": "captaincook4d:12_15",
+   "media_s": 462.729
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/procedure",
+   "task": "vid.embodied/procedure/captaincook4d",
+   "item_id": "vid.embodied.procedure.captaincook4d:a73ff472ad3a",
+   "group": "captaincook4d:16_18",
+   "media_s": 1413.279
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/procedure",
+   "task": "vid.embodied/procedure/captaincook4d",
+   "item_id": "vid.embodied.procedure.captaincook4d:86220c491125",
+   "group": "captaincook4d:4_30",
+   "media_s": 783.18
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/procedure",
+   "task": "vid.embodied/procedure/captaincook4d",
+   "item_id": "vid.embodied.procedure.captaincook4d:0d05e6fe1c70",
+   "group": "captaincook4d:20_48",
+   "media_s": 855.25
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/procedure",
+   "task": "vid.embodied/procedure/captaincook4d",
+   "item_id": "vid.embodied.procedure.captaincook4d:b1191803c5c9",
+   "group": "captaincook4d:29_22",
+   "media_s": 1290.79
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/procedure",
+   "task": "vid.embodied/procedure/captaincook4d",
+   "item_id": "vid.embodied.procedure.captaincook4d:e08f520c2878",
+   "group": "captaincook4d:15_46",
+   "media_s": 1191.29
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/procedure",
+   "task": "vid.embodied/procedure/captaincook4d",
+   "item_id": "vid.embodied.procedure.captaincook4d:ad75e53530c0",
+   "group": "captaincook4d:12_5",
+   "media_s": 477.14
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/robot_success",
+   "task": "vid.embodied/robot_success/robofac",
+   "item_id": "vid.embodied.robot_success.robofac:4b1b0b848802",
+   "group": "robofac:b3cd3f5f-5467-4d6a-a7ec-660166ad870a",
+   "media_s": 2.2
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/robot_success",
+   "task": "vid.embodied/robot_success/robofac",
+   "item_id": "vid.embodied.robot_success.robofac:42bad9fea01a",
+   "group": "robofac:0977b0e8-f3b0-4bbc-8995-b9c63d6bd57b",
+   "media_s": 3.633
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/robot_success",
+   "task": "vid.embodied/robot_success/robofac",
+   "item_id": "vid.embodied.robot_success.robofac:5c62031eb037",
+   "group": "robofac:db71525e-39a7-48c5-8060-c8537e4c420e",
+   "media_s": 6.933
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/robot_success",
+   "task": "vid.embodied/robot_success/robofac",
+   "item_id": "vid.embodied.robot_success.robofac:42c54d04c6d3",
+   "group": "robofac:ed07c176-4998-4f88-a8bb-504beae31f0b",
+   "media_s": 18.467
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/robot_success",
+   "task": "vid.embodied/robot_success/robofac",
+   "item_id": "vid.embodied.robot_success.robofac:493beb906ffb",
+   "group": "robofac:b01ae2b8-e5be-4a79-83e0-4570f7852cda",
+   "media_s": 21.3
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/robot_success",
+   "task": "vid.embodied/robot_success/robofac",
+   "item_id": "vid.embodied.robot_success.robofac:c30aa24d402c",
+   "group": "robofac:6af84c05-10a9-4c7f-a099-2769b05807ae",
+   "media_s": 3.7
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/robot_success",
+   "task": "vid.embodied/robot_success/robofac",
+   "item_id": "vid.embodied.robot_success.robofac:74c32ef401cb",
+   "group": "robofac:60136297-9ff5-4380-bed0-3fd693545324",
+   "media_s": 6.467
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/robot_success",
+   "task": "vid.embodied/robot_success/robofac",
+   "item_id": "vid.embodied.robot_success.robofac:4b8e792b709b",
+   "group": "robofac:2acf42ca-65e6-44d2-b5a0-a13ecca981b0",
+   "media_s": 11.267
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/robot_success",
+   "task": "vid.embodied/robot_success/robofac",
+   "item_id": "vid.embodied.robot_success.robofac:f6014a980c2d",
+   "group": "robofac:6da60a95-cd6c-4ea2-882a-afb6b8bd058e",
+   "media_s": 3.033
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.embodied/robot_success",
+   "task": "vid.embodied/robot_success/robofac",
+   "item_id": "vid.embodied.robot_success.robofac:e6bc6d3f4739",
+   "group": "robofac:1fb4b945-420d-4582-8ece-d3635a42ec3e",
+   "media_s": 7.367
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/next_action",
+   "task": "vid.fore/next_action/epic_kitchens_100",
+   "item_id": "vid.fore.next_action.epic_kitchens_100:8b06314cd706",
+   "group": "epic-kitchens:P32_02",
+   "media_s": 18.75
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/next_action",
+   "task": "vid.fore/next_action/epic_kitchens_100",
+   "item_id": "vid.fore.next_action.epic_kitchens_100:081cfb74ec30",
+   "group": "epic-kitchens:P04_26",
+   "media_s": 0.67
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/next_action",
+   "task": "vid.fore/next_action/epic_kitchens_100",
+   "item_id": "vid.fore.next_action.epic_kitchens_100:af27d367f54b",
+   "group": "epic-kitchens:P02_12",
+   "media_s": 443.28
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/next_action",
+   "task": "vid.fore/next_action/epic_kitchens_100",
+   "item_id": "vid.fore.next_action.epic_kitchens_100:3ca6d2b24af0",
+   "group": "epic-kitchens:P02_15",
+   "media_s": 6.62
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/next_action",
+   "task": "vid.fore/next_action/epic_kitchens_100",
+   "item_id": "vid.fore.next_action.epic_kitchens_100:a9b5d7faeefb",
+   "group": "epic-kitchens:P20_07",
+   "media_s": 36.19
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/next_action",
+   "task": "vid.fore/next_action/epic_kitchens_100",
+   "item_id": "vid.fore.next_action.epic_kitchens_100:79b96f75bb6f",
+   "group": "epic-kitchens:P25_06",
+   "media_s": 177.77
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/next_action",
+   "task": "vid.fore/next_action/epic_kitchens_100",
+   "item_id": "vid.fore.next_action.epic_kitchens_100:733c36b3e6c7",
+   "group": "epic-kitchens:P07_12",
+   "media_s": 213.74
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/next_action",
+   "task": "vid.fore/next_action/epic_kitchens_100",
+   "item_id": "vid.fore.next_action.epic_kitchens_100:f8a9dd68cd03",
+   "group": "epic-kitchens:P13_01",
+   "media_s": 483.84
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/next_action",
+   "task": "vid.fore/next_action/epic_kitchens_100",
+   "item_id": "vid.fore.next_action.epic_kitchens_100:d0614a680146",
+   "group": "epic-kitchens:P08_14",
+   "media_s": 8.16
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/next_action",
+   "task": "vid.fore/next_action/epic_kitchens_100",
+   "item_id": "vid.fore.next_action.epic_kitchens_100:67c49e9a32f1",
+   "group": "epic-kitchens:P26_36",
+   "media_s": 200.22
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/pedestrian",
+   "task": "vid.fore/pedestrian/jaad",
+   "item_id": "vid.fore.pedestrian.jaad:9c370bc3b710",
+   "group": "jaad:video_0223",
+   "media_s": 7.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/pedestrian",
+   "task": "vid.fore/pedestrian/pie",
+   "item_id": "vid.fore.pedestrian.pie:862f786abbe0",
+   "group": "pie:pie-set03-video_0011",
+   "media_s": 485.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/pedestrian",
+   "task": "vid.fore/pedestrian/jaad",
+   "item_id": "vid.fore.pedestrian.jaad:4168b1857187",
+   "group": "jaad:video_0021",
+   "media_s": 3.003
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/pedestrian",
+   "task": "vid.fore/pedestrian/pie",
+   "item_id": "vid.fore.pedestrian.pie:a6d88fe78cdd",
+   "group": "pie:pie-set03-video_0002",
+   "media_s": 423.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/pedestrian",
+   "task": "vid.fore/pedestrian/jaad",
+   "item_id": "vid.fore.pedestrian.jaad:ad71e5dcb61b",
+   "group": "jaad:video_0219",
+   "media_s": 2.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/pedestrian",
+   "task": "vid.fore/pedestrian/pie",
+   "item_id": "vid.fore.pedestrian.pie:44a4e93ac6fb",
+   "group": "pie:pie-set01-video_0003",
+   "media_s": 525.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/pedestrian",
+   "task": "vid.fore/pedestrian/jaad",
+   "item_id": "vid.fore.pedestrian.jaad:0eb7e710dd91",
+   "group": "jaad:video_0089",
+   "media_s": 7.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/pedestrian",
+   "task": "vid.fore/pedestrian/pie",
+   "item_id": "vid.fore.pedestrian.pie:89caf9f20066",
+   "group": "pie:pie-set05-video_0001",
+   "media_s": 57.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/pedestrian",
+   "task": "vid.fore/pedestrian/jaad",
+   "item_id": "vid.fore.pedestrian.jaad:4fdefa9a4b74",
+   "group": "jaad:video_0262",
+   "media_s": 2.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.fore/pedestrian",
+   "task": "vid.fore/pedestrian/pie",
+   "item_id": "vid.fore.pedestrian.pie:fe3ecf4ec154",
+   "group": "pie:pie-set03-video_0016",
+   "media_s": 169.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.game/physics_bug",
+   "task": "vid.game/physics_bug/physgame",
+   "item_id": "vid.game.physics_bug.physgame:dd5cbb0868cd",
+   "group": "physgame:500001642081529-1-192",
+   "media_s": 48.466
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.game/physics_bug",
+   "task": "vid.game/physics_bug/physgame",
+   "item_id": "vid.game.physics_bug.physgame:7f3a845eab50",
+   "group": "physgame:1b3inat",
+   "media_s": 14.7
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.game/physics_bug",
+   "task": "vid.game/physics_bug/physgame",
+   "item_id": "vid.game.physics_bug.physgame:344266ce8ff4",
+   "group": "physgame:132iakp",
+   "media_s": 18.8
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.game/physics_bug",
+   "task": "vid.game/physics_bug/physgame",
+   "item_id": "vid.game.physics_bug.physgame:a35c2d07fdf2",
+   "group": "physgame:1ctd446",
+   "media_s": 7.933
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.game/physics_bug",
+   "task": "vid.game/physics_bug/physgame",
+   "item_id": "vid.game.physics_bug.physgame:46cb02c32e89",
+   "group": "physgame:195m3w7",
+   "media_s": 2.633
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.game/physics_bug",
+   "task": "vid.game/physics_bug/physgame",
+   "item_id": "vid.game.physics_bug.physgame:3ad840967e09",
+   "group": "physgame:s0062l",
+   "media_s": 18.633
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.game/physics_bug",
+   "task": "vid.game/physics_bug/physgame",
+   "item_id": "vid.game.physics_bug.physgame:77364fc7b7c0",
+   "group": "physgame:1au64cx",
+   "media_s": 28.733
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.game/physics_bug",
+   "task": "vid.game/physics_bug/physgame",
+   "item_id": "vid.game.physics_bug.physgame:36b0c66c9c36",
+   "group": "physgame:1g6tcb0",
+   "media_s": 22.667
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.game/physics_bug",
+   "task": "vid.game/physics_bug/physgame",
+   "item_id": "vid.game.physics_bug.physgame:f91145564aab",
+   "group": "physgame:19907kn",
+   "media_s": 24.433
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.game/physics_bug",
+   "task": "vid.game/physics_bug/physgame",
+   "item_id": "vid.game.physics_bug.physgame:cbad9b455707",
+   "group": "physgame:vshsz7",
+   "media_s": 8.333
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/hallucination",
+   "task": "vid.judge/hallucination/videohallucer",
+   "item_id": "vid.judge.hallucination.videohallucer:ba9072a40f77",
+   "group": "videohallucer:v_o0gdMKlKLcU",
+   "media_s": 17.017
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/hallucination",
+   "task": "vid.judge/hallucination/videohallucer",
+   "item_id": "vid.judge.hallucination.videohallucer:9190ad010490",
+   "group": "videohallucer:ILSVRC2015_train_00040024_45_90",
+   "media_s": 1.8
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/hallucination",
+   "task": "vid.judge/hallucination/videohallucer",
+   "item_id": "vid.judge.hallucination.videohallucer:7b29ddeb2a9f",
+   "group": "videohallucer:ILSVRC2015_train_00878000_0_120",
+   "media_s": 4.8
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/hallucination",
+   "task": "vid.judge/hallucination/videohallucer",
+   "item_id": "vid.judge.hallucination.videohallucer:75790b885752",
+   "group": "videohallucer:1010_4915733559_42_1068",
+   "media_s": 34.268
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/hallucination",
+   "task": "vid.judge/hallucination/videohallucer",
+   "item_id": "vid.judge.hallucination.videohallucer:99c7e8f71921",
+   "group": "videohallucer:v_sVT71OQjHE0",
+   "media_s": 55.4
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/hallucination",
+   "task": "vid.judge/hallucination/videohallucer",
+   "item_id": "vid.judge.hallucination.videohallucer:1d793a94c6d6",
+   "group": "videohallucer:ILSVRC2015_train_00250021_30_105",
+   "media_s": 2.533
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/hallucination",
+   "task": "vid.judge/hallucination/videohallucer",
+   "item_id": "vid.judge.hallucination.videohallucer:729042314918",
+   "group": "videohallucer:v_shGGt9TRlkk",
+   "media_s": 37.08
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/hallucination",
+   "task": "vid.judge/hallucination/videohallucer",
+   "item_id": "vid.judge.hallucination.videohallucer:2d49492bc9c5",
+   "group": "videohallucer:ILSVRC2015_train_00051009_0_30",
+   "media_s": 1.292
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/hallucination",
+   "task": "vid.judge/hallucination/videohallucer",
+   "item_id": "vid.judge.hallucination.videohallucer:b4f90afc9b07",
+   "group": "videohallucer:v_3hZjxdMcG6o",
+   "media_s": 11.144
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/hallucination",
+   "task": "vid.judge/hallucination/videohallucer",
+   "item_id": "vid.judge.hallucination.videohallucer:ef444b55a59e",
+   "group": "videohallucer:v_xUUmAdQJgjg",
+   "media_s": 5.767
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/t2v",
+   "task": "vid.judge/t2v/videofeedback",
+   "item_id": "vid.judge.t2v.videofeedback:8ea2b0d3da8b",
+   "group": "videofeedback:7001953",
+   "media_s": 1.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/t2v",
+   "task": "vid.judge/t2v/videofeedback",
+   "item_id": "vid.judge.t2v.videofeedback:386146ea83bc",
+   "group": "videofeedback:6004175",
+   "media_s": 2.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/t2v",
+   "task": "vid.judge/t2v/videofeedback",
+   "item_id": "vid.judge.t2v.videofeedback:e6034001c26b",
+   "group": "videofeedback:0002578",
+   "media_s": 3.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/t2v",
+   "task": "vid.judge/t2v/videofeedback",
+   "item_id": "vid.judge.t2v.videofeedback:2adfa06302f3",
+   "group": "videofeedback:3002855",
+   "media_s": 2.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/t2v",
+   "task": "vid.judge/t2v/videofeedback",
+   "item_id": "vid.judge.t2v.videofeedback:c32d0cfa617b",
+   "group": "videofeedback:2000088",
+   "media_s": 2.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/t2v",
+   "task": "vid.judge/t2v/videofeedback",
+   "item_id": "vid.judge.t2v.videofeedback:86bc6528c30e",
+   "group": "videofeedback:7001824",
+   "media_s": 1.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/t2v",
+   "task": "vid.judge/t2v/videofeedback",
+   "item_id": "vid.judge.t2v.videofeedback:61a643abe3aa",
+   "group": "videofeedback:6003625",
+   "media_s": 2.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/t2v",
+   "task": "vid.judge/t2v/videofeedback",
+   "item_id": "vid.judge.t2v.videofeedback:f1d02b81fb8c",
+   "group": "videofeedback:4004274",
+   "media_s": 2.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/t2v",
+   "task": "vid.judge/t2v/videofeedback",
+   "item_id": "vid.judge.t2v.videofeedback:d3db895fbe8c",
+   "group": "videofeedback:3002561",
+   "media_s": 2.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.judge/t2v",
+   "task": "vid.judge/t2v/videofeedback",
+   "item_id": "vid.judge.t2v.videofeedback:26cb88175baf",
+   "group": "videofeedback:2005543",
+   "media_s": 2.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/causal_qa",
+   "task": "vid.know/causal_qa/perception_test",
+   "item_id": "vid.know.causal_qa.perception_test:2553474ecc8d",
+   "group": "perception-test:video_9117",
+   "media_s": 10.798
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/causal_qa",
+   "task": "vid.know/causal_qa/perception_test",
+   "item_id": "vid.know.causal_qa.perception_test:b204c40dc80a",
+   "group": "perception-test:video_10455",
+   "media_s": 16.621
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/causal_qa",
+   "task": "vid.know/causal_qa/perception_test",
+   "item_id": "vid.know.causal_qa.perception_test:4a12cee16ca2",
+   "group": "perception-test:video_7610",
+   "media_s": 18.546
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/causal_qa",
+   "task": "vid.know/causal_qa/perception_test",
+   "item_id": "vid.know.causal_qa.perception_test:b0d825c69926",
+   "group": "perception-test:video_2367",
+   "media_s": 13.309
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/causal_qa",
+   "task": "vid.know/causal_qa/perception_test",
+   "item_id": "vid.know.causal_qa.perception_test:6f87d2fb3ad9",
+   "group": "perception-test:video_7009",
+   "media_s": 10.313
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/causal_qa",
+   "task": "vid.know/causal_qa/perception_test",
+   "item_id": "vid.know.causal_qa.perception_test:6079518bfab7",
+   "group": "perception-test:video_10980",
+   "media_s": 35.022
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/causal_qa",
+   "task": "vid.know/causal_qa/perception_test",
+   "item_id": "vid.know.causal_qa.perception_test:8bac83172fad",
+   "group": "perception-test:video_1354",
+   "media_s": 18.21
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/causal_qa",
+   "task": "vid.know/causal_qa/perception_test",
+   "item_id": "vid.know.causal_qa.perception_test:ba42b2ddaf32",
+   "group": "perception-test:video_6313",
+   "media_s": 29.058
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/causal_qa",
+   "task": "vid.know/causal_qa/perception_test",
+   "item_id": "vid.know.causal_qa.perception_test:a0e4667a495a",
+   "group": "perception-test:video_669",
+   "media_s": 16.078
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/causal_qa",
+   "task": "vid.know/causal_qa/perception_test",
+   "item_id": "vid.know.causal_qa.perception_test:5cfe74024826",
+   "group": "perception-test:video_9930",
+   "media_s": 19.306
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/physics",
+   "task": "vid.know/physics/physion",
+   "item_id": "vid.know.physics.physion:10d536151363",
+   "group": "physion:pilot_it2_rollingSliding_simple_ramp_box_1_dis_1_occ_0011",
+   "media_s": 1.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/physics",
+   "task": "vid.know/physics/physion",
+   "item_id": "vid.know.physics.physion:01f39138d624",
+   "group": "physion:test12_0001",
+   "media_s": 1.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/physics",
+   "task": "vid.know/physics/physion",
+   "item_id": "vid.know.physics.physion:1b8e5ccb0165",
+   "group": "physion:pilot-containment-multi-bowl_0016",
+   "media_s": 1.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/physics",
+   "task": "vid.know/physics/physion",
+   "item_id": "vid.know.physics.physion:f1841fdd4c7b",
+   "group": "physion:pilot-containment-torus_0013",
+   "media_s": 1.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/physics",
+   "task": "vid.know/physics/physion",
+   "item_id": "vid.know.physics.physion:5542a39b63da",
+   "group": "physion:pilot_it2_collision_simple_box_1_dis_1_occ_0001",
+   "media_s": 1.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/physics",
+   "task": "vid.know/physics/physion",
+   "item_id": "vid.know.physics.physion:78677d5c8a5f",
+   "group": "physion:test12_0004",
+   "media_s": 1.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/physics",
+   "task": "vid.know/physics/physion",
+   "item_id": "vid.know.physics.physion:3883cf843e33",
+   "group": "physion:pilot_it2_collision_non-sphere_tdw_2_dis_2_occ_0001",
+   "media_s": 1.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/physics",
+   "task": "vid.know/physics/physion",
+   "item_id": "vid.know.physics.physion:4694022235bb",
+   "group": "physion:pilot_it2_collision_assorted_targets_box_2_dis_2_occ_0004",
+   "media_s": 1.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/physics",
+   "task": "vid.know/physics/physion",
+   "item_id": "vid.know.physics.physion:b1652348fa29",
+   "group": "physion:pilot_towers_nb4_SJ025_mono1_dis0_occ0_tdwroom_0004",
+   "media_s": 1.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.know/physics",
+   "task": "vid.know/physics/physion",
+   "item_id": "vid.know.physics.physion:3d72da189280",
+   "group": "physion:test16_0008",
+   "media_s": 1.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/driving_risk",
+   "task": "vid.pro/driving_risk/nexar",
+   "item_id": "vid.pro.driving_risk.nexar:2f2f8900a9db",
+   "group": "nexar:01855",
+   "media_s": 7.4
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/driving_risk",
+   "task": "vid.pro/driving_risk/nexar",
+   "item_id": "vid.pro.driving_risk.nexar:d9de19878b9a",
+   "group": "nexar:00446",
+   "media_s": 10.233
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/driving_risk",
+   "task": "vid.pro/driving_risk/nexar",
+   "item_id": "vid.pro.driving_risk.nexar:db9310d02a66",
+   "group": "nexar:00826",
+   "media_s": 9.9
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/driving_risk",
+   "task": "vid.pro/driving_risk/nexar",
+   "item_id": "vid.pro.driving_risk.nexar:cd9815e795be",
+   "group": "nexar:01619",
+   "media_s": 9.967
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/driving_risk",
+   "task": "vid.pro/driving_risk/nexar",
+   "item_id": "vid.pro.driving_risk.nexar:4178c5e155db",
+   "group": "nexar:01836",
+   "media_s": 10.131
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/driving_risk",
+   "task": "vid.pro/driving_risk/nexar",
+   "item_id": "vid.pro.driving_risk.nexar:5790b5938a36",
+   "group": "nexar:02043",
+   "media_s": 10.133
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/driving_risk",
+   "task": "vid.pro/driving_risk/nexar",
+   "item_id": "vid.pro.driving_risk.nexar:c8ffa920c843",
+   "group": "nexar:00572",
+   "media_s": 9.863
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/driving_risk",
+   "task": "vid.pro/driving_risk/nexar",
+   "item_id": "vid.pro.driving_risk.nexar:a1e7f03658e2",
+   "group": "nexar:00920",
+   "media_s": 10.133
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/driving_risk",
+   "task": "vid.pro/driving_risk/nexar",
+   "item_id": "vid.pro.driving_risk.nexar:ddb55a1cc407",
+   "group": "nexar:00258",
+   "media_s": 9.867
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/driving_risk",
+   "task": "vid.pro/driving_risk/nexar",
+   "item_id": "vid.pro.driving_risk.nexar:b1b0242ce406",
+   "group": "nexar:00249",
+   "media_s": 9.666
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/foul",
+   "task": "vid.pro/foul/soccernet_mvfoul",
+   "item_id": "vid.pro.foul.soccernet_mvfoul:dc869432f042",
+   "group": "soccernet-mvfoul:test:event:136",
+   "media_s": 10.04
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/foul",
+   "task": "vid.pro/foul/soccernet_mvfoul",
+   "item_id": "vid.pro.foul.soccernet_mvfoul:556785cda924",
+   "group": "soccernet-mvfoul:test:event:82",
+   "media_s": 10.04
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/foul",
+   "task": "vid.pro/foul/soccernet_mvfoul",
+   "item_id": "vid.pro.foul.soccernet_mvfoul:23b7eab5b9bd",
+   "group": "soccernet-mvfoul:test:event:246",
+   "media_s": 10.08
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/foul",
+   "task": "vid.pro/foul/soccernet_mvfoul",
+   "item_id": "vid.pro.foul.soccernet_mvfoul:a6fd16649c34",
+   "group": "soccernet-mvfoul:test:event:52",
+   "media_s": 15.12
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/foul",
+   "task": "vid.pro/foul/soccernet_mvfoul",
+   "item_id": "vid.pro.foul.soccernet_mvfoul:b8ad10a475a7",
+   "group": "soccernet-mvfoul:test:event:57",
+   "media_s": 10.08
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/foul",
+   "task": "vid.pro/foul/soccernet_mvfoul",
+   "item_id": "vid.pro.foul.soccernet_mvfoul:896d0282ba60",
+   "group": "soccernet-mvfoul:test:event:256",
+   "media_s": 10.08
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/foul",
+   "task": "vid.pro/foul/soccernet_mvfoul",
+   "item_id": "vid.pro.foul.soccernet_mvfoul:87c91d494438",
+   "group": "soccernet-mvfoul:test:event:251",
+   "media_s": 20.12
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/foul",
+   "task": "vid.pro/foul/soccernet_mvfoul",
+   "item_id": "vid.pro.foul.soccernet_mvfoul:a18c0414582f",
+   "group": "soccernet-mvfoul:test:event:119",
+   "media_s": 10.04
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/foul",
+   "task": "vid.pro/foul/soccernet_mvfoul",
+   "item_id": "vid.pro.foul.soccernet_mvfoul:28f872653a8b",
+   "group": "soccernet-mvfoul:test:event:258",
+   "media_s": 10.08
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.pro/foul",
+   "task": "vid.pro/foul/soccernet_mvfoul",
+   "item_id": "vid.pro.foul.soccernet_mvfoul:0009e35d4b34",
+   "group": "soccernet-mvfoul:test:event:192",
+   "media_s": 10.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.ret/text_match",
+   "task": "vid.ret/text_match/msrvtt_mc",
+   "item_id": "vid.ret.text_match.msrvtt_mc:ca19a71b1336",
+   "group": "msrvtt:video7702",
+   "media_s": 25.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.ret/text_match",
+   "task": "vid.ret/text_match/msrvtt_mc",
+   "item_id": "vid.ret.text_match.msrvtt_mc:8e3b5ea3967c",
+   "group": "msrvtt:video9546",
+   "media_s": 10.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.ret/text_match",
+   "task": "vid.ret/text_match/msrvtt_mc",
+   "item_id": "vid.ret.text_match.msrvtt_mc:196d01824bbe",
+   "group": "msrvtt:video7244",
+   "media_s": 30.03
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.ret/text_match",
+   "task": "vid.ret/text_match/msrvtt_mc",
+   "item_id": "vid.ret.text_match.msrvtt_mc:0720e37e1eba",
+   "group": "msrvtt:video7207",
+   "media_s": 12.012
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.ret/text_match",
+   "task": "vid.ret/text_match/msrvtt_mc",
+   "item_id": "vid.ret.text_match.msrvtt_mc:ca41952aa296",
+   "group": "msrvtt:video8616",
+   "media_s": 12.012
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.ret/text_match",
+   "task": "vid.ret/text_match/msrvtt_mc",
+   "item_id": "vid.ret.text_match.msrvtt_mc:540145411f27",
+   "group": "msrvtt:video8779",
+   "media_s": 10.01
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.ret/text_match",
+   "task": "vid.ret/text_match/msrvtt_mc",
+   "item_id": "vid.ret.text_match.msrvtt_mc:0920c0dd40d3",
+   "group": "msrvtt:video9360",
+   "media_s": 10.01
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.ret/text_match",
+   "task": "vid.ret/text_match/msrvtt_mc",
+   "item_id": "vid.ret.text_match.msrvtt_mc:ec1b54824fbf",
+   "group": "msrvtt:video8014",
+   "media_s": 11.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.ret/text_match",
+   "task": "vid.ret/text_match/msrvtt_mc",
+   "item_id": "vid.ret.text_match.msrvtt_mc:01f202765c86",
+   "group": "msrvtt:video7888",
+   "media_s": 11.011
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.ret/text_match",
+   "task": "vid.ret/text_match/msrvtt_mc",
+   "item_id": "vid.ret.text_match.msrvtt_mc:5dfcaf3e5295",
+   "group": "msrvtt:video9027",
+   "media_s": 10.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.safety/violence",
+   "task": "vid.safety/violence/ucf_crime",
+   "item_id": "vid.safety.violence.ucf_crime:74cb576b856e",
+   "group": "ucf-crime:Vandalism028_x264",
+   "media_s": 149.833
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.safety/violence",
+   "task": "vid.safety/violence/xd_violence",
+   "item_id": "vid.safety.violence.xd_violence:8515a40a56eb",
+   "group": "xd-violence:xd-875759c5a2c7a1b569f6734a",
+   "media_s": 132.625
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.safety/violence",
+   "task": "vid.safety/violence/ucf_crime",
+   "item_id": "vid.safety.violence.ucf_crime:39b6568882e2",
+   "group": "ucf-crime:Normal_Videos_874_x264",
+   "media_s": 140.867
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.safety/violence",
+   "task": "vid.safety/violence/xd_violence",
+   "item_id": "vid.safety.violence.xd_violence:57b565c2bc92",
+   "group": "xd-violence:xd-c041130bd7b30c612829e653",
+   "media_s": 360.083
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.safety/violence",
+   "task": "vid.safety/violence/ucf_crime",
+   "item_id": "vid.safety.violence.ucf_crime:357e55d718f8",
+   "group": "ucf-crime:Normal_Videos_901_x264",
+   "media_s": 39.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.safety/violence",
+   "task": "vid.safety/violence/xd_violence",
+   "item_id": "vid.safety.violence.xd_violence:18eddd3e93d2",
+   "group": "xd-violence:xd-464b3a91109950aa45335075",
+   "media_s": 114.5
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.safety/violence",
+   "task": "vid.safety/violence/ucf_crime",
+   "item_id": "vid.safety.violence.ucf_crime:9531c5c5ed92",
+   "group": "ucf-crime:Normal_Videos_902_x264",
+   "media_s": 46.133
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.safety/violence",
+   "task": "vid.safety/violence/xd_violence",
+   "item_id": "vid.safety.violence.xd_violence:a7948ce77575",
+   "group": "xd-violence:xd-8720d5d54ca1e2b80ba147c7",
+   "media_s": 190.042
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.safety/violence",
+   "task": "vid.safety/violence/ucf_crime",
+   "item_id": "vid.safety.violence.ucf_crime:c135dabf140b",
+   "group": "ucf-crime:Normal_Videos_041_x264",
+   "media_s": 42.3
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.safety/violence",
+   "task": "vid.safety/violence/xd_violence",
+   "item_id": "vid.safety.violence.xd_violence:5a89980d254a",
+   "group": "xd-violence:xd-677fa2ab3830e9b42829b3a2",
+   "media_s": 10.042
+  }
+ ],
+ "warmup": [
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_candidates",
+   "task": "vid.basic/action_candidates/kinetics700",
+   "item_id": "vid.basic.action_candidates.kinetics700:694b31fdd79e",
+   "group": "source-family:772a5a0dba95f2bbdced8b63e5811301e7f08995def471a4b0bc8ba8a18e36c9",
+   "media_s": 10.0
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.embodied/ego_plan",
+   "task": "lvid.embodied/ego_plan/egoplan_bench2",
+   "item_id": "lvid.embodied.ego_plan.egoplan_bench2:413b3448e03b",
+   "group": "ego4d:670df362-2578-4f2a-8940-188f06ca6126",
+   "media_s": 44.1
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/egoschema",
+   "task": "lvid.bench/egoschema/public_500",
+   "item_id": "lvid.bench.egoschema.public_500:c794329bc604",
+   "group": "source-family:745388a8453beddc40d32d89e40687d86e1ab3b5bd171f59f819c89f15a93906",
+   "media_s": 180.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/action_category",
+   "task": "vid.basic/action_category/ucf101",
+   "item_id": "vid.basic.action_category.ucf101:5e12a9e9f797",
+   "group": "source-family:6e08df073b8d00f6f21f4f70d711c65987e88ed07cc6eaa1f7e7c04186950c68",
+   "media_s": 7.8
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/long_qa",
+   "task": "lvid.know/long_qa/video_mme",
+   "item_id": "lvid.know.long_qa.video_mme:af47f6f65475",
+   "group": "videomme:bBazRZOxl-k",
+   "media_s": 2756.867
+  },
+  {
+   "kind": "bench",
+   "leaf": "lvid.bench/vsi_bench",
+   "task": "lvid.bench/vsi_bench/test",
+   "item_id": "lvid.bench.vsi_bench.test:b55ccbb8894f",
+   "group": "vsi-bench:scannetpp_acd95847c5",
+   "media_s": 185.9
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/repetition",
+   "task": "vid.basic/repetition/countix",
+   "item_id": "vid.basic.repetition.countix:cd9e1e125a2d",
+   "group": "countix:countix-7oUXcCC1QoQ",
+   "media_s": 7.04
+  },
+  {
+   "kind": "long",
+   "leaf": "lvid.know/needle",
+   "task": "lvid.know/needle/generated",
+   "item_id": "lvid.know.needle.generated:5758f3e128bf",
+   "group": "programmatic-needle:scene_f10d2cd7d0b574e4da6a",
+   "media_s": 300.0
+  },
+  {
+   "kind": "bench",
+   "leaf": "vid.bench/mvbench",
+   "task": "vid.bench/mvbench/test",
+   "item_id": "vid.bench.mvbench.test:c68fcc14a88e",
+   "group": "source-family:b1b22b58b5abfa80dd368b8a8d618c9c85c3d5e201f9b1798e8c680a46eac0ce",
+   "media_s": 3.0
+  },
+  {
+   "kind": "short",
+   "leaf": "vid.basic/state_change",
+   "task": "vid.basic/state_change/changeit",
+   "item_id": "vid.basic.state_change.changeit:5aef7d29daf5",
+   "group": "changeit:jlC6UxOYhLc",
+   "media_s": 497.397
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.dialog/meeting_decision",
+   "task": "lvid.dialog/meeting_decision/ami",
+   "item_id": "lvid.dialog.meeting_decision.ami:9ba640fa1ef6",
+   "group": "ami:TS3008d",
+   "media_s": 2790.16
+  },
+  {
+   "kind": "av",
+   "leaf": "lvid.judge/meeting_summary",
+   "task": "lvid.judge/meeting_summary/tofueval_meetingbank",
+   "item_id": "lvid.judge.meeting_summary.tofueval_meetingbank:316165f775f3",
+   "group": "tofueval-meetingbank:AlamedaCC_02172015",
+   "media_s": 473.26
+  }
+ ],
+ "loop": [
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/01_2048",
+   "packet": "latency/v1/loop/gameworld/000/packet.json",
+   "candidates": 5,
+   "images": 3,
+   "source": "episodes/google__gemma-4-12B-it_at_label-think0-ctx65536-video/loop.game__gameworld__01_2048/seed-001/attempt-1792104199745/decisions/00070.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/02_another-gentlemans-adventure",
+   "packet": "latency/v1/loop/gameworld/001/packet.json",
+   "candidates": 6,
+   "images": 3,
+   "source": "episodes/microsoft__Phi-4-multimodal-instruct_at_label-think0-ctx65536-frames16/loop.game__gameworld__02_another-gentlemans-adventure/seed-002/attempt-1792012383687/decisions/00073.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/03_astray",
+   "packet": "latency/v1/loop/gameworld/002/packet.json",
+   "candidates": 5,
+   "images": 3,
+   "source": "episodes/vllm-sr__d3/loop.game__gameworld__03_astray/seed-004/attempt-1792106276549/decisions/00051.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/04_boxel-rebound",
+   "packet": "latency/v1/loop/gameworld/003/packet.json",
+   "candidates": 2,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3-Omni-30B-A3B-Thinking_at_label-think0-ctx65536-video/loop.game__gameworld__04_boxel-rebound/seed-001/attempt-1792105663650/decisions/00075.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/05_breakout",
+   "packet": "latency/v1/loop/gameworld/004/packet.json",
+   "candidates": 6,
+   "images": 3,
+   "source": "episodes/openbmb__MiniCPM-o-4_5_at_label-think0-video/loop.game__gameworld__05_breakout/seed-003/attempt-1792009285147/decisions/00034.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/06_captaincallisto",
+   "packet": "latency/v1/loop/gameworld/005/packet.json",
+   "candidates": 8,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3.5-35B-A3B-GPTQ-Int4_at_label-think0-ctx131072-video/loop.game__gameworld__06_captaincallisto/seed-001/attempt-1791986913723/decisions/00084.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/07_chrome-dino",
+   "packet": "latency/v1/loop/gameworld/006/packet.json",
+   "candidates": 4,
+   "images": 3,
+   "source": "episodes/microsoft__Phi-4-multimodal-instruct_at_label-think0-ctx65536-frames16/loop.game__gameworld__07_chrome-dino/seed-004/attempt-1792013317840/decisions/00088.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/08_core-ball",
+   "packet": "latency/v1/loop/gameworld/007/packet.json",
+   "candidates": 2,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3.5-9B_at_label-think0-ctx131072-video/loop.game__gameworld__08_core-ball/seed-001/attempt-1792108066876/decisions/00043.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/09_cubefield",
+   "packet": "latency/v1/loop/gameworld/008/packet.json",
+   "candidates": 3,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3.5-35B-A3B-GPTQ-Int4_at_label-think0-ctx131072-video/loop.game__gameworld__09_cubefield/seed-003/attempt-1791987815062/decisions/00028.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/10_doodle-jump",
+   "packet": "latency/v1/loop/gameworld/009/packet.json",
+   "candidates": 3,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3.5-0.8B_at_label-think0-video/loop.game__gameworld__10_doodle-jump/seed-003/attempt-1791985950076/decisions/00062.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/11_edge-surf",
+   "packet": "latency/v1/loop/gameworld/010/packet.json",
+   "candidates": 5,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen2.5-Omni-7B_at_label-think0-video/loop.game__gameworld__11_edge-surf/seed-001/attempt-1791969319172/decisions/00026.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/12_fireboy-and-watergirl",
+   "packet": "latency/v1/loop/gameworld/011/packet.json",
+   "candidates": 5,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen2.5-Omni-7B-GPTQ-Int4_at_label-think0-dequant-video/loop.game__gameworld__12_fireboy-and-watergirl/seed-004/attempt-1791951473627/decisions/00124.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/13_flappy-bird",
+   "packet": "latency/v1/loop/gameworld/012/packet.json",
+   "candidates": 2,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3-Omni-30B-A3B-Thinking_at_label-think0-ctx65536-video/loop.game__gameworld__13_flappy-bird/seed-001/attempt-1791974180176/decisions/00077.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/14_geodash",
+   "packet": "latency/v1/loop/gameworld/013/packet.json",
+   "candidates": 2,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3-Omni-30B-A3B-Instruct_at_label-think0-ctx65536-video/loop.game__gameworld__14_geodash/seed-000/attempt-1792109905943/decisions/00002.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/15_google-snake",
+   "packet": "latency/v1/loop/gameworld/014/packet.json",
+   "candidates": 5,
+   "images": 3,
+   "source": "episodes/google__gemma-4-12B-it_at_label-think0-ctx65536-video/loop.game__gameworld__15_google-snake/seed-001/attempt-1792110670308/decisions/00023.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/16_hextris",
+   "packet": "latency/v1/loop/gameworld/015/packet.json",
+   "candidates": 4,
+   "images": 3,
+   "source": "episodes/openbmb__MiniCPM-o-4_5_at_label-think0-video/loop.game__gameworld__16_hextris/seed-001/attempt-1792011621607/decisions/00088.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/17_mario-game",
+   "packet": "latency/v1/loop/gameworld/016/packet.json",
+   "candidates": 7,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen2.5-Omni-7B-AWQ_at_label-think0-video/loop.game__gameworld__17_mario-game/seed-002/attempt-1791968804128/decisions/00080.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/18_minecraft-clone-glm",
+   "packet": "latency/v1/loop/gameworld/017/packet.json",
+   "candidates": 21,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen2.5-Omni-7B-GPTQ-Int4_at_label-think0-dequant-video/loop.game__gameworld__18_minecraft-clone-glm/seed-000/attempt-1791953316371/decisions/00042.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/19_minesweeper",
+   "packet": "latency/v1/loop/gameworld/018/packet.json",
+   "candidates": 163,
+   "images": 3,
+   "source": "episodes/openbmb__MiniCPM-o-2_6_at_label-think0-video/loop.game__gameworld__19_minesweeper/seed-004/attempt-1792017356340/decisions/00008.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/20_monkey-mart",
+   "packet": "latency/v1/loop/gameworld/019/packet.json",
+   "candidates": 5,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3.5-35B-A3B-GPTQ-Int4_at_label-think0-ctx131072-video/loop.game__gameworld__20_monkey-mart/seed-003/attempt-1791992944224/decisions/00040.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/21_ns-shaft",
+   "packet": "latency/v1/loop/gameworld/020/packet.json",
+   "candidates": 3,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3.5-0.8B_at_label-think0-video/loop.game__gameworld__21_ns-shaft/seed-003/attempt-1791989681972/decisions/00055.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/22_ovo",
+   "packet": "latency/v1/loop/gameworld/021/packet.json",
+   "candidates": 9,
+   "images": 3,
+   "source": "episodes/nvidia__Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16_at_label-think0-ctx65536-video/loop.game__gameworld__22_ovo/seed-002/attempt-1792041319476/decisions/00078.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/23_pacman",
+   "packet": "latency/v1/loop/gameworld/022/packet.json",
+   "candidates": 5,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3.5-9B_at_label-think0-ctx131072-video/loop.game__gameworld__23_pacman/seed-004/attempt-1791994635734/decisions/00087.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/24_restless-wing-syndrome",
+   "packet": "latency/v1/loop/gameworld/023/packet.json",
+   "candidates": 6,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3.8-27B-FP8_at_label-think0-ctx131072-video/loop.game__gameworld__24_restless-wing-syndrome/seed-004/attempt-1791995667289/decisions/00078.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/25_rocket-league-2d",
+   "packet": "latency/v1/loop/gameworld/024/packet.json",
+   "candidates": 5,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3.8-27B-FP8_at_label-think0-ctx131072-video/loop.game__gameworld__25_rocket-league-2d/seed-001/attempt-1791996819152/decisions/00079.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/26_run-3",
+   "packet": "latency/v1/loop/gameworld/025/packet.json",
+   "candidates": 4,
+   "images": 3,
+   "source": "episodes/cyankiwi__diffusiongemma-26B-A4B-it-AWQ-INT4_at_steps1-reads1-think0-prompt-1-video/loop.game__gameworld__26_run-3/seed-002/attempt-1791951358059/decisions/00057.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/27_stack",
+   "packet": "latency/v1/loop/gameworld/026/packet.json",
+   "candidates": 2,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen2.5-Omni-7B-AWQ_at_label-think0-video/loop.game__gameworld__27_stack/seed-004/attempt-1791973843509/decisions/00020.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/28_temple-run-2",
+   "packet": "latency/v1/loop/gameworld/027/packet.json",
+   "candidates": 6,
+   "images": 3,
+   "source": "episodes/cyankiwi__diffusiongemma-26B-A4B-it-AWQ-INT4_at_steps1-reads1-think0-prompt-1-video/loop.game__gameworld__28_temple-run-2/seed-004/attempt-1791952066370/decisions/00061.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/29_tetris",
+   "packet": "latency/v1/loop/gameworld/028/packet.json",
+   "candidates": 8,
+   "images": 3,
+   "source": "episodes/openbmb__MiniCPM-o-4_5_at_label-think0-video/loop.game__gameworld__29_tetris/seed-004/attempt-1792013585020/decisions/00094.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/30_vex-3",
+   "packet": "latency/v1/loop/gameworld/029/packet.json",
+   "candidates": 8,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3-Omni-30B-A3B-Thinking_at_label-think0-ctx65536-video/loop.game__gameworld__30_vex-3/seed-004/attempt-1791985893500/decisions/00093.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/31_wolf3d",
+   "packet": "latency/v1/loop/gameworld/030/packet.json",
+   "candidates": 7,
+   "images": 3,
+   "source": "episodes/openbmb__MiniCPM-o-2_6_at_label-think0-video/loop.game__gameworld__31_wolf3d/seed-004/attempt-1792019031296/decisions/00061.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/33_worlds-hardest-game",
+   "packet": "latency/v1/loop/gameworld/031/packet.json",
+   "candidates": 5,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3.5-0.8B_at_label-think0-video/loop.game__gameworld__33_worlds-hardest-game/seed-003/attempt-1791993227177/decisions/00034.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/34_worlds-hardest-game-2",
+   "packet": "latency/v1/loop/gameworld/032/packet.json",
+   "candidates": 5,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3.5-4B_at_label-think0-ctx131072-video/loop.game__gameworld__34_worlds-hardest-game-2/seed-000/attempt-1791995122522/decisions/00006.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/01_2048",
+   "packet": "latency/v1/loop/gameworld/033/packet.json",
+   "candidates": 5,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen2.5-Omni-3B_at_label-think0-video/loop.game__gameworld__01_2048/seed-000/attempt-1792104108637/decisions/00093.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/02_another-gentlemans-adventure",
+   "packet": "latency/v1/loop/gameworld/034/packet.json",
+   "candidates": 6,
+   "images": 3,
+   "source": "episodes/microsoft__Phi-4-multimodal-instruct_at_label-think0-ctx65536-frames16/loop.game__gameworld__02_another-gentlemans-adventure/seed-003/attempt-1792104465190/decisions/00015.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/03_astray",
+   "packet": "latency/v1/loop/gameworld/035/packet.json",
+   "candidates": 5,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen2.5-Omni-7B_at_label-think0-video/loop.game__gameworld__03_astray/seed-002/attempt-1792104567010/decisions/00044.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/04_boxel-rebound",
+   "packet": "latency/v1/loop/gameworld/036/packet.json",
+   "candidates": 2,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen2.5-Omni-7B_at_label-think0-video/loop.game__gameworld__04_boxel-rebound/seed-002/attempt-1792104721323/decisions/00034.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/05_breakout",
+   "packet": "latency/v1/loop/gameworld/037/packet.json",
+   "candidates": 6,
+   "images": 3,
+   "source": "episodes/google__gemma-4-12B-it_at_label-think0-ctx65536-video/loop.game__gameworld__05_breakout/seed-001/attempt-1792008699173/decisions/00075.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/06_captaincallisto",
+   "packet": "latency/v1/loop/gameworld/038/packet.json",
+   "candidates": 8,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3.5-9B_at_label-think0-ctx131072-video/loop.game__gameworld__06_captaincallisto/seed-004/attempt-1791987721392/decisions/00045.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/07_chrome-dino",
+   "packet": "latency/v1/loop/gameworld/039/packet.json",
+   "candidates": 4,
+   "images": 3,
+   "source": "episodes/nvidia__Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16_at_label-think0-ctx65536-video/loop.game__gameworld__07_chrome-dino/seed-001/attempt-1792107568481/decisions/00006.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/08_core-ball",
+   "packet": "latency/v1/loop/gameworld/040/packet.json",
+   "candidates": 2,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3.5-9B_at_label-think0-ctx131072-video/loop.game__gameworld__08_core-ball/seed-003/attempt-1791988424276/decisions/00063.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/09_cubefield",
+   "packet": "latency/v1/loop/gameworld/041/packet.json",
+   "candidates": 3,
+   "images": 3,
+   "source": "episodes/microsoft__Phi-4-multimodal-instruct_at_label-think0-ctx65536-frames16/loop.game__gameworld__09_cubefield/seed-004/attempt-1792013513982/decisions/00017.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/10_doodle-jump",
+   "packet": "latency/v1/loop/gameworld/042/packet.json",
+   "candidates": 3,
+   "images": 3,
+   "source": "episodes/google__gemma-4-12B-it_at_label-think0-ctx65536-video/loop.game__gameworld__10_doodle-jump/seed-004/attempt-1792108284965/decisions/00028.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/11_edge-surf",
+   "packet": "latency/v1/loop/gameworld/043/packet.json",
+   "candidates": 5,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen2.5-Omni-7B-AWQ_at_label-think0-video/loop.game__gameworld__11_edge-surf/seed-002/attempt-1792107075422/decisions/00058.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/12_fireboy-and-watergirl",
+   "packet": "latency/v1/loop/gameworld/044/packet.json",
+   "candidates": 5,
+   "images": 3,
+   "source": "episodes/google__gemma-4-12B-it_at_label-think0-ctx65536-video/loop.game__gameworld__12_fireboy-and-watergirl/seed-001/attempt-1792108642910/decisions/00024.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/13_flappy-bird",
+   "packet": "latency/v1/loop/gameworld/045/packet.json",
+   "candidates": 2,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen2.5-Omni-3B_at_label-think0-video/loop.game__gameworld__13_flappy-bird/seed-003/attempt-1792109614027/decisions/00053.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/14_geodash",
+   "packet": "latency/v1/loop/gameworld/046/packet.json",
+   "candidates": 2,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3.5-35B-A3B-GPTQ-Int4_at_label-think0-ctx131072-video/loop.game__gameworld__14_geodash/seed-002/attempt-1791989706449/decisions/00047.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/15_google-snake",
+   "packet": "latency/v1/loop/gameworld/047/packet.json",
+   "candidates": 5,
+   "images": 3,
+   "source": "episodes/cyankiwi__diffusiongemma-26B-A4B-it-AWQ-INT4_at_steps1-reads1-think0-prompt-1-video/loop.game__gameworld__15_google-snake/seed-003/attempt-1791947603372/decisions/00023.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/16_hextris",
+   "packet": "latency/v1/loop/gameworld/048/packet.json",
+   "candidates": 4,
+   "images": 3,
+   "source": "episodes/Qwen__Qwen3.5-35B-A3B-GPTQ-Int4_at_label-think0-ctx131072-video/loop.game__gameworld__16_hextris/seed-004/attempt-1791990775813/decisions/00083.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/gameworld",
+   "env": "loop.game/gameworld/17_mario-game",
+   "packet": "latency/v1/loop/gameworld/049/packet.json",
+   "candidates": 7,
+   "images": 3,
+   "source": "episodes/openbmb__MiniCPM-o-2_6_at_label-think0-video/loop.game__gameworld__17_mario-game/seed-001/attempt-1792016720916/decisions/00072.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-goto-win",
+   "packet": "latency/v1/loop/balrog_pixels/000/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/google__diffusiongemma-26B-A4B-it_at_steps1-reads1-think0-prompt-1-video/loop.game__balrog_pixels__babaisai-goto-win/seed-001/attempt-1791958988574/decisions/00096.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-goto-win-distr-obj",
+   "packet": "latency/v1/loop/balrog_pixels/001/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen3-Omni-30B-A3B-Instruct_at_label-think0-ctx65536-video/loop.game__balrog_pixels__babaisai-goto-win-distr-obj/seed-002/attempt-1791967776092/decisions/00051.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-goto-win-distr-obj-irrelevant-rule",
+   "packet": "latency/v1/loop/balrog_pixels/002/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/cyankiwi__diffusiongemma-26B-A4B-it-AWQ-INT4_at_steps1-reads1-think0-prompt-1-video/loop.game__balrog_pixels__babaisai-goto-win-distr-obj-irrelevant-rule/seed-002/attempt-1791939958107/decisions/00076.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-goto-win-distr-obj-rule",
+   "packet": "latency/v1/loop/balrog_pixels/003/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen3.5-4B_at_label-think0-ctx131072-video/loop.game__balrog_pixels__babaisai-goto-win-distr-obj-rule/seed-001/attempt-1791980690911/decisions/00094.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-goto-win-distr-rule",
+   "packet": "latency/v1/loop/balrog_pixels/004/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen3.5-35B-A3B-GPTQ-Int4_at_label-think0-ctx131072-video/loop.game__balrog_pixels__babaisai-goto-win-distr-rule/seed-001/attempt-1791981075404/decisions/00064.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-make-win",
+   "packet": "latency/v1/loop/balrog_pixels/005/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen3.5-9B_at_label-think0-ctx131072-video/loop.game__balrog_pixels__babaisai-make-win/seed-001/attempt-1791980948801/decisions/00065.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-make-win-distr-obj",
+   "packet": "latency/v1/loop/balrog_pixels/006/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen2.5-Omni-7B-AWQ_at_label-think0-video/loop.game__balrog_pixels__babaisai-make-win-distr-obj/seed-001/attempt-1791959970874/decisions/00024.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-make-win-distr-obj-irrelevant-rule",
+   "packet": "latency/v1/loop/balrog_pixels/007/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/google__gemma-4-12B-it_at_label-think0-ctx65536-video/loop.game__balrog_pixels__babaisai-make-win-distr-obj-irrelevant-rule/seed-000/attempt-1792006291540/decisions/00080.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-make-win-distr-obj-rule",
+   "packet": "latency/v1/loop/balrog_pixels/008/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/google__gemma-4-12B-it_at_label-think0-ctx65536-video/loop.game__balrog_pixels__babaisai-make-win-distr-obj-rule/seed-000/attempt-1792006138240/decisions/00023.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-make-win-distr-rule",
+   "packet": "latency/v1/loop/balrog_pixels/009/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen3.5-9B_at_label-think0-ctx131072-video/loop.game__balrog_pixels__babaisai-make-win-distr-rule/seed-002/attempt-1791981181208/decisions/00011.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-break-stop-goto-win",
+   "packet": "latency/v1/loop/balrog_pixels/010/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/openbmb__MiniCPM-o-2_6_at_label-think0-video/loop.game__balrog_pixels__babaisai-two-room-break-stop-goto-win/seed-001/attempt-1792012857822/decisions/00013.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-break-stop-goto-win-distr-obj",
+   "packet": "latency/v1/loop/balrog_pixels/011/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/google__gemma-4-12B-it_at_label-think0-ctx65536-video/loop.game__balrog_pixels__babaisai-two-room-break-stop-goto-win-distr-obj/seed-001/attempt-1792006373669/decisions/00019.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-break-stop-goto-win-distr-obj-irrelevant-rule",
+   "packet": "latency/v1/loop/balrog_pixels/012/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/cyankiwi__diffusiongemma-26B-A4B-it-AWQ-INT4_at_steps1-reads1-think0-prompt-1-video/loop.game__balrog_pixels__babaisai-two-room-break-stop-goto-win-distr-obj-irrelevant-rule/seed-000/attempt-1791940286607/decisions/00095.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-break-stop-goto-win-distr-obj-rule",
+   "packet": "latency/v1/loop/balrog_pixels/013/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/openbmb__MiniCPM-o-4_5_at_label-think0-video/loop.game__balrog_pixels__babaisai-two-room-break-stop-goto-win-distr-obj-rule/seed-002/attempt-1792007463184/decisions/00017.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-break-stop-goto-win-distr-rule",
+   "packet": "latency/v1/loop/balrog_pixels/014/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/google__diffusiongemma-26B-A4B-it_at_steps1-reads1-think0-prompt-1-video/loop.game__balrog_pixels__babaisai-two-room-break-stop-goto-win-distr-rule/seed-002/attempt-1791960042463/decisions/00069.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-break-stop-make-win",
+   "packet": "latency/v1/loop/balrog_pixels/015/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/openbmb__MiniCPM-o-4_5_at_label-think0-video/loop.game__balrog_pixels__babaisai-two-room-break-stop-make-win/seed-001/attempt-1792007489801/decisions/00000.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-break-stop-make-win-distr-obj",
+   "packet": "latency/v1/loop/balrog_pixels/016/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen3-Omni-30B-A3B-Instruct_at_label-think0-ctx65536-video/loop.game__balrog_pixels__babaisai-two-room-break-stop-make-win-distr-obj/seed-001/attempt-1791968144245/decisions/00033.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-break-stop-make-win-distr-obj-irrelevant-rule",
+   "packet": "latency/v1/loop/balrog_pixels/017/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen3.5-35B-A3B-GPTQ-Int4_at_label-think0-ctx131072-video/loop.game__balrog_pixels__babaisai-two-room-break-stop-make-win-distr-obj-irrelevant-rule/seed-001/attempt-1791981769948/decisions/00098.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-break-stop-make-win-distr-obj-rule",
+   "packet": "latency/v1/loop/balrog_pixels/018/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen3.5-0.8B_at_label-think0-video/loop.game__balrog_pixels__babaisai-two-room-break-stop-make-win-distr-obj-rule/seed-000/attempt-1791981050691/decisions/00054.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-break-stop-make-win-distr-rule",
+   "packet": "latency/v1/loop/balrog_pixels/019/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen2.5-Omni-3B_at_label-think0-video/loop.game__balrog_pixels__babaisai-two-room-break-stop-make-win-distr-rule/seed-000/attempt-1791980987129/decisions/00083.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-goto-win",
+   "packet": "latency/v1/loop/balrog_pixels/020/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/cyankiwi__diffusiongemma-26B-A4B-it-AWQ-INT4_at_steps1-reads1-think0-prompt-1-video/loop.game__balrog_pixels__babaisai-two-room-goto-win/seed-001/attempt-1791940519913/decisions/00058.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-goto-win-distr-obj",
+   "packet": "latency/v1/loop/balrog_pixels/021/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen2.5-Omni-3B_at_label-think0-video/loop.game__balrog_pixels__babaisai-two-room-goto-win-distr-obj/seed-002/attempt-1791981044179/decisions/00097.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-goto-win-distr-obj-irrelevant-rule",
+   "packet": "latency/v1/loop/balrog_pixels/022/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen3.5-0.8B_at_label-think0-video/loop.game__balrog_pixels__babaisai-two-room-goto-win-distr-obj-irrelevant-rule/seed-002/attempt-1791981151443/decisions/00072.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-goto-win-distr-obj-rule",
+   "packet": "latency/v1/loop/balrog_pixels/023/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/openbmb__MiniCPM-o-4_5_at_label-think0-video/loop.game__balrog_pixels__babaisai-two-room-goto-win-distr-obj-rule/seed-000/attempt-1792007599408/decisions/00081.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-goto-win-distr-rule",
+   "packet": "latency/v1/loop/balrog_pixels/024/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen2.5-Omni-3B_at_label-think0-video/loop.game__balrog_pixels__babaisai-two-room-goto-win-distr-rule/seed-001/attempt-1791981109974/decisions/00017.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-goto-win-distr-win-rule",
+   "packet": "latency/v1/loop/balrog_pixels/025/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen2.5-Omni-7B-GPTQ-Int4_at_label-think0-dequant-video/loop.game__balrog_pixels__babaisai-two-room-goto-win-distr-win-rule/seed-002/attempt-1791945012705/decisions/00006.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-make-wall-win",
+   "packet": "latency/v1/loop/balrog_pixels/026/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen3.5-0.8B_at_label-think0-video/loop.game__balrog_pixels__babaisai-two-room-make-wall-win/seed-002/attempt-1791981268681/decisions/00039.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-make-win",
+   "packet": "latency/v1/loop/balrog_pixels/027/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/openbmb__MiniCPM-o-2_6_at_label-think0-video/loop.game__balrog_pixels__babaisai-two-room-make-win/seed-000/attempt-1792015283207/decisions/00075.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-make-win-distr-obj",
+   "packet": "latency/v1/loop/balrog_pixels/028/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen3.5-0.8B_at_label-think0-video/loop.game__balrog_pixels__babaisai-two-room-make-win-distr-obj/seed-000/attempt-1791981324432/decisions/00013.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/balrog_pixels",
+   "env": "loop.game/balrog_pixels/babaisai-two-room-make-win-distr-obj-irrelevant-rule",
+   "packet": "latency/v1/loop/balrog_pixels/029/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen2.5-Omni-7B_at_label-think0-video/loop.game__balrog_pixels__babaisai-two-room-make-win-distr-obj-irrelevant-rule/seed-000/attempt-1791963869063/decisions/00079.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/atari_pong",
+   "packet": "latency/v1/loop/vsbench/000/packet.json",
+   "candidates": 3,
+   "images": 4,
+   "source": "episodes/Qwen__Qwen3.5-4B_at_label-think0-ctx131072-video/loop.game__vsbench__atari_pong/seed-006/attempt-1791995353791/decisions/00033.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/battle_of_the_colors",
+   "packet": "latency/v1/loop/vsbench/001/packet.json",
+   "candidates": 5,
+   "images": 4,
+   "source": "episodes/vllm-sr__d3/loop.game__vsbench__battle_of_the_colors/seed-004/attempt-1791997272881/decisions/00014.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/breakthrough",
+   "packet": "latency/v1/loop/vsbench/002/packet.json",
+   "candidates": 19,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen3.8-27B-FP8_at_label-think0-ctx131072-video/loop.game__vsbench__breakthrough/seed-003/attempt-1791998693768/decisions/00015.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/coin_dilemma",
+   "packet": "latency/v1/loop/vsbench/003/packet.json",
+   "candidates": 5,
+   "images": 2,
+   "source": "episodes/Qwen__Qwen3.5-4B_at_label-think0-ctx131072-video/loop.game__vsbench__coin_dilemma/seed-002/attempt-1791995635218/decisions/00003.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/hanabi",
+   "packet": "latency/v1/loop/vsbench/004/packet.json",
+   "candidates": 18,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen3.8-27B-FP8_at_label-think0-ctx131072-video/loop.game__vsbench__hanabi/seed-008/attempt-1791995705758/decisions/00028.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/knights_archers_zombies",
+   "packet": "latency/v1/loop/vsbench/005/packet.json",
+   "candidates": 6,
+   "images": 4,
+   "source": "episodes/vllm-sr__d3/loop.game__vsbench__knights_archers_zombies/seed-008/attempt-1792000270438/decisions/00063.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/kuhn_poker",
+   "packet": "latency/v1/loop/vsbench/006/packet.json",
+   "candidates": 2,
+   "images": 1,
+   "source": "episodes/nvidia__Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16_at_label-think0-ctx65536-video/loop.game__vsbench__kuhn_poker/seed-008/attempt-1792043635337/decisions/00000.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/monster_hunt",
+   "packet": "latency/v1/loop/vsbench/007/packet.json",
+   "candidates": 5,
+   "images": 4,
+   "source": "episodes/openbmb__MiniCPM-o-4_5_at_label-think0-video/loop.game__vsbench__monster_hunt/seed-007/attempt-1792016728658/decisions/00007.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/overcooked",
+   "packet": "latency/v1/loop/vsbench/008/packet.json",
+   "candidates": 6,
+   "images": 4,
+   "source": "episodes/Qwen__Qwen3.5-9B_at_label-think0-ctx131072-video/loop.game__vsbench__overcooked/seed-000/attempt-1791995549521/decisions/00045.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/simple_push",
+   "packet": "latency/v1/loop/vsbench/009/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/openbmb__MiniCPM-o-2_6_at_label-think0-video/loop.game__vsbench__simple_push/seed-005/attempt-1792023137282/decisions/00015.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/atari_pong",
+   "packet": "latency/v1/loop/vsbench/010/packet.json",
+   "candidates": 3,
+   "images": 4,
+   "source": "episodes/vllm-sr__d3/loop.game__vsbench__atari_pong/seed-000/attempt-1791997220485/decisions/00055.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/battle_of_the_colors",
+   "packet": "latency/v1/loop/vsbench/011/packet.json",
+   "candidates": 5,
+   "images": 4,
+   "source": "episodes/Qwen__Qwen3-Omni-30B-A3B-Instruct_at_label-think0-ctx65536-video/loop.game__vsbench__battle_of_the_colors/seed-005/attempt-1791986764754/decisions/00049.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/breakthrough",
+   "packet": "latency/v1/loop/vsbench/012/packet.json",
+   "candidates": 22,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen2.5-Omni-7B-AWQ_at_label-think0-video/loop.game__vsbench__breakthrough/seed-000/attempt-1791981789755/decisions/00010.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/coin_dilemma",
+   "packet": "latency/v1/loop/vsbench/013/packet.json",
+   "candidates": 5,
+   "images": 4,
+   "source": "episodes/Qwen__Qwen2.5-Omni-7B-GPTQ-Int4_at_label-think0-dequant-video/loop.game__vsbench__coin_dilemma/seed-004/attempt-1791960959956/decisions/00028.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/hanabi",
+   "packet": "latency/v1/loop/vsbench/014/packet.json",
+   "candidates": 17,
+   "images": 1,
+   "source": "episodes/nvidia__Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16_at_label-think0-ctx65536-video/loop.game__vsbench__hanabi/seed-000/attempt-1792043840902/decisions/00035.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/knights_archers_zombies",
+   "packet": "latency/v1/loop/vsbench/015/packet.json",
+   "candidates": 6,
+   "images": 4,
+   "source": "episodes/cyankiwi__diffusiongemma-26B-A4B-it-AWQ-INT4_at_steps1-reads1-think0-prompt-1-video/loop.game__vsbench__knights_archers_zombies/seed-006/attempt-1791955091825/decisions/00262.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/kuhn_poker",
+   "packet": "latency/v1/loop/vsbench/016/packet.json",
+   "candidates": 2,
+   "images": 1,
+   "source": "episodes/Qwen__Qwen3-Omni-30B-A3B-Instruct_at_label-think0-ctx65536-video/loop.game__vsbench__kuhn_poker/seed-003/attempt-1791988728905/decisions/00000.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/monster_hunt",
+   "packet": "latency/v1/loop/vsbench/017/packet.json",
+   "candidates": 5,
+   "images": 4,
+   "source": "episodes/Qwen__Qwen3-Omni-30B-A3B-Thinking_at_label-think0-ctx65536-video/loop.game__vsbench__monster_hunt/seed-006/attempt-1791988470223/decisions/00049.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/overcooked",
+   "packet": "latency/v1/loop/vsbench/018/packet.json",
+   "candidates": 6,
+   "images": 4,
+   "source": "episodes/nvidia__Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16_at_label-think0-ctx65536-video/loop.game__vsbench__overcooked/seed-008/attempt-1792044220860/decisions/00073.json"
+  },
+  {
+   "kind": "loop",
+   "leaf": "loop.game/vsbench",
+   "env": "loop.game/vsbench/simple_push",
+   "packet": "latency/v1/loop/vsbench/019/packet.json",
+   "candidates": 5,
+   "images": 1,
+   "source": "episodes/cyankiwi__diffusiongemma-26B-A4B-it-AWQ-INT4_at_steps1-reads1-think0-prompt-1-video/loop.game__vsbench__simple_push/seed-001/attempt-1791956498822/decisions/00002.json"
+  }
+ ]
+}

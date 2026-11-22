@@ -1,0 +1,135 @@
+{
+ "model_id": "Qwen/Qwen3.5-2B@label-think0-ctx131072-video",
+ "spec": "lm:Qwen/Qwen3.5-2B@gpu=0.9,maxlen=131072",
+ "set": "v1",
+ "set_digest": "2906cc887102",
+ "gpu": "h100",
+ "gpus": 1,
+ "median_ms": 116.9,
+ "per_kind": {
+  "short": {
+   "requests": 200,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 200,
+   "median_ms": 360.2,
+   "p90_ms": 6388.3,
+   "mean_ms": 3998.9,
+   "median_ci95_ms": [
+    279.0,
+    541.4
+   ],
+   "gpu_s_per_1k": 3998.9
+  },
+  "long": {
+   "requests": 70,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 70,
+   "median_ms": 810.0,
+   "p90_ms": 22861.6,
+   "mean_ms": 6688.4,
+   "median_ci95_ms": [
+    451.6,
+    1428.5
+   ],
+   "gpu_s_per_1k": 6688.4
+  },
+  "av": {
+   "requests": 60,
+   "failed": 0,
+   "unsupported": 60
+  },
+  "bench": {
+   "requests": 50,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 50,
+   "median_ms": 979.0,
+   "p90_ms": 2417.7,
+   "mean_ms": 1183.2,
+   "median_ci95_ms": [
+    484.7,
+    1260.2
+   ],
+   "gpu_s_per_1k": 1183.2
+  },
+  "loop": {
+   "requests": 100,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 100,
+   "median_ms": 116.9,
+   "p90_ms": 134.3,
+   "mean_ms": 118.7,
+   "median_ci95_ms": [
+    89.2,
+    119.4
+   ],
+   "gpu_s_per_1k": 118.7
+  }
+ },
+ "repeat": {
+  "n": 30,
+  "ratio_median": 0.922,
+  "abs_change_p50": 0.082
+ },
+ "consistency": {
+  "questions": 320,
+  "no_cached_row": 0,
+  "status_changed": 0,
+  "top_option_agreement": 0.9594,
+  "max_abs_diff_p50": 0.00941,
+  "max_abs_diff_p95": 0.03899,
+  "verdict": "differs from the accuracy run"
+ },
+ "load_s": 65.5,
+ "warmup_ms": [
+  548.8,
+  345.6,
+  1801.2,
+  180.9,
+  33000.9,
+  3200.7,
+  151.5,
+  1486.3,
+  144.0,
+  25479.1
+ ],
+ "peak_memory_mib": {
+  "0": 79033
+ },
+ "machine": {
+  "host": "",
+  "gpus": [
+   {
+    "index": "0",
+    "name": "NVIDIA H100 80GB HBM3",
+    "memory_mib": 81559,
+    "driver": "580.95.05"
+   }
+  ],
+  "cpu": "Intel(R) Xeon(R) Platinum 8480C",
+  "cpu_count": 96,
+  "python": "3.12.13",
+  "packages": {
+   "jevarena-mm": "0.1.0.dev0",
+   "torch": "2.13.0+cu129",
+   "vllm": "0.30.0+cu129",
+   "transformers": "5.19.0",
+   "av": "19.0.1",
+   "numpy": "2.3.5"
+  },
+  "commit": "53194ab144dd4542868a841b8ba74a64b686f966",
+  "env": {
+   "CUDA_VISIBLE_DEVICES": "0",
+   "JEVARENA_MM_DECODE_THREADS": "4",
+   "OMP_NUM_THREADS": "16",
+   "CUDA_HOME": "/usr/local/cuda-12.8",
+   "NVCC_CCBIN": "/usr/bin/g++",
+   "DG_JIT_NVCC_COMPILER": "/usr/local/cuda-13.0/bin/nvcc",
+   "LD_LIBRARY_PATH": ":/usr/local/cuda/lib64"
+  }
+ },
+ "measured": "2026-10-18T15:36:29+0000"
+}

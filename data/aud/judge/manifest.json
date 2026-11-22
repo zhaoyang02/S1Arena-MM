@@ -1,0 +1,94 @@
+[
+ {
+  "name": "aud.judge/data_cleaning/nisqa_livetalk",
+  "leaf": "aud.judge/data_cleaning",
+  "status": "released",
+  "version": 1,
+  "source": "NISQA Corpus, NISQA_TEST_LIVETALK (Mittag et al., 2021)",
+  "url": "https://zenodo.org/records/4728081",
+  "license": "CC BY 4.0; original CC_BY_license.txt retained",
+  "tier": "C",
+  "criteria_source": "Written; the quality options are the listening test's 5-point scale (1 Bad to 5 Excellent)",
+  "redistributable": true,
+  "notes": "232 recordings of real phone and VoIP calls, each rated by 24 listeners; gold for both questions is the distribution of those ratings. keep_quality counts a rating of 4 or 5 as a keep, a threshold set for this benchmark, not a NISQA label; transcripts are not checked. Sentences recur across recordings and the speaker mapping is not published, so use the whole set for evaluation only.",
+  "media_root": "audio_delivery",
+  "frozen": true,
+  "diagnostic_only": false,
+  "items": 232,
+  "modalities": [
+   "audio"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/aud/judge/data_cleaning/nisqa_livetalk.jsonl",
+  "sha256": "bb2d6754a00bcb1533d4361768838f2f1f4b45555e4d8f5ea33746b9a14c4e60",
+  "label_counts": {
+   "2": 50,
+   "true": 64,
+   "3": 47,
+   "1": 77,
+   "false": 168,
+   "4": 15,
+   "0": 43
+  }
+ },
+ {
+  "name": "aud.judge/data_cleaning/signal_defects_synthetic",
+  "leaf": "aud.judge/data_cleaning",
+  "status": "released",
+  "version": 1,
+  "source": "SLURP test recordings with controlled signal defects (built for this benchmark)",
+  "url": "https://zenodo.org/records/4274930",
+  "license": "derived audio CC BY-NC 4.0",
+  "tier": "C",
+  "criteria_source": "Written; gold follows the silence and clipping rules stated in the question",
+  "redistributable": true,
+  "notes": "436 recordings: 250 unchanged, 125 hard-clipped and 61 made silent. Gold is the rule in the question, not a listener rating; the leaf's other task, aud.judge/data_cleaning/nisqa_livetalk, uses listener ratings.",
+  "media_root": "audio_delivery",
+  "frozen": true,
+  "diagnostic_only": false,
+  "items": 436,
+  "modalities": [
+   "audio"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/aud/judge/data_cleaning/signal_defects_synthetic.jsonl",
+  "sha256": "3bd0d28bf2806e091cad39cf0ad57e632f63f6f42417a1a2dba0e058765e38b0",
+  "label_counts": {
+   "true": 186,
+   "false": 250
+  }
+ },
+ {
+  "name": "aud.judge/naturalness/bvcc",
+  "leaf": "aud.judge/naturalness",
+  "status": "released",
+  "version": 1,
+  "source": "BVCC, VoiceMOS Challenge 2022 test set (Cooper and Yamagishi, 2021)",
+  "url": "https://zenodo.org/records/10691660",
+  "license": "ratings BSD 3-Clause (Yamagishi Laboratory, NII); audio CC BY 4.0 (VCC 2016, 2018), ODbL 1.0 and DbCL (VCC 2020), public domain (ESPnet-TTS, from LJSpeech); no Blizzard Challenge samples",
+  "tier": "C",
+  "criteria_source": "Written; the 5-point MOS scale of the listening test (1 Bad to 5 Excellent)",
+  "redistributable": true,
+  "notes": "741 utterances of the test set, without its Blizzard Challenge samples, which BVCC does not redistribute; exact duplicate audio removed. Gold is the distribution of each utterance's 8 listener ratings.",
+  "media_root": "audio_delivery",
+  "frozen": true,
+  "diagnostic_only": false,
+  "items": 741,
+  "modalities": [
+   "audio"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/aud/judge/naturalness/bvcc.jsonl",
+  "sha256": "8737d55365f910bb90c9a8e1dcf842498fe743907d1b7892503baa1b2414a720",
+  "label_counts": {
+   "3": 129,
+   "1": 225,
+   "0": 133,
+   "2": 188,
+   "4": 66
+  }
+ }
+]

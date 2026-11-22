@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "delivery_sha256": "f2c8dd45319853187b70816160b8c227046784fcaa063e38d7170f807785ee7a",
+  "split_groups_sha256": "4ce48d66107536b54c0c5eef12f006f20ee79ca57210b0157f925e9c134e095d",
+  "tasks": {
+    "aud.basic/intent/slurp": 500,
+    "aud.basic/sound_event/sonyc_ust": 500,
+    "aud.basic/language_id/voxlingua107_dev": 1609,
+    "aud.basic/speaker_change/ami": 500,
+    "aud.basic/acoustic_scene/tau2019": 500,
+    "aud.know/reasoning/mmau_mini": 330,
+    "aud.know/sound_qa/mmau_mini": 36,
+    "aud.know/music_understanding/mmau_mini": 105,
+    "aud.pro/machine_anomaly/mimii_pump_dcase2020": 500,
+    "aud.pro/heart_sound/physionet2016": 301,
+    "aud.pro/heart_sound/respiratory_icbhi2017": 500,
+    "aud.ret/audio_text_matching/sonyc_tag_descriptions": 500,
+    "aud.dialog/turn_timing/full_duplex_bench_v1": 335,
+    "aud.dialog/dialogue_state/spokenwoz": 500,
+    "aud.dialog/interrupt_backchannel/full_duplex_bench_v15": 298,
+    "aud.judge/data_cleaning/nisqa_livetalk": 232,
+    "aud.judge/data_cleaning/signal_defects_synthetic": 436,
+    "aud.judge/naturalness/bvcc": 741,
+    "aud.safety/spoof_detection/asvspoof2019_la": 500,
+    "aud.safety/toxicity/mutox": 167,
+    "aud.basic/emotion/cremad": 1470
+  },
+  "sources": {}
+}

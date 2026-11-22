@@ -1,0 +1,34 @@
+[
+ {
+  "name": "lvid.pro/surveillance/ucf_crime",
+  "leaf": "lvid.pro/surveillance",
+  "status": "released",
+  "version": 1,
+  "source": "UCF-Crime, untrimmed test videos (Sultani et al., 2018)",
+  "url": "https://github.com/WaqasSultani/AnomalyDetectionCVPR2018",
+  "license": "No license stated; video rights not established",
+  "tier": "C",
+  "criteria_source": "Written; gold comes from the temporal anomaly annotations of the test set",
+  "redistributable": true,
+  "notes": "250 recordings, each asked whether it contains an anomaly (125 yes, 125 no) and in which quarter the first anomaly begins (5 options, including none).",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/lvid/pro/surveillance/ucf_crime.jsonl",
+  "sha256": "c6c31d7de98ca83935158cbebd126b6506a48e43a65943a66a74d08d963ad692",
+  "label_counts": {
+   "true": 125,
+   "third_quarter": 28,
+   "first_quarter": 42,
+   "false": 125,
+   "no_anomaly": 125,
+   "second_quarter": 43,
+   "fourth_quarter": 12
+  }
+ }
+]

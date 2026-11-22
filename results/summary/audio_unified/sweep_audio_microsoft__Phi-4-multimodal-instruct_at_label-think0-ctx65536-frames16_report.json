@@ -1,0 +1,611 @@
+{
+ "plan": "audio_microsoft__Phi-4-multimodal-instruct_at_label-think0-ctx65536-frames16",
+ "models": [
+  "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16"
+ ],
+ "overall": {
+  "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+   "static_accuracy": null,
+   "leaves": 0,
+   "envs": 0,
+   "static_answers": 0,
+   "static_unanswered": 0,
+   "env_decisions": 0,
+   "env_failed_decisions": 0
+  }
+ },
+ "static": {},
+ "preview": {
+  "aud.basic/acoustic_scene/tau2019": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.108
+  },
+  "aud.basic/emotion/cremad": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.17482993197278912
+  },
+  "aud.basic/intent/slurp": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.248
+  },
+  "aud.basic/language_id/voxlingua107_dev": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.04288377874456184
+  },
+  "aud.basic/sound_event/sonyc_ust": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.5605
+  },
+  "aud.basic/speaker_change/ami": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.506
+  },
+  "aud.dialog/dialogue_state/spokenwoz": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.4975
+  },
+  "aud.dialog/interrupt_backchannel/full_duplex_bench_v15": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.3288590604026846
+  },
+  "aud.dialog/turn_timing/full_duplex_bench_v1": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.5970149253731343
+  },
+  "aud.judge/data_cleaning/nisqa_livetalk": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.5064655172413793
+  },
+  "aud.judge/data_cleaning/signal_defects_synthetic": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.5642201834862385
+  },
+  "aud.judge/naturalness/bvcc": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.3076923076923077
+  },
+  "aud.know/music_understanding/mmau_mini": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.5523809523809524
+  },
+  "aud.know/reasoning/mmau_mini": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.6424242424242425
+  },
+  "aud.know/sound_qa/mmau_mini": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.4444444444444444
+  },
+  "aud.pro/heart_sound/physionet2016": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.5016611295681063
+  },
+  "aud.pro/heart_sound/respiratory_icbhi2017": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.256
+  },
+  "aud.pro/machine_anomaly/mimii_pump_dcase2020": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.49
+  },
+  "aud.ret/audio_text_matching/sonyc_tag_descriptions": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.522
+  },
+  "aud.safety/spoof_detection/asvspoof2019_la": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.494
+  },
+  "aud.safety/toxicity/mutox": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": 0.8802395209580839
+  }
+ },
+ "envs": {},
+ "task_metrics": {
+  "aud.basic/acoustic_scene/tau2019": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.108,
+    "accuracy_se": 0.013894535480989097,
+    "maj": 0.108,
+    "brier": 1.4698097260559597,
+    "ece": 0.6765888527010281,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/acoustic_scene",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/emotion/cremad": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 1470,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.17482993197278912,
+    "accuracy_se": 0.009909887618265757,
+    "maj": 0.17482993197278912,
+    "brier": 0.7706045554639996,
+    "ece": 0.5355553632096345,
+    "error_rate": 0.0,
+    "answers": 1470,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/emotion",
+    "status": "preview",
+    "expected_items": 1470,
+    "recorded_items": 1470,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/intent/slurp": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.248,
+    "accuracy_se": 0.01933234282123912,
+    "maj": 0.248,
+    "brier": 0.9149636786692762,
+    "ece": 0.21036599066445213,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/intent",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/language_id/voxlingua107_dev": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 1609,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.04288377874456184,
+    "accuracy_se": 0.005052261713688266,
+    "maj": 0.04288377874456184,
+    "brier": 1.1390929756979995,
+    "ece": 0.3403723426547109,
+    "error_rate": 0.0,
+    "answers": 1609,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/language_id",
+    "status": "preview",
+    "expected_items": 1609,
+    "recorded_items": 1609,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/sound_event/sonyc_ust": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 4000,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5605,
+    "accuracy_se": 0.007848588254227386,
+    "maj": 0.5605,
+    "brier": 0.6214671332942383,
+    "ece": 0.18151494102116028,
+    "error_rate": 0.0,
+    "answers": 4000,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/sound_event",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/speaker_change/ami": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.506,
+    "accuracy_se": 0.02238146241243942,
+    "maj": 0.506,
+    "brier": 0.6622411601245514,
+    "ece": 0.3033493607017739,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/speaker_change",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/dialogue_state/spokenwoz": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 2000,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.4975,
+    "accuracy_se": 0.011182996230990649,
+    "maj": 0.4975,
+    "brier": 0.6644298768240195,
+    "ece": 0.06625499845422105,
+    "error_rate": 0.0,
+    "answers": 2000,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.dialog/dialogue_state",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/interrupt_backchannel/full_duplex_bench_v15": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 298,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.3288590604026846,
+    "accuracy_se": 0.027260483035567894,
+    "maj": 0.3288590604026846,
+    "brier": 1.3296479470065647,
+    "ece": 0.6659908456972912,
+    "error_rate": 0.0,
+    "answers": 298,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.dialog/interrupt_backchannel",
+    "status": "preview",
+    "expected_items": 298,
+    "recorded_items": 298,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/turn_timing/full_duplex_bench_v1": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 335,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5970149253731343,
+    "accuracy_se": 0.026838846201609867,
+    "maj": 0.5970149253731343,
+    "brier": 0.4559761064036091,
+    "ece": 0.13330299887042169,
+    "error_rate": 0.0,
+    "answers": 335,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.dialog/turn_timing",
+    "status": "preview",
+    "expected_items": 335,
+    "recorded_items": 335,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/data_cleaning/nisqa_livetalk": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 464,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5064655172413793,
+    "accuracy_se": 0.023235027789658018,
+    "maj": 0.5064655172413793,
+    "brier": 0.21621580786309985,
+    "ece": 0.0793582192813762,
+    "error_rate": 0.0,
+    "answers": 464,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.judge/data_cleaning",
+    "status": "preview",
+    "expected_items": 232,
+    "recorded_items": 232,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/data_cleaning/signal_defects_synthetic": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 436,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5642201834862385,
+    "accuracy_se": 0.023774600956705045,
+    "maj": 0.5642201834862385,
+    "brier": 0.5615239711695089,
+    "ece": 0.19953734468520978,
+    "error_rate": 0.0,
+    "answers": 436,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.judge/data_cleaning",
+    "status": "preview",
+    "expected_items": 436,
+    "recorded_items": 436,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/naturalness/bvcc": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 741,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.3076923076923077,
+    "accuracy_se": 0.01696649127908787,
+    "maj": 0.3076923076923077,
+    "brier": 0.36905700510380285,
+    "ece": 0.25570751244775736,
+    "error_rate": 0.0,
+    "answers": 741,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.judge/naturalness",
+    "status": "preview",
+    "expected_items": 741,
+    "recorded_items": 741,
+    "pending_items": 0
+   }
+  },
+  "aud.know/music_understanding/mmau_mini": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 105,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5523809523809524,
+    "accuracy_se": 0.04875924328817291,
+    "maj": 0.5523809523809524,
+    "brier": 0.5684381451102403,
+    "ece": 0.11698540179463504,
+    "error_rate": 0.0,
+    "answers": 105,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.know/music_understanding",
+    "status": "preview",
+    "expected_items": 105,
+    "recorded_items": 105,
+    "pending_items": 0
+   }
+  },
+  "aud.know/reasoning/mmau_mini": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 330,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.6424242424242425,
+    "accuracy_se": 0.0264239077967646,
+    "maj": 0.6424242424242425,
+    "brier": 0.4652162133413868,
+    "ece": 0.11769026220111456,
+    "error_rate": 0.0,
+    "answers": 330,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.know/reasoning",
+    "status": "preview",
+    "expected_items": 330,
+    "recorded_items": 330,
+    "pending_items": 0
+   }
+  },
+  "aud.know/sound_qa/mmau_mini": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 36,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.4444444444444444,
+    "accuracy_se": 0.08399210511316162,
+    "maj": 0.4444444444444444,
+    "brier": 0.8306149560308286,
+    "ece": 0.3947970517572997,
+    "error_rate": 0.0,
+    "answers": 36,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.know/sound_qa",
+    "status": "preview",
+    "expected_items": 36,
+    "recorded_items": 36,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/heart_sound/physionet2016": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 301,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5016611295681063,
+    "accuracy_se": 0.028867354147811906,
+    "maj": 0.5016611295681063,
+    "brier": 0.5466773280597134,
+    "ece": 0.16353053092844927,
+    "error_rate": 0.0,
+    "answers": 301,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.pro/heart_sound",
+    "status": "preview",
+    "expected_items": 301,
+    "recorded_items": 301,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/heart_sound/respiratory_icbhi2017": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.256,
+    "accuracy_se": 0.019536923574747664,
+    "maj": 0.256,
+    "brier": 1.0508564202289217,
+    "ece": 0.32409542932249685,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.pro/heart_sound",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/machine_anomaly/mimii_pump_dcase2020": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.49,
+    "accuracy_se": 0.022378596989230864,
+    "maj": 0.49,
+    "brier": 0.5358298387968615,
+    "ece": 0.11620462302569204,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.pro/machine_anomaly",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.ret/audio_text_matching/sonyc_tag_descriptions": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.522,
+    "accuracy_se": 0.02236139673920787,
+    "maj": 0.522,
+    "brier": 0.6709131007248078,
+    "ece": 0.2734116789330157,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.ret/audio_text_matching",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.safety/spoof_detection/asvspoof2019_la": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.494,
+    "accuracy_se": 0.022381462412439424,
+    "maj": 0.494,
+    "brier": 0.7319208440272853,
+    "ece": 0.3236072815972605,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.safety/spoof_detection",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.safety/toxicity/mutox": {
+   "microsoft/Phi-4-multimodal-instruct@label-think0-ctx65536-frames16": {
+    "n_questions": 167,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.8802395209580839,
+    "accuracy_se": 0.02520015140296444,
+    "maj": 0.8802395209580839,
+    "brier": 0.21393238302244177,
+    "ece": 0.08904176310519768,
+    "error_rate": 0.0,
+    "answers": 167,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.safety/toxicity",
+    "status": "preview",
+    "expected_items": 167,
+    "recorded_items": 167,
+    "pending_items": 0
+   }
+  }
+ }
+}

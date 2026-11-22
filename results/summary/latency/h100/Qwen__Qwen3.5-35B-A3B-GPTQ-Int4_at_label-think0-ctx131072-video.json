@@ -1,0 +1,131 @@
+{
+ "model_id": "Qwen/Qwen3.5-35B-A3B-GPTQ-Int4@label-think0-ctx131072-video",
+ "spec": "lm:Qwen/Qwen3.5-35B-A3B-GPTQ-Int4@gpu=0.9,maxlen=131072",
+ "set": "v1",
+ "set_digest": "2906cc887102",
+ "gpu": "h100",
+ "gpus": 1,
+ "median_ms": 237.2,
+ "per_kind": {
+  "short": {
+   "requests": 200,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 200,
+   "median_ms": 482.6,
+   "p90_ms": 5365.5,
+   "mean_ms": 3330.0,
+   "median_ci95_ms": [
+    411.6,
+    728.7
+   ],
+   "gpu_s_per_1k": 3330.0
+  },
+  "long": {
+   "requests": 70,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 70,
+   "median_ms": 1042.2,
+   "p90_ms": 19663.0,
+   "mean_ms": 5909.5,
+   "median_ci95_ms": [
+    591.0,
+    1550.1
+   ],
+   "gpu_s_per_1k": 5909.5
+  },
+  "av": {
+   "requests": 60,
+   "failed": 0,
+   "unsupported": 60
+  },
+  "bench": {
+   "requests": 50,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 50,
+   "median_ms": 1209.8,
+   "p90_ms": 2295.8,
+   "mean_ms": 1226.5,
+   "median_ci95_ms": [
+    612.9,
+    1405.2
+   ],
+   "gpu_s_per_1k": 1226.5
+  },
+  "loop": {
+   "requests": 100,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 100,
+   "median_ms": 237.2,
+   "p90_ms": 395.0,
+   "mean_ms": 282.5,
+   "median_ci95_ms": [
+    219.0,
+    242.0
+   ],
+   "gpu_s_per_1k": 282.5
+  }
+ },
+ "repeat": {
+  "n": 30,
+  "ratio_median": 0.986,
+  "abs_change_p50": 0.027
+ },
+ "consistency": {
+  "questions": 320,
+  "no_cached_row": 0,
+  "status_changed": 0,
+  "top_option_agreement": 0.9625,
+  "max_abs_diff_p50": 0.02106,
+  "max_abs_diff_p95": 0.08323,
+  "verdict": "differs from the accuracy run"
+ },
+ "load_s": 358.6,
+ "warmup_ms": [
+  616.7,
+  500.4,
+  1947.9,
+  395.2,
+  30162.4,
+  2814.9,
+  168.7,
+  1639.7,
+  130.4,
+  21169.0
+ ],
+ "peak_memory_mib": {
+  "0": 78493
+ },
+ "machine": {
+  "host": "",
+  "gpus": [
+   {
+    "index": "0",
+    "name": "NVIDIA H100 PCIe",
+    "memory_mib": 81559,
+    "driver": "570.195.03"
+   }
+  ],
+  "cpu": "AMD EPYC 9454 48-Core Processor",
+  "cpu_count": 96,
+  "python": "3.12.15",
+  "packages": {
+   "jevarena-mm": "0.1.0.dev0",
+   "torch": "2.13.0+cu129",
+   "vllm": "0.30.0+cu129",
+   "transformers": "5.19.0",
+   "av": "19.0.1",
+   "numpy": "2.3.5"
+  },
+  "commit": "c3ad61b2d1a801caafa8a2b5b1169cc40f47486c",
+  "env": {
+   "CUDA_VISIBLE_DEVICES": "0",
+   "JEVARENA_MM_DECODE_THREADS": "4",
+   "OMP_NUM_THREADS": "96"
+  }
+ },
+ "measured": "2026-10-15T22:52:55-0500"
+}

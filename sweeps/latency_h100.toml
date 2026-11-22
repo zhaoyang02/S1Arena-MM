@@ -1,0 +1,162 @@
+# Latency on one NVIDIA H100 80 GB per model (docs/latency.md), the specs as run on H100 PCIe nodes
+# (results/summary/latency/h100/; the run on an H100 SXM machine is sweeps/latency_h100_sxm.toml).
+# `jevarena-mm latency-plan sweeps/latency_h100.toml -p <partition> -A <account> --site-env <file>` prints one
+# scripts/slurm/latency.slurm job per model (--go submits).
+#
+# Each spec is the spec of the model's accuracy run with only the engine options changed (tp, pp, pplayers, gpus,
+# gpu_layers, gpu: none of them is part of the model id), so the timed model is the scored one and `latency` can
+# compare its probabilities with the cached accuracy run. Options that are part of the id (maxlen, max_frames,
+# dequant, a head) stay as they were, also where 80 GB would allow more. gpus: GPUs the spec uses. If a fit test
+# fails on one GPU, use the second spec in the comment beside the model (tensor parallel on two GPUs).
+#
+# env: the software a model needs, exported to its job as JV_ENV for the site file to activate (scripts/slurm/
+# site.env.example; docs/latency.md lists what each has): jev (the jev extra and OneJev's engine; Xor also Apptainer
+# and $XOR_SIF), vllm (vLLM 0.30 or later; Nemotron also a C++20 compiler as $CXX), vllm031 (vLLM 0.31 or later, for
+# DiffusionGemma), d3 (the jev extra with flash-linear-attention).
+
+set = "data/latency/v1.json"
+time = "04:00:00"
+
+# ---- System-1 models
+[[models]]
+spec = "d3"
+env = "d3"
+
+[[models]]
+spec = "clef:Cloudflare/clef"
+env = "jev"
+
+[[models]]
+spec = "clef"  # Cloudflare/clef-flash
+env = "jev"
+
+[[models]]
+spec = "clef:Cloudflare/clef-omni"  # fallback: clef:Cloudflare/clef-omni@gpus=2, gpus = 2
+env = "jev"
+time = "06:00:00"
+
+[[models]]
+spec = "onejev@fps=1,min_frames=2,gpu_layers=1000"  # OneJev-27B; every decoder layer on the GPU (default: 32, the rest on CPU)
+env = "jev"
+
+[[models]]
+spec = "onejev:OmniJev/OneJev-9B@gpu_layers=1000"
+env = "jev"
+
+[[models]]
+spec = "onejev:OmniJev/OneJev-4B@gpu_layers=1000"
+env = "jev"
+
+[[models]]
+spec = "onejev:OmniJev/OneJev-0.8B@gpu_layers=1000"
+env = "jev"
+
+[[models]]
+spec = "jev_omni"
+env = "jev"
+time = "06:00:00"
+
+[[models]]
+spec = "jev_omni@head=ferdinandl007/jev-omni-general-head-v3"
+env = "jev"
+time = "06:00:00"
+
+[[models]]
+spec = "xor@tp=1"
+env = "jev"
+
+[[models]]
+spec = "raya"
+env = "jev"
+
+# ---- Open MLLMs (answer-token probabilities)
+[[models]]
+spec = "lm:Qwen/Qwen3.8-27B-FP8@gpu=0.9,maxlen=131072,seqs=256"  # vLLM's default 1024 sequences need more Mamba cache blocks than one H100 holds (753)
+env = "vllm"
+
+[[models]]
+spec = "lm:Qwen/Qwen3.5-35B-A3B-GPTQ-Int4@gpu=0.9,maxlen=131072"
+env = "vllm"
+
+[[models]]
+spec = "lm:Qwen/Qwen3.5-9B@gpu=0.9,maxlen=131072"
+env = "vllm"
+
+[[models]]
+spec = "lm:Qwen/Qwen3.5-4B@gpu=0.9,maxlen=131072"
+env = "vllm"
+
+[[models]]
+spec = "lm:Qwen/Qwen3.5-2B@gpu=0.8,maxlen=131072"  # as run on the H100 PCIe nodes: one H100 ran out of memory with the planned options
+env = "vllm"
+
+[[models]]
+spec = "lm:Qwen/Qwen3.5-0.8B@gpu=0.9"
+env = "vllm"
+
+[[models]]
+spec = "lm:Qwen/Qwen3-VL-30B-A3B-Instruct@tp=2,gpu=0.8,maxlen=131072"  # as run on the H100 PCIe nodes: one H100 ran out of memory with the planned options
+gpus = 2
+env = "vllm"
+
+[[models]]
+spec = "lm:Qwen/Qwen3-Omni-30B-A3B-Instruct@tp=2,gpu=0.8,maxlen=65536,batched=32768"  # as run on the H100 PCIe nodes: one H100 ran out of memory with the planned options
+gpus = 2
+env = "vllm"
+time = "06:00:00"
+
+[[models]]
+spec = "lm:Qwen/Qwen3-Omni-30B-A3B-Thinking@tp=2,gpu=0.8,maxlen=65536,batched=32768"  # as run on the H100 PCIe nodes: one H100 ran out of memory with the planned options
+gpus = 2
+env = "vllm"
+time = "06:00:00"
+
+[[models]]
+spec = "lm:Qwen/Qwen2.5-Omni-7B@gpu=0.9"
+env = "vllm"
+
+[[models]]
+spec = "lm:Qwen/Qwen2.5-Omni-7B-AWQ@gpu=0.9"
+env = "vllm"
+
+[[models]]
+spec = "lm:Qwen/Qwen2.5-Omni-7B-GPTQ-Int4@gpu=0.9,dequant=${JV_DEQUANT_DIR}/Qwen2.5-Omni-7B-GPTQ-Int4-bf16"  # scripts/gptq_dequant.py
+env = "vllm"
+
+[[models]]
+spec = "lm:Qwen/Qwen2.5-Omni-3B@gpu=0.8"  # as run on the H100 PCIe nodes: one H100 ran out of memory with the planned options
+env = "vllm"
+
+[[models]]
+spec = "lm:google/gemma-4-12B-it@gpu=0.8,maxlen=65536"  # as run on the H100 PCIe nodes: one H100 ran out of memory with the planned options
+env = "vllm"
+
+[[models]]
+spec = "lm:google/gemma-4-26B-A4B-it@gpu=0.8,maxlen=65536"  # as run on the H100 PCIe nodes: one H100 ran out of memory with the planned options
+env = "vllm"
+
+[[models]]
+spec = "dgemma:google/diffusiongemma-26B-A4B-it@gpu=0.9"
+env = "vllm031"
+
+[[models]]
+spec = "dgemma:cyankiwi/diffusiongemma-26B-A4B-it-AWQ-INT4@gpu=0.9"
+env = "vllm031"
+
+[[models]]
+spec = "lm:openbmb/MiniCPM-o-4_5@gpu=0.8"  # as run on the H100 PCIe nodes: one H100 ran out of memory with the planned options
+env = "vllm"
+
+[[models]]
+spec = "lm:openbmb/MiniCPM-o-2_6@gpu=0.8"  # as run on the H100 PCIe nodes: one H100 ran out of memory with the planned options
+env = "vllm"
+
+[[models]]
+spec = "lm:microsoft/Phi-4-multimodal-instruct@max_frames=16,gpu=0.8,maxlen=65536"  # as run on the H100 PCIe nodes: one H100 ran out of memory with the planned options
+env = "vllm"
+
+[[models]]
+spec = "lm:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16@tp=2,gpu=0.8,maxlen=65536,seqs=64,batched=4096"  # as run on the H100 PCIe nodes: one H100 ran out of memory with the planned options
+gpus = 2
+env = "vllm"
+time = "06:00:00"

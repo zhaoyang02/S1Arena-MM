@@ -1,0 +1,85 @@
+[
+ {
+  "name": "vid.embodied/feasibility/star",
+  "leaf": "vid.embodied/feasibility",
+  "status": "released",
+  "version": 1,
+  "source": "STAR, prediction and feasibility questions, validation split (Wu et al., 2021)",
+  "url": "https://bobbywu.com/STAR/",
+  "license": "Charades license (non-commercial research)",
+  "tier": "A",
+  "criteria_source": "Original STAR questions and options",
+  "redistributable": true,
+  "notes": "362 Charades videos, 500 questions; for prediction questions the video ends at the question's cutoff.",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/embodied/feasibility/star.jsonl",
+  "sha256": "8eb805d545916542db0cee937bbb298da51f78a6174bcfab8d044047dbf898f4",
+  "label_counts": {
+   "option_3": 128,
+   "option_1": 124,
+   "option_2": 126,
+   "option_0": 122
+  }
+ },
+ {
+  "name": "vid.embodied/procedure/captaincook4d",
+  "leaf": "vid.embodied/procedure",
+  "status": "released",
+  "version": 2,
+  "source": "CaptainCook4D, step error annotations (Peddi et al., 2024)",
+  "url": "https://github.com/CaptainCook4D/annotations",
+  "license": "Apache-2.0 (data); MIT (annotation repository)",
+  "tier": "B",
+  "criteria_source": "Adapted from CaptainCook4D's step-level error annotations",
+  "redistributable": true,
+  "notes": "96 recordings, 500 steps (250 with an error, 250 without); the recipe step is quoted. Every item shows the complete recording with the step's annotated interval given in the text (recordings median 793 s, steps median 34 s), so the surrounding steps are visible for order and omission errors. Gold is CaptainCook4D's error annotation; some error kinds (such as quantities) are hard to see.",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/embodied/procedure/captaincook4d.jsonl",
+  "sha256": "73711dc6213d618400585111acc3e620b84c31db42391d5d2744de39fa82d83d",
+  "label_counts": {
+   "true": 250,
+   "false": 250
+  }
+ },
+ {
+  "name": "vid.embodied/robot_success/robofac",
+  "leaf": "vid.embodied/robot_success",
+  "status": "released",
+  "version": 1,
+  "source": "RoboFAC robotic failure analysis dataset (2025)",
+  "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+  "license": "MIT",
+  "tier": "B",
+  "criteria_source": "Adapted from RoboFAC's trajectory success labels; the task text is RoboFAC's",
+  "redistributable": true,
+  "notes": "500 trajectories across RoboFAC's environments (250 successes, 250 failures); the window is the whole trajectory, so the outcome is visible at its end.",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/embodied/robot_success/robofac.jsonl",
+  "sha256": "5bea393183d21308d5e38cb074044592fdd8154b540048a334426f81f79c788d",
+  "label_counts": {
+   "true": 250,
+   "false": 250
+  }
+ }
+]

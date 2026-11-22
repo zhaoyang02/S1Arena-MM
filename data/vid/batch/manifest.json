@@ -1,0 +1,32 @@
+[
+ {
+  "name": "vid.batch/quality/konvid_1k",
+  "leaf": "vid.batch/quality",
+  "status": "released",
+  "version": 1,
+  "source": "KoNViD-1k (Hosu et al., 2017)",
+  "url": "https://database.mmsp-kn.de/konvid-1k-database.html",
+  "license": "Free for research, no license stated; Flickr (YFCC100m) videos under their own Creative Commons terms",
+  "tier": "B",
+  "criteria_source": "Adapted from the ACR scale of the KoNViD-1k study (1 Bad to 5 Excellent)",
+  "redistributable": true,
+  "notes": "500 videos. Gold is the level nearest to the mean opinion score, which is kept in meta['mean_score'].",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/batch/quality/konvid_1k.jsonl",
+  "sha256": "d3cf041ac6413307dae1f0a6b851f4ffd3ed178eecf2d497552329011dbeaae9",
+  "label_counts": {
+   "1": 155,
+   "3": 120,
+   "2": 215,
+   "0": 9,
+   "4": 1
+  }
+ }
+]

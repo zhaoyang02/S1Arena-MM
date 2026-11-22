@@ -1,0 +1,99 @@
+[
+ {
+  "name": "lvid.know/lecture/videommmu",
+  "leaf": "lvid.know/lecture",
+  "status": "released",
+  "version": 2,
+  "source": "VideoMMMU (Hu et al., 2025)",
+  "url": "https://github.com/EvolvingLMMs-Lab/VideoMMMU",
+  "license": "CC BY-NC-SA 4.0 (dataset); videos remain their creators'",
+  "tier": "A",
+  "criteria_source": "Original VideoMMMU questions and options",
+  "redistributable": true,
+  "notes": "255 lecture videos, 500 questions, most with 10 options. The input is the video with its complete audio track (median 458 s, longest 2,028 s); models that do not take audio are unsupported on it. Known limit of the reference run: Jev-Omni with the full audio scores 26.4 % (61 % on items with under 3 minutes of audio, but 11-12 % beyond 7.5 minutes, where its answers collapse onto the seventh option); the 2 items with 2,028 s of audio exceed a 48 GB card and are recorded as rejected.",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "audio",
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/lvid/know/lecture/videommmu.jsonl",
+  "sha256": "2a3538ff731a1d633861490a9945dbd22ee65a17493de7754d0435260f034c2f",
+  "label_counts": {
+   "A": 53,
+   "E": 45,
+   "C": 91,
+   "D": 66,
+   "F": 33,
+   "B": 71,
+   "H": 29,
+   "I": 60,
+   "J": 21,
+   "G": 31
+  }
+ },
+ {
+  "name": "lvid.know/long_qa/video_mme",
+  "leaf": "lvid.know/long_qa",
+  "status": "released",
+  "version": 1,
+  "source": "Video-MME, long videos (Fu et al., 2025)",
+  "url": "https://video-mme.github.io/",
+  "license": "Video-MME terms: academic research only, no distribution without the authors' approval",
+  "tier": "A",
+  "criteria_source": "Original Video-MME questions and options",
+  "redistributable": false,
+  "notes": "299 long videos, 500 questions; video only, without subtitles or audio. Video-MME may not be redistributed, so the questions, options and answers ship as a recipe and `jevarena-mm build` fills them in from Video-MME's own release (fetched with the videos).",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data_local/lvid/know/long_qa/video_mme.jsonl",
+  "sha256": "b51a1aeefa12e29fdedaf89616a8d8d655cee56cb667c619cfa69deab0cfec8b",
+  "label_counts": {
+   "A": 121,
+   "C": 129,
+   "B": 133,
+   "D": 117
+  }
+ },
+ {
+  "name": "lvid.know/needle/generated",
+  "leaf": "lvid.know/needle",
+  "status": "released",
+  "version": 1,
+  "source": "Generated needle videos (built for this benchmark)",
+  "url": "",
+  "license": "CC BY 4.0 (generated for this benchmark; no third-party assets)",
+  "tier": "C",
+  "criteria_source": "Written; gold comes from the generator's placement log",
+  "redistributable": true,
+  "notes": "250 generated videos of 25 coloured-shape targets inside light panels; each video is asked whether a target appears (125 yes, 125 no) and in which quarter it appears (5 options).",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/lvid/know/needle/generated.jsonl",
+  "sha256": "d459b9613a693cef0e7202a71257ddb265fa2441f08591037027547ac6cbe873",
+  "label_counts": {
+   "false": 125,
+   "absent": 125,
+   "true": 125,
+   "second_quarter": 31,
+   "third_quarter": 31,
+   "first_quarter": 32,
+   "fourth_quarter": 31
+  }
+ }
+]

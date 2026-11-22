@@ -1,0 +1,12 @@
+# The whole benchmark for one model: every static task (image, video, long video, audio) and the 102 closed-loop
+# games, one sample per item. Replace the spec with your model's (docs/models.md, docs/models_img.md); one [[models]]
+# block per model runs several.
+name = "full"
+tasks = ["img", "vid", "lvid", "aud"]
+envs = ["loop"]
+
+[defaults]
+k = 1
+
+[[models]]
+spec = "random"

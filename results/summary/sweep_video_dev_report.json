@@ -1,0 +1,3359 @@
+{
+ "plan": "video_dev",
+ "models": [
+  "OmniJev/OneJev-27B@fps=1,min_frames=2",
+  "akhilaaa3/Jev-Omni@fps=1,frames=16"
+ ],
+ "overall": {
+  "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+   "static_accuracy": 0.6575149864060302,
+   "leaves": 32,
+   "envs": 97,
+   "static_answers": 16000,
+   "static_unanswered": 0,
+   "env_decisions": 39457,
+   "env_failed_decisions": 0,
+   "static_brier": 0.4174105008530029
+  },
+  "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+   "static_accuracy": 0.5222739127063926,
+   "leaves": 35,
+   "envs": 97,
+   "static_answers": 17500,
+   "static_unanswered": 2,
+   "env_decisions": 42335,
+   "env_failed_decisions": 0,
+   "static_brier": 0.58408844611551
+  }
+ },
+ "static": {
+  "vid.basic/action_candidates": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.95,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.912
+  },
+  "vid.basic/action_category": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.828,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.31
+  },
+  "vid.basic/repetition": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.164,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.182
+  },
+  "vid.basic/state_change": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.7594802439671174,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.672117622793836
+  },
+  "vid.basic/temporal": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.926,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.742
+  },
+  "vid.batch/quality": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.56,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.508
+  },
+  "vid.bench/mvbench": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.686,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.566
+  },
+  "vid.bench/nextqa": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.84,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.7
+  },
+  "vid.bench/tempcompass": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.826,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.696
+  },
+  "vid.embodied/feasibility": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.612,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.482
+  },
+  "vid.embodied/procedure": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.532,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.508
+  },
+  "vid.embodied/robot_success": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.562,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.486
+  },
+  "vid.fore/next_action": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.518,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.512
+  },
+  "vid.fore/pedestrian": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.5496703296703297,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.5046153846153847
+  },
+  "vid.game/physics_bug": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.628,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.462
+  },
+  "vid.judge/hallucination": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.838,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.764
+  },
+  "vid.judge/t2v": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.39,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.372
+  },
+  "vid.know/causal_qa": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.642,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.44
+  },
+  "vid.know/physics": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.508,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.506
+  },
+  "vid.pro/driving_risk": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.532,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.546
+  },
+  "vid.pro/foul": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.474,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.268
+  },
+  "vid.ret/text_match": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.978,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.946
+  },
+  "vid.safety/violence": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.9308751552341297,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.8451493900211848
+  },
+  "lvid.bench/egoschema": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.79,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.534
+  },
+  "lvid.bench/vsi_bench": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.696,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.316
+  },
+  "lvid.dialog/meeting_decision": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.522
+  },
+  "lvid.embodied/ego_plan": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.488,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.298
+  },
+  "lvid.judge/meeting_summary": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.58
+  },
+  "lvid.know/lecture": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.264
+  },
+  "lvid.know/long_qa": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.57,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.508
+  },
+  "lvid.know/needle": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.942,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.422
+  },
+  "lvid.pro/surveillance": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.77,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.666
+  },
+  "lvid.ret/moment": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.5784538361213863,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.40170454729333943
+  },
+  "lvid.route/escalation": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.564,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.502
+  },
+  "lvid.route/segment": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.408,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.336
+  }
+ },
+ "preview": {},
+ "envs": {
+  "loop.game/balrog_pixels/babaisai-goto-win": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.3333333333333333,
+    "score_mean": 0.3333333333333333,
+    "score_se": 0.3333333333333333,
+    "decisions_mean": 67.66666666666667,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5570.8,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 998.5,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-goto-win-distr-obj": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.3333333333333333,
+    "score_mean": 0.3333333333333333,
+    "score_se": 0.3333333333333333,
+    "decisions_mean": 68.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5300.4,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.3333333333333333,
+    "score_mean": 0.3333333333333333,
+    "score_se": 0.3333333333333333,
+    "decisions_mean": 68.33333333333333,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 1094.5,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-goto-win-distr-obj-irrelevant-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.6666666666666666,
+    "score_mean": 0.6666666666666666,
+    "score_se": 0.3333333333333333,
+    "decisions_mean": 38.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 4361.7,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 1162.4,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-goto-win-distr-obj-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 1.0,
+    "score_mean": 1.0,
+    "score_se": 0.0,
+    "decisions_mean": 5.333333333333333,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 4703.9,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 1172.9,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-goto-win-distr-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 1.0,
+    "score_mean": 1.0,
+    "score_se": 0.0,
+    "decisions_mean": 5.333333333333333,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 3562.5,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 1120.4,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-make-win": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 4980.3,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 996.5,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-make-win-distr-obj": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5261.1,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 1096.9,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-make-win-distr-obj-irrelevant-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5769.1,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 1170.9,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-make-win-distr-obj-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5587.0,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 1165.0,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-make-win-distr-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5607.1,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 1061.1,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-break-stop-goto-win": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 6863.7,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2103.4,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-break-stop-goto-win-distr-obj": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7459.5,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2175.6,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-break-stop-goto-win-distr-obj-irrelevant-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7615.1,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2208.4,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-break-stop-goto-win-distr-obj-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7564.9,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2214.9,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-break-stop-goto-win-distr-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 6965.0,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2044.0,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-break-stop-make-win": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7147.2,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2086.2,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-break-stop-make-win-distr-obj": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7414.4,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2031.6,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-break-stop-make-win-distr-obj-irrelevant-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7295.0,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2286.1,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-break-stop-make-win-distr-obj-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7546.7,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2238.0,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-break-stop-make-win-distr-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7490.6,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2034.8,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-goto-win": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 1.0,
+    "score_mean": 1.0,
+    "score_se": 0.0,
+    "decisions_mean": 4.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 3503.6,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 1983.0,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-goto-win-distr-obj": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 1.0,
+    "score_mean": 1.0,
+    "score_se": 0.0,
+    "decisions_mean": 4.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 4263.2,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.3333333333333333,
+    "score_mean": 0.3333333333333333,
+    "score_se": 0.3333333333333333,
+    "decisions_mean": 72.33333333333333,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 1979.7,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-goto-win-distr-obj-irrelevant-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.6666666666666666,
+    "score_mean": 0.6666666666666666,
+    "score_se": 0.3333333333333333,
+    "decisions_mean": 34.333333333333336,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 3883.1,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.3333333333333333,
+    "score_mean": 0.3333333333333333,
+    "score_se": 0.3333333333333333,
+    "decisions_mean": 75.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2103.8,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-goto-win-distr-obj-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.6666666666666666,
+    "score_mean": 0.6666666666666666,
+    "score_se": 0.3333333333333333,
+    "decisions_mean": 35.333333333333336,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 3715.3,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.3333333333333333,
+    "score_mean": 0.3333333333333333,
+    "score_se": 0.3333333333333333,
+    "decisions_mean": 69.33333333333333,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2158.9,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-goto-win-distr-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.6666666666666666,
+    "score_mean": 0.6666666666666666,
+    "score_se": 0.3333333333333333,
+    "decisions_mean": 34.333333333333336,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 3802.2,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2067.8,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-goto-win-distr-win-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.6666666666666666,
+    "score_mean": 0.6666666666666666,
+    "score_se": 0.3333333333333333,
+    "decisions_mean": 36.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 4650.5,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.3333333333333333,
+    "score_mean": 0.3333333333333333,
+    "score_se": 0.3333333333333333,
+    "decisions_mean": 80.33333333333333,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2573.3,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-make-wall-win": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7278.0,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2227.1,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-make-win": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7042.4,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 1972.5,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-make-win-distr-obj": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7071.6,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 1947.5,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-make-win-distr-obj-irrelevant-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7542.3,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2160.5,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-make-win-distr-obj-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7449.3,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2138.1,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-make-win-distr-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7396.4,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2007.2,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-make-win-distr-win-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 8151.4,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2566.8,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-make-you": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7423.9,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2212.9,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-make-you-make-win": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7732.9,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2199.8,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-maybe-break-stop-goto-win": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.3333333333333333,
+    "score_mean": 0.3333333333333333,
+    "score_se": 0.3333333333333333,
+    "decisions_mean": 75.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7159.7,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2100.6,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-maybe-break-stop-goto-win-distr-obj": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.6666666666666666,
+    "score_mean": 0.6666666666666666,
+    "score_se": 0.3333333333333333,
+    "decisions_mean": 52.333333333333336,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 6604.2,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2148.9,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-maybe-break-stop-goto-win-distr-obj-irrelevant-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7760.3,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2299.7,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-maybe-break-stop-goto-win-distr-obj-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.6666666666666666,
+    "score_mean": 0.6666666666666666,
+    "score_se": 0.3333333333333333,
+    "decisions_mean": 51.333333333333336,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7432.2,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2100.5,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babaisai-two-room-maybe-break-stop-goto-win-distr-rule": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7539.7,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 3,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 2158.7,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babyai-goto": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 1.0,
+    "score_mean": 1.0,
+    "score_se": 0.0,
+    "decisions_mean": 11.2,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 3897.3500000000004,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.5,
+    "score_mean": 0.5,
+    "score_se": 0.16666666666666666,
+    "decisions_mean": 34.7,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 417.0,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babyai-open": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.1,
+    "score_mean": 0.1,
+    "score_se": 0.09999999999999999,
+    "decisions_mean": 118.5,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 4066.3999999999996,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.1,
+    "score_mean": 0.1,
+    "score_se": 0.09999999999999999,
+    "decisions_mean": 121.1,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 519.75,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babyai-pick-up-seq-go-to": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.1,
+    "score_mean": 0.1,
+    "score_se": 0.09999999999999999,
+    "decisions_mean": 118.7,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 3955.2,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.1,
+    "score_mean": 0.1,
+    "score_se": 0.09999999999999999,
+    "decisions_mean": 119.4,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 507.70000000000005,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babyai-pickup": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 64.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 4137.65,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.3,
+    "score_mean": 0.3,
+    "score_se": 0.15275252316519466,
+    "decisions_mean": 48.6,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 443.1,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/babyai-putnext": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.1,
+    "score_mean": 0.1,
+    "score_se": 0.09999999999999999,
+    "decisions_mean": 120.1,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 4118.0,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.2,
+    "score_se": 0.13333333333333333,
+    "decisions_mean": 108.1,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 478.65,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/crafter-default": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": null,
+    "score_mean": 0.3090909090909091,
+    "score_se": 0.05326786615529377,
+    "decisions_mean": 187.4,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 4838.95,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": null,
+    "score_mean": 0.13181818181818178,
+    "score_se": 0.03550113489048479,
+    "decisions_mean": 215.1,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 868.5,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/minihack-minihack-boxoban-hard-v0": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 7015.1,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 1714.4,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/minihack-minihack-boxoban-medium-v0": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 6954.2,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 1700.6,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/minihack-minihack-corridor-r3-v0": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5082.3,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 765.6,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/minihack-minihack-corridorbattle-dark-v0": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 46.6,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 4986.3,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 77.8,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 745.5,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/minihack-minihack-mazewalk-15x15-v0": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.2,
+    "score_se": 0.19999999999999998,
+    "decisions_mean": 81.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 4896.9,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 668.1,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/minihack-minihack-mazewalk-9x9-v0": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.4,
+    "score_mean": 0.4,
+    "score_se": 0.24494897427831777,
+    "decisions_mean": 65.4,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 4671.3,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 685.0,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/minihack-minihack-quest-easy-v0": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 6.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 4739.1,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 7.8,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 569.4,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/balrog_pixels/minihack-minihack-quest-medium-v0": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 27.6,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5355.0,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progression",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 91.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 895.1,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/01_2048": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.6,
+    "score_mean": 0.88359375,
+    "score_se": 0.097205208394728,
+    "decisions_mean": 76.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5841.0,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.17578125,
+    "score_se": 0.08301125911962183,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 568.9,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/02_another-gentlemans-adventure": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.4,
+    "score_mean": 0.8033333333333333,
+    "score_se": 0.0837323779138698,
+    "decisions_mean": 64.4,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5959.8,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.4,
+    "score_mean": 0.7133333333333333,
+    "score_se": 0.12454361128179603,
+    "decisions_mean": 62.6,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 592.1,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/03_astray": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.2163429274373802,
+    "score_se": 0.042701177664536114,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5697.6,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.22266119687409044,
+    "score_se": 0.06147396026960501,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 526.8,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/04_boxel-rebound": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.6609345376615148,
+    "score_se": 0.17860446255320647,
+    "decisions_mean": 82.6,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5598.3,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.4790821611148047,
+    "score_se": 0.12376488189380937,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 494.4,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/05_breakout": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.15734714790825743,
+    "score_se": 0.030686578606077555,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 6160.8,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.16436442003817392,
+    "score_se": 0.030592550302048584,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 600.8,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/06_captaincallisto": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.1276190476190476,
+    "score_se": 0.11170092884872951,
+    "decisions_mean": 56.6,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 6030.1,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.17047619047619048,
+    "score_se": 0.09766433328224204,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 630.7,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/07_chrome-dino": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.24875000000000003,
+    "score_se": 0.0986946047157594,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5590.1,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.2834166666666667,
+    "score_se": 0.12981680468174286,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 516.9,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/08_core-ball": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.1766666666666667,
+    "score_se": 0.035978388574871505,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5565.2,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 513.1,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/09_cubefield": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.4,
+    "score_mean": 0.6631886666666666,
+    "score_se": 0.17061550250522697,
+    "decisions_mean": 67.2,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5717.6,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.43390600000000007,
+    "score_se": 0.1656331296450079,
+    "decisions_mean": 84.6,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 523.4,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/10_doodle-jump": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.4,
+    "score_mean": 0.43377333333333334,
+    "score_se": 0.23117177893890462,
+    "decisions_mean": 81.8,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5547.5,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.2841733333333333,
+    "score_se": 0.18194948944998748,
+    "decisions_mean": 89.4,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 523.2,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/11_edge-surf": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.4,
+    "score_mean": 0.6879,
+    "score_se": 0.15638001790510192,
+    "decisions_mean": 78.8,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5973.4,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.6060833333333334,
+    "score_se": 0.11833035794381384,
+    "decisions_mean": 85.4,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 576.5,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/12_fireboy-and-watergirl": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.3333333333333333,
+    "score_se": 0.10540925533894598,
+    "decisions_mean": 200.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 6224.1,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.16333333333333333,
+    "score_se": 0.07644896627453143,
+    "decisions_mean": 200.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 611.7,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/13_flappy-bird": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5580.7,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 489.0,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/14_geodash": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.339,
+    "score_se": 0.09504472631345728,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5616.5,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.32,
+    "score_se": 0.10567639282261672,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 509.8,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/15_google-snake": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.4,
+    "score_mean": 0.5733333333333334,
+    "score_se": 0.17962924780409972,
+    "decisions_mean": 71.2,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 6029.5,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.5199999999999999,
+    "score_se": 0.150037032465692,
+    "decisions_mean": 86.6,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 539.5,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/16_hextris": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.46088000000000007,
+    "score_se": 0.18453827353695493,
+    "decisions_mean": 94.6,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5898.6,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.4,
+    "score_mean": 0.7344533333333334,
+    "score_se": 0.14880991962156884,
+    "decisions_mean": 97.2,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 550.4,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/17_mario-game": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.421,
+    "score_se": 0.190829767070025,
+    "decisions_mean": 90.4,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 6068.6,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 612.4,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/18_minecraft-clone-glm": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.39,
+    "score_se": 0.1661324772583615,
+    "decisions_mean": 93.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 6987.7,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 1001.9,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/19_minesweeper": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.5260230528993206,
+    "score_se": 0.2158793720973362,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 18943.6,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.5260230528993206,
+    "score_se": 0.2158793720973362,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 9970.2,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/20_monkey-mart": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.21764102564102564,
+    "score_se": 0.07989368346410244,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 6018.8,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 589.0,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/21_ns-shaft": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.2554958681640625,
+    "score_se": 0.18653615353023553,
+    "decisions_mean": 82.8,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5627.4,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.5427521342773438,
+    "score_se": 0.15946008485171548,
+    "decisions_mean": 82.8,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 524.3,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/22_ovo": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.4,
+    "score_mean": 0.4,
+    "score_se": 0.24494897427831777,
+    "decisions_mean": 63.8,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5970.2,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.6,
+    "score_mean": 0.6,
+    "score_se": 0.24494897427831777,
+    "decisions_mean": 52.6,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 628.2,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/23_pacman": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.6061333333333333,
+    "score_se": 0.13292711453190345,
+    "decisions_mean": 85.4,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5839.5,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.3402666666666667,
+    "score_se": 0.12784132526082653,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 537.3,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/24_restless-wing-syndrome": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.2,
+    "score_se": 0.19999999999999998,
+    "decisions_mean": 97.4,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 6005.9,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 631.0,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/25_rocket-league-2d": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5839.4,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 539.1,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/26_run-3": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.3904444444444444,
+    "score_se": 0.157894166773933,
+    "decisions_mean": 88.2,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5790.2,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.21477777777777773,
+    "score_se": 0.12309005034456341,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 526.3,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/27_stack": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.11599999999999999,
+    "score_se": 0.023814094799322335,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5543.9,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.14333333333333334,
+    "score_se": 0.0635959467611297,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 495.8,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/28_temple-run-2": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.5844066666666666,
+    "score_se": 0.12468947413920355,
+    "decisions_mean": 83.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5747.0,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.5014616666666667,
+    "score_se": 0.13829943665025457,
+    "decisions_mean": 83.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 582.9,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/29_tetris": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.6212,
+    "score_se": 0.1261026742160706,
+    "decisions_mean": 84.8,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 6108.3,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 633.6,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/30_vex-3": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.13333333333333333,
+    "score_se": 0.13333333333333333,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 6052.4,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 657.1,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/31_wolf3d": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.6,
+    "score_mean": 0.74,
+    "score_se": 0.1661324772583615,
+    "decisions_mean": 69.4,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 6044.8,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.07333333333333333,
+    "score_se": 0.04521553322083512,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 635.3,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/33_worlds-hardest-game": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5823.2,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 100.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 559.7,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/gameworld/34_worlds-hardest-game-2": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.6,
+    "score_mean": 0.7666666666666666,
+    "score_se": 0.14529663145135577,
+    "decisions_mean": 47.2,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 5579.5,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "progress",
+    "episodes": 5,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.2,
+    "score_mean": 0.3,
+    "score_se": 0.19999999999999998,
+    "decisions_mean": 88.6,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": 525.8,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/vsbench/atari_pong": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 229.5,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 121.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/vsbench/battle_of_the_colors": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": null,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 50.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": null,
+    "score_mean": 0.15,
+    "score_se": 0.15,
+    "decisions_mean": 50.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/vsbench/breakthrough": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": -1.0,
+    "score_se": 0.0,
+    "decisions_mean": 26.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.0,
+    "score_mean": -1.0,
+    "score_se": 0.0,
+    "decisions_mean": 26.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/vsbench/coin_dilemma": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": null,
+    "score_mean": 1.6,
+    "score_se": 1.089852181618121,
+    "decisions_mean": 50.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": null,
+    "score_mean": 1.05,
+    "score_se": 0.26299556396765833,
+    "decisions_mean": 50.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/vsbench/hanabi": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": null,
+    "score_mean": 3.5,
+    "score_se": 0.5627314338711377,
+    "decisions_mean": 76.8,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": null,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 5.8,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/vsbench/knights_archers_zombies": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": null,
+    "score_mean": 0.7,
+    "score_se": 0.3,
+    "decisions_mean": 90.2,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": null,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 102.4,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/vsbench/kuhn_poker": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.6,
+    "score_mean": 0.3,
+    "score_se": 0.36666666666666664,
+    "decisions_mean": 2.4,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.6,
+    "score_mean": 0.2,
+    "score_se": 0.32659863237109044,
+    "decisions_mean": 2.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/vsbench/monster_hunt": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": null,
+    "score_mean": 12.3,
+    "score_se": 2.1962088546705507,
+    "decisions_mean": 50.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": null,
+    "score_mean": 19.1,
+    "score_se": 9.188700790765918,
+    "decisions_mean": 50.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/vsbench/overcooked": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": null,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 50.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": null,
+    "score_mean": 0.0,
+    "score_se": 0.0,
+    "decisions_mean": 50.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   }
+  },
+  "loop.game/vsbench/simple_push": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.4,
+    "score_mean": -24.044286591501514,
+    "score_se": 6.911896287583861,
+    "decisions_mean": 25.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   },
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": {
+    "mode": "paused",
+    "score_name": "return",
+    "episodes": 10,
+    "crashed": 0,
+    "unsupported": 0,
+    "success_rate": 0.3,
+    "score_mean": -15.220297930774612,
+    "score_se": 3.855625532276808,
+    "decisions_mean": 25.0,
+    "failed_decision_rate": 0.0,
+    "latency_p50_ms": null,
+    "cost_per_episode_usd": 0.0
+   }
+  }
+ },
+ "static_brier": {
+  "vid.basic/action_candidates": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.06951307981330475,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.12645699047408146
+  },
+  "vid.basic/action_category": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.23572981447483515,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.8174951629665427
+  },
+  "vid.basic/repetition": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.9524752892381042,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.8788684424892819
+  },
+  "vid.basic/state_change": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.3067475964726476,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.39765696368894204
+  },
+  "vid.basic/temporal": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.10949256701119202,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.3315405123565522
+  },
+  "vid.batch/quality": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.5608495868541864,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.6128487219762468
+  },
+  "vid.bench/mvbench": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.4089883327823468,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.5641890815611827
+  },
+  "vid.bench/nextqa": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.23313815566523474,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.4184022991404222
+  },
+  "vid.bench/tempcompass": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.24241917888217232,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.41186004082418026
+  },
+  "vid.embodied/feasibility": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.49002123719849633,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.7004335193539462
+  },
+  "vid.embodied/procedure": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.5744371290931279,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.5554400960592638
+  },
+  "vid.embodied/robot_success": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.623526989500632,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.5641709662220521
+  },
+  "vid.fore/next_action": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.5854715328849613,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.6021282902569298
+  },
+  "vid.fore/pedestrian": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.5135894512899934,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.5110298069511479
+  },
+  "vid.game/physics_bug": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.4945411712233016,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.7594281350099722
+  },
+  "vid.judge/hallucination": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.23907773804905202,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.3136243479430924
+  },
+  "vid.judge/t2v": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.7136760691979532,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.8558955142757161
+  },
+  "vid.know/causal_qa": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.45453963836888794,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.7972934581137365
+  },
+  "vid.know/physics": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.5303625750476759,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.5882763658489519
+  },
+  "vid.pro/driving_risk": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.49939138753,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.5136582848548302
+  },
+  "vid.pro/foul": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.6762995956143599,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.864091652581008
+  },
+  "vid.ret/text_match": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.033451094710497384,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.08687788680243287
+  },
+  "vid.safety/violence": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.09450624044152046,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.23778036199808095
+  },
+  "lvid.bench/egoschema": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.31044741924353525,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.68601776972377
+  },
+  "lvid.bench/vsi_bench": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.40995713349427515,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.7493332502209706
+  },
+  "lvid.dialog/meeting_decision": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.6392821200911118
+  },
+  "lvid.embodied/ego_plan": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.6364863702658927,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.8834068681004703
+  },
+  "lvid.judge/meeting_summary": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.5446272920947577
+  },
+  "lvid.know/lecture": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.8725388055519121
+  },
+  "lvid.know/long_qa": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.5419492367798783,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.6770298598017189
+  },
+  "lvid.know/needle": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.10766720740305141,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.6831248423866595
+  },
+  "lvid.pro/surveillance": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.36659873511980506,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.446059205974996
+  },
+  "lvid.ret/moment": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.5378195951596553,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.6903650278122915
+  },
+  "lvid.route/escalation": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.478501767923804,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.5778151594947857
+  },
+  "lvid.route/segment": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.3254631105617131,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.48404851104081154
+  }
+ },
+ "static_ece": {
+  "vid.basic/action_candidates": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.01618865729860131,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.017288197911468288
+  },
+  "vid.basic/action_category": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.04819789550048254,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.07897330867655054
+  },
+  "vid.basic/repetition": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.2079118214272438,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.08833278052381391
+  },
+  "vid.basic/state_change": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.056484290462300024,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.11338677029227873
+  },
+  "vid.basic/temporal": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.03334373999999999,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.06718056435906447
+  },
+  "vid.batch/quality": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.10203014883288705,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.11455391699172791
+  },
+  "vid.bench/mvbench": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.05099416590692683,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.10592526231001059
+  },
+  "vid.bench/nextqa": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.020385490903283003,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.07424092029464933
+  },
+  "vid.bench/tempcompass": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.026761457369077226,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.07096771304250823
+  },
+  "vid.embodied/feasibility": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.06421004634215853,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.22809619032265585
+  },
+  "vid.embodied/procedure": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.19693746399999995,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.1470356945205194
+  },
+  "vid.embodied/robot_success": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.24381073600000003,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.18034748103422302
+  },
+  "vid.fore/next_action": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.04834266276185209,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.08753448599067266
+  },
+  "vid.fore/pedestrian": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.10075250527472526,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.10687184214323503
+  },
+  "vid.game/physics_bug": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.049813155730732625,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.2341410358783678
+  },
+  "vid.judge/hallucination": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.037790370000000004,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.04811565948071241
+  },
+  "vid.judge/t2v": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.10830254398312145,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.24974337839315225
+  },
+  "vid.know/causal_qa": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.07101345317385387,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.27982827313091585
+  },
+  "vid.know/physics": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.12799717000000002,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.18779039212215054
+  },
+  "vid.pro/driving_risk": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.191174656,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.09928751547990415
+  },
+  "vid.pro/foul": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.13240472682748713,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.31666805828692485
+  },
+  "vid.ret/text_match": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.008746124033513181,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.01078777453371046
+  },
+  "vid.safety/violence": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.05323560568704799,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.06592830837887881
+  },
+  "lvid.bench/egoschema": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.03140630177769205,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.2389966683028333
+  },
+  "lvid.bench/vsi_bench": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.05199340066803232,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.21274964320144116
+  },
+  "lvid.dialog/meeting_decision": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.22688161483159475
+  },
+  "lvid.embodied/ego_plan": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.058585059046410565,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.2940621206301225
+  },
+  "lvid.judge/meeting_summary": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.16976760494293555
+  },
+  "lvid.know/lecture": {
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.1964263684466156
+  },
+  "lvid.know/long_qa": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.06119944880701201,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.18492476389916687
+  },
+  "lvid.know/needle": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.0620751288129444,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.17241924442292902
+  },
+  "lvid.pro/surveillance": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.09948853644104072,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.05958839689311666
+  },
+  "lvid.ret/moment": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.14504572127123783,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.13268517565199392
+  },
+  "lvid.route/escalation": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.04838087800000001,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.20296496093143196
+  },
+  "lvid.route/segment": {
+   "OmniJev/OneJev-27B@fps=1,min_frames=2": 0.09249763878835962,
+   "akhilaaa3/Jev-Omni@fps=1,frames=16": 0.22557892458757925
+  }
+ }
+}

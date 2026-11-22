@@ -1,0 +1,130 @@
+{
+ "model_id": "vllm-sr/d3",
+ "spec": "d3",
+ "set": "v1",
+ "set_digest": "2906cc887102",
+ "gpu": "h100",
+ "gpus": 1,
+ "median_ms": 780.1,
+ "per_kind": {
+  "short": {
+   "requests": 200,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 200,
+   "median_ms": 607.0,
+   "p90_ms": 1999.5,
+   "mean_ms": 979.4,
+   "median_ci95_ms": [
+    546.7,
+    726.3
+   ],
+   "gpu_s_per_1k": 979.4
+  },
+  "long": {
+   "requests": 70,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 70,
+   "median_ms": 759.6,
+   "p90_ms": 2158.2,
+   "mean_ms": 1061.9,
+   "median_ci95_ms": [
+    668.5,
+    1009.8
+   ],
+   "gpu_s_per_1k": 1061.9
+  },
+  "av": {
+   "requests": 60,
+   "failed": 0,
+   "unsupported": 60
+  },
+  "bench": {
+   "requests": 50,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 50,
+   "median_ms": 1250.5,
+   "p90_ms": 1821.2,
+   "mean_ms": 1209.9,
+   "median_ci95_ms": [
+    956.9,
+    1409.8
+   ],
+   "gpu_s_per_1k": 1209.9
+  },
+  "loop": {
+   "requests": 100,
+   "failed": 0,
+   "unsupported": 0,
+   "n": 100,
+   "median_ms": 780.1,
+   "p90_ms": 1097.5,
+   "mean_ms": 937.8,
+   "median_ci95_ms": [
+    762.8,
+    808.0
+   ],
+   "gpu_s_per_1k": 937.8
+  }
+ },
+ "repeat": {
+  "n": 30,
+  "ratio_median": 1.017,
+  "abs_change_p50": 0.024
+ },
+ "consistency": {
+  "questions": 320,
+  "no_cached_row": 0,
+  "status_changed": 0,
+  "top_option_agreement": 0.9969,
+  "max_abs_diff_p50": 0.00438,
+  "max_abs_diff_p95": 0.02479,
+  "verdict": "same configuration"
+ },
+ "load_s": 96.4,
+ "warmup_ms": [
+  2300.7,
+  624.7,
+  1320.1,
+  424.7,
+  1998.2,
+  2115.5,
+  408.5,
+  1131.6,
+  269.6,
+  4239.5
+ ],
+ "peak_memory_mib": {
+  "0": 56015
+ },
+ "machine": {
+  "host": "",
+  "gpus": [
+   {
+    "index": "0",
+    "name": "NVIDIA H100 PCIe",
+    "memory_mib": 81559,
+    "driver": "570.195.03"
+   }
+  ],
+  "cpu": "AMD EPYC 9454 48-Core Processor",
+  "cpu_count": 96,
+  "python": "3.11.17",
+  "packages": {
+   "jevarena-mm": "0.1.0.dev0",
+   "torch": "2.11.0+cu128",
+   "transformers": "5.17.0",
+   "av": "18.1.0",
+   "numpy": "2.4.6"
+  },
+  "commit": "c3ad61b2d1a801caafa8a2b5b1169cc40f47486c",
+  "env": {
+   "CUDA_VISIBLE_DEVICES": "0",
+   "JEVARENA_MM_DECODE_THREADS": "4",
+   "OMP_NUM_THREADS": "96"
+  }
+ },
+ "measured": "2026-10-15T21:01:32-0500"
+}

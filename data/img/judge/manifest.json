@@ -1,0 +1,110 @@
+[
+ {
+  "name": "img.judge/agent_success/agentrewardbench",
+  "leaf": "img.judge/agent_success",
+  "status": "released",
+  "version": 1,
+  "source": "AgentRewardBench, test and dev (Lù et al., 2025)",
+  "url": "https://huggingface.co/datasets/McGill-NLP/agent-reward-bench",
+  "license": "dataset terms of use (research)",
+  "tier": "B",
+  "criteria_source": "expert success annotations",
+  "redistributable": true,
+  "notes": "",
+  "media_root": "agentrewardbench",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "image"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/img/judge/agent_success/agentrewardbench.jsonl",
+  "sha256": "714879ce4937fa5327096018082058d67684e8c06362ee158e7dc373e3a413a0",
+  "label_counts": {
+   "true": 250,
+   "false": 250
+  }
+ },
+ {
+  "name": "img.judge/hallucination/hallusionbench",
+  "leaf": "img.judge/hallucination",
+  "status": "released",
+  "version": 1,
+  "source": "HallusionBench, image split (Guan et al., 2024)",
+  "url": "https://huggingface.co/datasets/lmms-lab/HallusionBench",
+  "license": "BSD-3-Clause",
+  "tier": "A",
+  "criteria_source": "benchmark yes/no questions",
+  "redistributable": true,
+  "notes": "",
+  "media_root": "hallusionbench",
+  "frozen": true,
+  "items": 499,
+  "modalities": [
+   "image"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/img/judge/hallucination/hallusionbench.jsonl",
+  "sha256": "63f70157e5c49a74d77eb96d087fb1b68c2a94cb971800107fb7f2673633f966",
+  "label_counts": {
+   "false": 285,
+   "true": 214
+  }
+ },
+ {
+  "name": "img.judge/preference/vl_rewardbench",
+  "leaf": "img.judge/preference",
+  "status": "released",
+  "version": 1,
+  "source": "VL-RewardBench, test (Li et al., 2025)",
+  "url": "https://huggingface.co/datasets/MMInstruction/VL-RewardBench",
+  "license": "MIT",
+  "tier": "B",
+  "criteria_source": "human preference labels",
+  "redistributable": true,
+  "notes": "",
+  "media_root": "vl_rewardbench",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "image"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/img/judge/preference/vl_rewardbench.jsonl",
+  "sha256": "b4113824866fd772ce7e95dfd90b7b2983d8050aac9099d3facffe8aadf510fa",
+  "label_counts": {
+   "response_1": 250,
+   "response_2": 250
+  }
+ },
+ {
+  "name": "img.judge/t2i_alignment/genai_bench",
+  "leaf": "img.judge/t2i_alignment",
+  "status": "released",
+  "version": 1,
+  "source": "GenAI-Bench, train (Li et al., 2024)",
+  "url": "https://huggingface.co/datasets/BaiqiL/GenAI-Bench",
+  "license": "Apache-2.0",
+  "tier": "B",
+  "criteria_source": "1-5 human alignment ratings",
+  "redistributable": true,
+  "notes": "",
+  "media_root": "genai_bench",
+  "frozen": true,
+  "items": 387,
+  "modalities": [
+   "image"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/img/judge/t2i_alignment/genai_bench.jsonl",
+  "sha256": "ebb83bcf86cdb4f1daa38f482784bd0a6b333d181fff103b074cb5fbfe9a127a",
+  "label_counts": {
+   "true": 250,
+   "false": 137
+  }
+ }
+]

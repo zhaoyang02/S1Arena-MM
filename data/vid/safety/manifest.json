@@ -1,0 +1,56 @@
+[
+ {
+  "name": "vid.safety/violence/ucf_crime",
+  "leaf": "vid.safety/violence",
+  "status": "released",
+  "version": 1,
+  "source": "UCF-Crime, test split (Sultani et al., 2018)",
+  "url": "https://github.com/WaqasSultani/AnomalyDetectionCVPR2018",
+  "license": "No license stated; video rights not established",
+  "tier": "C",
+  "criteria_source": "Written; gold is the video-level event label",
+  "redistributable": true,
+  "notes": "162 videos, one named event each (65 yes, 97 no). Leaf score: the mean of its sources, so these 162 items weigh as much as XD-Violence's 338.",
+  "media_root": "",
+  "frozen": true,
+  "items": 162,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/safety/violence/ucf_crime.jsonl",
+  "sha256": "4194a221c3dea7e43f2bfee994bb1a04a2c76a23f9844fbe92964b8f6492ecd3",
+  "label_counts": {
+   "true": 65,
+   "false": 97
+  }
+ },
+ {
+  "name": "vid.safety/violence/xd_violence",
+  "leaf": "vid.safety/violence",
+  "status": "released",
+  "version": 1,
+  "source": "XD-Violence, test split (Wu et al., 2020)",
+  "url": "https://roc-ng.github.io/XD-Violence/",
+  "license": "No license stated; video rights not established",
+  "tier": "C",
+  "criteria_source": "Written; gold is the video-level event label",
+  "redistributable": true,
+  "notes": "338 videos, one named event each (185 yes, 153 no); audio is not part of the input. Leaf score: the mean of its sources, so these 338 items weigh as much as UCF-Crime's 162.",
+  "media_root": "",
+  "frozen": true,
+  "items": 338,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/safety/violence/xd_violence.jsonl",
+  "sha256": "8e39593a633cb8298364ab0a293bd28ab70691d647ec158c82421df48d926ca9",
+  "label_counts": {
+   "true": 185,
+   "false": 153
+  }
+ }
+]

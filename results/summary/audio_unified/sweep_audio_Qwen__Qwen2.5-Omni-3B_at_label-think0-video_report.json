@@ -1,0 +1,611 @@
+{
+ "plan": "audio_Qwen__Qwen2.5-Omni-3B_at_label-think0-video",
+ "models": [
+  "Qwen/Qwen2.5-Omni-3B@label-think0-video"
+ ],
+ "overall": {
+  "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+   "static_accuracy": null,
+   "leaves": 0,
+   "envs": 0,
+   "static_answers": 0,
+   "static_unanswered": 0,
+   "env_decisions": 0,
+   "env_failed_decisions": 0
+  }
+ },
+ "static": {},
+ "preview": {
+  "aud.basic/acoustic_scene/tau2019": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.384
+  },
+  "aud.basic/emotion/cremad": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.6217687074829932
+  },
+  "aud.basic/intent/slurp": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.372
+  },
+  "aud.basic/language_id/voxlingua107_dev": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.3064014916096955
+  },
+  "aud.basic/sound_event/sonyc_ust": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.8245
+  },
+  "aud.basic/speaker_change/ami": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.634
+  },
+  "aud.dialog/dialogue_state/spokenwoz": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.723
+  },
+  "aud.dialog/interrupt_backchannel/full_duplex_bench_v15": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.8221476510067114
+  },
+  "aud.dialog/turn_timing/full_duplex_bench_v1": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.4059701492537313
+  },
+  "aud.judge/data_cleaning/nisqa_livetalk": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.4827586206896552
+  },
+  "aud.judge/data_cleaning/signal_defects_synthetic": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.7385321100917431
+  },
+  "aud.judge/naturalness/bvcc": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.25371120107962214
+  },
+  "aud.know/music_understanding/mmau_mini": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.5619047619047619
+  },
+  "aud.know/reasoning/mmau_mini": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.7
+  },
+  "aud.know/sound_qa/mmau_mini": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.6944444444444444
+  },
+  "aud.pro/heart_sound/physionet2016": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.6079734219269103
+  },
+  "aud.pro/heart_sound/respiratory_icbhi2017": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.278
+  },
+  "aud.pro/machine_anomaly/mimii_pump_dcase2020": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.51
+  },
+  "aud.ret/audio_text_matching/sonyc_tag_descriptions": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.718
+  },
+  "aud.safety/spoof_detection/asvspoof2019_la": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.58
+  },
+  "aud.safety/toxicity/mutox": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": 0.874251497005988
+  }
+ },
+ "envs": {},
+ "task_metrics": {
+  "aud.basic/acoustic_scene/tau2019": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.384,
+    "accuracy_se": 0.02177236946554712,
+    "maj": 0.384,
+    "brier": 0.7708547964251934,
+    "ece": 0.21832026929875772,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/acoustic_scene",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/emotion/cremad": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 1470,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.6217687074829932,
+    "accuracy_se": 0.012652672326562087,
+    "maj": 0.6217687074829932,
+    "brier": 0.32880440713534587,
+    "ece": 0.17449241996643391,
+    "error_rate": 0.0,
+    "answers": 1470,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/emotion",
+    "status": "preview",
+    "expected_items": 1470,
+    "recorded_items": 1470,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/intent/slurp": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.372,
+    "accuracy_se": 0.021637197985722334,
+    "maj": 0.372,
+    "brier": 0.7861664013029668,
+    "ece": 0.11563624998685117,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/intent",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/language_id/voxlingua107_dev": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 1609,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.3064014916096955,
+    "accuracy_se": 0.011496257706829925,
+    "maj": 0.3064014916096955,
+    "brier": 0.8754595482245584,
+    "ece": 0.1834010463206352,
+    "error_rate": 0.0,
+    "answers": 1609,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/language_id",
+    "status": "preview",
+    "expected_items": 1609,
+    "recorded_items": 1609,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/sound_event/sonyc_ust": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 4000,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.8245,
+    "accuracy_se": 0.006015312418808683,
+    "maj": 0.8245,
+    "brier": 0.2394091268960352,
+    "ece": 0.023715953045754377,
+    "error_rate": 0.0,
+    "answers": 4000,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/sound_event",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.basic/speaker_change/ami": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.634,
+    "accuracy_se": 0.021564276850201684,
+    "maj": 0.634,
+    "brier": 0.4195370394591545,
+    "ece": 0.10278291393394272,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.basic/speaker_change",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/dialogue_state/spokenwoz": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 2000,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.723,
+    "accuracy_se": 0.01000927533822495,
+    "maj": 0.723,
+    "brier": 0.5747747538480413,
+    "ece": 0.3273110332018919,
+    "error_rate": 0.0,
+    "answers": 2000,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.dialog/dialogue_state",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/interrupt_backchannel/full_duplex_bench_v15": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 298,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.8221476510067114,
+    "accuracy_se": 0.022188425634951464,
+    "maj": 0.8221476510067114,
+    "brier": 0.30925739237433897,
+    "ece": 0.13696930657473283,
+    "error_rate": 0.0,
+    "answers": 298,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.dialog/interrupt_backchannel",
+    "status": "preview",
+    "expected_items": 298,
+    "recorded_items": 298,
+    "pending_items": 0
+   }
+  },
+  "aud.dialog/turn_timing/full_duplex_bench_v1": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 335,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.4059701492537313,
+    "accuracy_se": 0.026870636377043417,
+    "maj": 0.4059701492537313,
+    "brier": 0.5619261213600619,
+    "ece": 0.19172850014808068,
+    "error_rate": 0.0,
+    "answers": 335,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.dialog/turn_timing",
+    "status": "preview",
+    "expected_items": 335,
+    "recorded_items": 335,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/data_cleaning/nisqa_livetalk": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 464,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.4827586206896552,
+    "accuracy_se": 0.023223151424221135,
+    "maj": 0.4827586206896552,
+    "brier": 0.22547051362045936,
+    "ece": 0.11707196419762264,
+    "error_rate": 0.0,
+    "answers": 464,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.judge/data_cleaning",
+    "status": "preview",
+    "expected_items": 232,
+    "recorded_items": 232,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/data_cleaning/signal_defects_synthetic": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 436,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.7385321100917431,
+    "accuracy_se": 0.02106925812239247,
+    "maj": 0.7385321100917431,
+    "brier": 0.4015032752194797,
+    "ece": 0.16507401291282245,
+    "error_rate": 0.0,
+    "answers": 436,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.judge/data_cleaning",
+    "status": "preview",
+    "expected_items": 436,
+    "recorded_items": 436,
+    "pending_items": 0
+   }
+  },
+  "aud.judge/naturalness/bvcc": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 741,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.25371120107962214,
+    "accuracy_se": 0.015995853665718436,
+    "maj": 0.25371120107962214,
+    "brier": 0.2915577773274764,
+    "ece": 0.19632478528646316,
+    "error_rate": 0.0,
+    "answers": 741,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.judge/naturalness",
+    "status": "preview",
+    "expected_items": 741,
+    "recorded_items": 741,
+    "pending_items": 0
+   }
+  },
+  "aud.know/music_understanding/mmau_mini": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 105,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.5619047619047619,
+    "accuracy_se": 0.04865180450182497,
+    "maj": 0.5619047619047619,
+    "brier": 0.5087539764197441,
+    "ece": 0.07864036489962044,
+    "error_rate": 0.0,
+    "answers": 105,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.know/music_understanding",
+    "status": "preview",
+    "expected_items": 105,
+    "recorded_items": 105,
+    "pending_items": 0
+   }
+  },
+  "aud.know/reasoning/mmau_mini": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 330,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.7,
+    "accuracy_se": 0.02526455763199557,
+    "maj": 0.7,
+    "brier": 0.377239666094934,
+    "ece": 0.07232744202898456,
+    "error_rate": 0.0,
+    "answers": 330,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.know/reasoning",
+    "status": "preview",
+    "expected_items": 330,
+    "recorded_items": 330,
+    "pending_items": 0
+   }
+  },
+  "aud.know/sound_qa/mmau_mini": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 36,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.6944444444444444,
+    "accuracy_se": 0.07786276535852611,
+    "maj": 0.6944444444444444,
+    "brier": 0.43201246292833295,
+    "ece": 0.16915394834481878,
+    "error_rate": 0.0,
+    "answers": 36,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.know/sound_qa",
+    "status": "preview",
+    "expected_items": 36,
+    "recorded_items": 36,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/heart_sound/physionet2016": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 301,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.6079734219269103,
+    "accuracy_se": 0.028186387977023792,
+    "maj": 0.6079734219269103,
+    "brier": 0.47911166471257494,
+    "ece": 0.0897448967636853,
+    "error_rate": 0.0,
+    "answers": 301,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.pro/heart_sound",
+    "status": "preview",
+    "expected_items": 301,
+    "recorded_items": 301,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/heart_sound/respiratory_icbhi2017": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.278,
+    "accuracy_se": 0.020055833888070872,
+    "maj": 0.278,
+    "brier": 0.9638531765311038,
+    "ece": 0.36912677436390345,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.pro/heart_sound",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.pro/machine_anomaly/mimii_pump_dcase2020": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.51,
+    "accuracy_se": 0.022378596989230868,
+    "maj": 0.51,
+    "brier": 0.4945237188920321,
+    "ece": 0.12885746162987083,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.pro/machine_anomaly",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.ret/audio_text_matching/sonyc_tag_descriptions": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.718,
+    "accuracy_se": 0.020143572847290726,
+    "maj": 0.718,
+    "brier": 0.4006968336141352,
+    "ece": 0.10017555680754701,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.ret/audio_text_matching",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.safety/spoof_detection/asvspoof2019_la": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 500,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.58,
+    "accuracy_se": 0.02209471322976179,
+    "maj": 0.58,
+    "brier": 0.45068959345987475,
+    "ece": 0.08631797893244554,
+    "error_rate": 0.0,
+    "answers": 500,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.safety/spoof_detection",
+    "status": "preview",
+    "expected_items": 500,
+    "recorded_items": 500,
+    "pending_items": 0
+   }
+  },
+  "aud.safety/toxicity/mutox": {
+   "Qwen/Qwen2.5-Omni-3B@label-think0-video": {
+    "n_questions": 167,
+    "coverage": 1.0,
+    "unsupported_items": 0,
+    "samples": 1.0,
+    "accuracy": 0.874251497005988,
+    "accuracy_se": 0.025734489654230884,
+    "maj": 0.874251497005988,
+    "brier": 0.19345441586852852,
+    "ece": 0.06898824004385877,
+    "error_rate": 0.0,
+    "answers": 167,
+    "unanswered": 0,
+    "unanswered_rate": 0.0,
+    "latency_p50_ms": null,
+    "latency_p95_ms": null,
+    "cost_per_1k_usd": null,
+    "leaf": "aud.safety/toxicity",
+    "status": "preview",
+    "expected_items": 167,
+    "recorded_items": 167,
+    "pending_items": 0
+   }
+  }
+ }
+}

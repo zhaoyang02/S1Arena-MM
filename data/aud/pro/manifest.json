@@ -1,0 +1,88 @@
+[
+ {
+  "name": "aud.pro/machine_anomaly/mimii_pump_dcase2020",
+  "leaf": "aud.pro/machine_anomaly",
+  "status": "released",
+  "version": 1,
+  "source": "MIMII pump recordings, DCASE 2020 Challenge Task 2 development set (Purohit et al., 2019; Koizumi et al., 2020)",
+  "url": "https://zenodo.org/records/3678171",
+  "license": "CC BY-NC-SA 4.0 (DCASE 2020 Task 2 development data, Zenodo 3678171)",
+  "tier": "C",
+  "criteria_source": "Written; gold is the dataset's normal or anomalous label",
+  "redistributable": true,
+  "notes": "500 ten-second clips of 4 pumps from the development set's test data (252 anomalous, 248 normal). Pumps only, not MIMII's other machine types. One label per clip, without anomaly onset times.",
+  "media_root": "audio_delivery",
+  "frozen": true,
+  "diagnostic_only": false,
+  "items": 500,
+  "modalities": [
+   "audio"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/aud/pro/machine_anomaly/mimii_pump_dcase2020.jsonl",
+  "sha256": "ebf4946b6b486807ce06cffee28467f596752495add15c4027a1c81e04f4690a",
+  "label_counts": {
+   "true": 252,
+   "false": 248
+  }
+ },
+ {
+  "name": "aud.pro/heart_sound/physionet2016",
+  "leaf": "aud.pro/heart_sound",
+  "status": "released",
+  "version": 1,
+  "source": "PhysioNet/CinC Challenge 2016, validation set (Liu et al., 2016)",
+  "url": "https://physionet.org/content/challenge-2016/1.0.0/",
+  "license": "Open Data Commons Attribution v1.0; upstream content terms apply",
+  "tier": "C",
+  "criteria_source": "Written; gold is the challenge's normal or abnormal label",
+  "redistributable": true,
+  "notes": "The 301 recordings of the validation set (151 abnormal, 150 normal), which are copies of training-set records. The respiratory task of this leaf asks a different question.",
+  "media_root": "audio_delivery",
+  "frozen": true,
+  "diagnostic_only": false,
+  "items": 301,
+  "modalities": [
+   "audio"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/aud/pro/heart_sound/physionet2016.jsonl",
+  "sha256": "19a01067805acd62308d589004907e775e2428549bc1b77e37b9713a0deb5dad",
+  "label_counts": {
+   "false": 150,
+   "true": 151
+  }
+ },
+ {
+  "name": "aud.pro/heart_sound/respiratory_icbhi2017",
+  "leaf": "aud.pro/heart_sound",
+  "status": "released",
+  "version": 1,
+  "source": "ICBHI 2017 Respiratory Sound Database, official test split, respiratory cycles (Rocha et al., 2019)",
+  "url": "https://bhichallenge.med.auth.gr/ICBHI_2017_Challenge",
+  "license": "ICBHI 2017 Respiratory Sound Database: free for research use, citing Rocha et al. (2019); no license stated and no limit on redistribution",
+  "tier": "C",
+  "criteria_source": "Written; the options combine the database's crackle and wheeze annotations of each cycle",
+  "redistributable": true,
+  "notes": "500 respiratory cycles from 246 recordings of 40 patients of the official test split, without the patients who also appear in the train split; not the whole test split. Audio and cycle annotations come from a pinned public mirror of the database, not checked byte for byte against the official download. The heart-sound task of this leaf asks a different question.",
+  "media_root": "audio_delivery",
+  "frozen": true,
+  "diagnostic_only": false,
+  "items": 500,
+  "modalities": [
+   "audio"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/aud/pro/heart_sound/respiratory_icbhi2017.jsonl",
+  "sha256": "001469e380c00d68f5837fa0af40015f5b94f46cb8d5b3f9184c739b89975aef",
+  "label_counts": {
+   "normal": 138,
+   "crackles": 138,
+   "wheezes": 138,
+   "both": 86
+  }
+ }
+]

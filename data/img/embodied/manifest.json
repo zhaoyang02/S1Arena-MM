@@ -1,0 +1,29 @@
+[
+ {
+  "name": "img.embodied/eb_alfred_visual/eb_alfred",
+  "leaf": "img.embodied/eb_alfred_visual",
+  "status": "released",
+  "version": 1,
+  "source": "EmbodiedBench EB-ALFRED trajectories, single step (Yang et al., 2025)",
+  "url": "https://huggingface.co/datasets/EmbodiedBench/EB-Alfred_trajectory_dataset",
+  "license": "not stated on the dataset card",
+  "tier": "B",
+  "criteria_source": "EB-ALFRED action space",
+  "redistributable": true,
+  "notes": "",
+  "media_root": "eb_alfred",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "image"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/img/embodied/eb_alfred_visual/eb_alfred.jsonl",
+  "sha256": "e442c40d4eb6bbb0f36f91384d5013dc3e5be51fe94927cd27942161a2c4abab",
+  "label_counts": {
+   "true": 250,
+   "false": 250
+  }
+ }
+]

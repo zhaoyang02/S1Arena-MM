@@ -1,0 +1,58 @@
+[
+ {
+  "name": "vid.judge/hallucination/videohallucer",
+  "leaf": "vid.judge/hallucination",
+  "status": "released",
+  "version": 1,
+  "source": "VideoHallucer, object-relation and temporal subsets (Wang et al., 2024)",
+  "url": "https://huggingface.co/datasets/bigai-nlco/VideoHallucer",
+  "license": "MIT (dataset card), CC BY-NC-SA (its paper)",
+  "tier": "A",
+  "criteria_source": "Original VideoHallucer yes/no questions",
+  "redistributable": true,
+  "notes": "250 videos, each with VideoHallucer's basic and hallucinated question (250 yes, 250 no); the two items of a video share meta['group'].",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/judge/hallucination/videohallucer.jsonl",
+  "sha256": "1520bf193a1d038b8722207bc08c199837dd22139bb4bf968d23d6d6585c1128",
+  "label_counts": {
+   "true": 250,
+   "false": 250
+  }
+ },
+ {
+  "name": "vid.judge/t2v/videofeedback",
+  "leaf": "vid.judge/t2v",
+  "status": "released",
+  "version": 1,
+  "source": "VideoFeedback, text-to-video alignment, test split (He et al., 2024)",
+  "url": "https://huggingface.co/datasets/TIGER-Lab/VideoFeedback",
+  "license": "Apache-2.0 (dataset card)",
+  "tier": "B",
+  "criteria_source": "Adapted from VideoFeedback's four-level text-to-video alignment scale",
+  "redistributable": true,
+  "notes": "500 generated videos with their generation prompt quoted verbatim; gold is the annotated alignment level. The ratings are VideoFeedback's human labels on its test split and the items a seeded random draw, so they keep the dataset's distribution: 24 / 33 / 43 / 0.6 % rated 1 / 2 / 3 / 4 (the test split holds only 15 'Perfect' ratings).",
+  "media_root": "",
+  "frozen": true,
+  "items": 500,
+  "modalities": [
+   "video"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/vid/judge/t2v/videofeedback.jsonl",
+  "sha256": "61d4dbe036d60c881c23b012116eeba98d6158abf708639fe3be8864d3fc947d",
+  "label_counts": {
+   "0": 120,
+   "1": 163,
+   "2": 214,
+   "3": 3
+  }
+ }
+]

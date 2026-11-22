@@ -1,0 +1,92 @@
+[
+ {
+  "name": "aud.know/reasoning/mmau_mini",
+  "leaf": "aud.know/reasoning",
+  "status": "released",
+  "version": 1,
+  "source": "MMAU test-mini, v05.15.25 (Sakshi et al., 2025)",
+  "url": "https://huggingface.co/datasets/gamma-lab-umd/MMAU-test-mini",
+  "license": "CC-BY-NC-4.0; underlying source terms apply",
+  "tier": "C",
+  "criteria_source": "Original MMAU questions and options",
+  "redistributable": true,
+  "notes": "330 speech questions. With aud.know/sound_qa and aud.know/music_understanding, a subset of test-mini that leaves out the questions on audio from some upstream datasets, so scores are not comparable with published test-mini results.",
+  "media_root": "audio_delivery",
+  "frozen": true,
+  "diagnostic_only": false,
+  "items": 330,
+  "modalities": [
+   "audio"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/aud/know/reasoning/mmau_mini.jsonl",
+  "sha256": "bd3cd961e0160fa57d3771e1ace8f7d6a149cd19f4a914e1b97e6f39c5ace64c",
+  "label_counts": {
+   "0": 128,
+   "2": 54,
+   "3": 67,
+   "1": 81
+  }
+ },
+ {
+  "name": "aud.know/sound_qa/mmau_mini",
+  "leaf": "aud.know/sound_qa",
+  "status": "released",
+  "version": 1,
+  "source": "MMAU test-mini, v05.15.25 (Sakshi et al., 2025)",
+  "url": "https://huggingface.co/datasets/gamma-lab-umd/MMAU-test-mini",
+  "license": "CC-BY-NC-4.0; underlying source terms apply",
+  "tier": "C",
+  "criteria_source": "Original MMAU questions and options",
+  "redistributable": true,
+  "notes": "36 sound questions, all on MMAU's synthetic audio. With aud.know/reasoning and aud.know/music_understanding, a subset of test-mini that leaves out the questions on audio from some upstream datasets, so scores are not comparable with published test-mini results.",
+  "media_root": "audio_delivery",
+  "frozen": true,
+  "diagnostic_only": false,
+  "items": 36,
+  "modalities": [
+   "audio"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/aud/know/sound_qa/mmau_mini.jsonl",
+  "sha256": "b00405522a698d73433287e1cb8d0bcf7776dd4c99210828c5f667cbb4aa14dc",
+  "label_counts": {
+   "1": 8,
+   "2": 14,
+   "0": 10,
+   "3": 4
+  }
+ },
+ {
+  "name": "aud.know/music_understanding/mmau_mini",
+  "leaf": "aud.know/music_understanding",
+  "status": "released",
+  "version": 1,
+  "source": "MMAU test-mini, v05.15.25 (Sakshi et al., 2025)",
+  "url": "https://huggingface.co/datasets/gamma-lab-umd/MMAU-test-mini",
+  "license": "CC-BY-NC-4.0; underlying source terms apply",
+  "tier": "C",
+  "criteria_source": "Original MMAU questions and options",
+  "redistributable": true,
+  "notes": "105 music questions. With aud.know/reasoning and aud.know/sound_qa, a subset of test-mini that leaves out the questions on audio from some upstream datasets, so scores are not comparable with published test-mini results.",
+  "media_root": "audio_delivery",
+  "frozen": true,
+  "diagnostic_only": false,
+  "items": 105,
+  "modalities": [
+   "audio"
+  ],
+  "excluded_over_budget": 0,
+  "duplicates_replaced": 0,
+  "path": "data/aud/know/music_understanding/mmau_mini.jsonl",
+  "sha256": "4da0631349f16e47ec9cec85e087ca3d4b1be48290071e318f067df7eb5ed005",
+  "label_counts": {
+   "1": 37,
+   "0": 43,
+   "3": 7,
+   "2": 18
+  }
+ }
+]
